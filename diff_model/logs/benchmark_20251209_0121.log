@@ -1,0 +1,138 @@
+--- Benchmark Experiment (Log: ./logs/benchmark_20251209_0121.log) ---
+Loading CIFAR-10... (Alpha=0.5)
+Model Full Size: 1233.29 KB
+
+
+>>> Starting Experiment: FedAvg (FP32)
+  Round 1: Acc=16.10%, Round Comm=4933.2 KB
+  Round 2: Acc=23.54%, Round Comm=4933.2 KB
+  Round 3: Acc=22.82%, Round Comm=4933.2 KB
+  Round 4: Acc=30.85%, Round Comm=4933.2 KB
+  Round 5: Acc=24.31%, Round Comm=4933.2 KB
+  Round 6: Acc=24.42%, Round Comm=4933.2 KB
+  Round 7: Acc=30.34%, Round Comm=4933.2 KB
+  Round 8: Acc=36.65%, Round Comm=4933.2 KB
+  Round 9: Acc=32.14%, Round Comm=4933.2 KB
+  Round 10: Acc=32.29%, Round Comm=4933.2 KB
+  Round 11: Acc=41.69%, Round Comm=4933.2 KB
+  Round 12: Acc=35.35%, Round Comm=4933.2 KB
+  Round 13: Acc=35.15%, Round Comm=4933.2 KB
+  Round 14: Acc=40.70%, Round Comm=4933.2 KB
+  Round 15: Acc=43.50%, Round Comm=4933.2 KB
+  Round 16: Acc=45.21%, Round Comm=4933.2 KB
+  Round 17: Acc=40.78%, Round Comm=4933.2 KB
+  Round 18: Acc=40.97%, Round Comm=4933.2 KB
+  Round 19: Acc=43.30%, Round Comm=4933.2 KB
+  Round 20: Acc=42.68%, Round Comm=4933.2 KB
+  Round 21: Acc=39.92%, Round Comm=4933.2 KB
+  Round 22: Acc=46.82%, Round Comm=4933.2 KB
+  Round 23: Acc=46.64%, Round Comm=4933.2 KB
+  Round 24: Acc=44.66%, Round Comm=4933.2 KB
+  Round 25: Acc=52.01%, Round Comm=4933.2 KB
+  Round 26: Acc=46.89%, Round Comm=4933.2 KB
+  Round 27: Acc=48.66%, Round Comm=4933.2 KB
+  Round 28: Acc=42.94%, Round Comm=4933.2 KB
+  Round 29: Acc=52.41%, Round Comm=4933.2 KB
+  Round 30: Acc=52.04%, Round Comm=4933.2 KB
+  Round 31: Acc=46.72%, Round Comm=4933.2 KB
+  Round 32: Acc=46.96%, Round Comm=4933.2 KB
+  Round 33: Acc=45.93%, Round Comm=4933.2 KB
+  Round 34: Acc=47.76%, Round Comm=4933.2 KB
+  Round 35: Acc=44.60%, Round Comm=4933.2 KB
+  Round 36: Acc=49.56%, Round Comm=4933.2 KB
+  Round 37: Acc=48.74%, Round Comm=4933.2 KB
+  Round 38: Acc=49.33%, Round Comm=4933.2 KB
+  Round 39: Acc=51.48%, Round Comm=4933.2 KB
+  Round 40: Acc=49.25%, Round Comm=4933.2 KB
+
+>>> Starting Experiment: Fixed 4-bit
+  Round 1: Acc=17.49%, Round Comm=619.8 KB
+  Round 2: Acc=23.24%, Round Comm=619.8 KB
+  Round 3: Acc=23.78%, Round Comm=619.8 KB
+  Round 4: Acc=30.57%, Round Comm=619.8 KB
+  Round 5: Acc=25.84%, Round Comm=619.8 KB
+  Round 6: Acc=26.29%, Round Comm=619.8 KB
+  Round 7: Acc=31.48%, Round Comm=619.8 KB
+  Round 8: Acc=34.09%, Round Comm=619.8 KB
+  Round 9: Acc=33.57%, Round Comm=619.8 KB
+  Round 10: Acc=34.61%, Round Comm=619.8 KB
+  Round 11: Acc=41.34%, Round Comm=619.8 KB
+  Round 12: Acc=35.98%, Round Comm=619.8 KB
+  Round 13: Acc=36.96%, Round Comm=619.8 KB
+  Round 14: Acc=41.10%, Round Comm=619.8 KB
+  Round 15: Acc=44.12%, Round Comm=619.8 KB
+  Round 16: Acc=42.62%, Round Comm=619.8 KB
+  Round 17: Acc=40.78%, Round Comm=619.8 KB
+  Round 18: Acc=40.56%, Round Comm=619.8 KB
+  Round 19: Acc=41.89%, Round Comm=619.8 KB
+  Round 20: Acc=42.15%, Round Comm=619.8 KB
+  Round 21: Acc=39.10%, Round Comm=619.8 KB
+  Round 22: Acc=44.96%, Round Comm=619.8 KB
+  Round 23: Acc=46.15%, Round Comm=619.8 KB
+  Round 24: Acc=46.07%, Round Comm=619.8 KB
+  Round 25: Acc=48.63%, Round Comm=619.8 KB
+  Round 26: Acc=47.12%, Round Comm=619.8 KB
+  Round 27: Acc=47.05%, Round Comm=619.8 KB
+  Round 28: Acc=41.46%, Round Comm=619.8 KB
+  Round 29: Acc=49.92%, Round Comm=619.8 KB
+  Round 30: Acc=50.39%, Round Comm=619.8 KB
+  Round 31: Acc=44.39%, Round Comm=619.8 KB
+  Round 32: Acc=45.37%, Round Comm=619.8 KB
+  Round 33: Acc=45.29%, Round Comm=619.8 KB
+  Round 34: Acc=45.22%, Round Comm=619.8 KB
+  Round 35: Acc=44.68%, Round Comm=619.8 KB
+  Round 36: Acc=48.53%, Round Comm=619.8 KB
+  Round 37: Acc=45.99%, Round Comm=619.8 KB
+  Round 38: Acc=47.67%, Round Comm=619.8 KB
+  Round 39: Acc=49.38%, Round Comm=619.8 KB
+  Round 40: Acc=48.84%, Round Comm=619.8 KB
+
+>>> Starting Experiment: Ours (DBS)
+  Round 1: Acc=17.99%, Round Comm=393.5 KB
+  Round 2: Acc=21.08%, Round Comm=477.3 KB
+  Round 3: Acc=22.72%, Round Comm=616.1 KB
+  Round 4: Acc=29.91%, Round Comm=537.9 KB
+  Round 5: Acc=25.88%, Round Comm=621.9 KB
+  Round 6: Acc=29.54%, Round Comm=472.4 KB
+  Round 7: Acc=25.54%, Round Comm=536.5 KB
+  Round 8: Acc=31.80%, Round Comm=612.0 KB
+  Round 9: Acc=31.23%, Round Comm=621.1 KB
+  Round 10: Acc=32.44%, Round Comm=620.4 KB
+  Round 11: Acc=40.03%, Round Comm=617.0 KB
+  Round 12: Acc=35.86%, Round Comm=623.0 KB
+  Round 13: Acc=38.94%, Round Comm=620.2 KB
+  Round 14: Acc=41.25%, Round Comm=617.4 KB
+  Round 15: Acc=42.99%, Round Comm=549.8 KB
+  Round 16: Acc=42.85%, Round Comm=621.5 KB
+  Round 17: Acc=41.85%, Round Comm=550.4 KB
+  Round 18: Acc=43.24%, Round Comm=545.9 KB
+  Round 19: Acc=41.97%, Round Comm=620.9 KB
+  Round 20: Acc=43.64%, Round Comm=617.3 KB
+  Round 21: Acc=38.77%, Round Comm=622.4 KB
+  Round 22: Acc=48.02%, Round Comm=621.0 KB
+  Round 23: Acc=49.71%, Round Comm=625.2 KB
+  Round 24: Acc=46.31%, Round Comm=623.0 KB
+  Round 25: Acc=52.03%, Round Comm=621.9 KB
+  Round 26: Acc=48.87%, Round Comm=616.4 KB
+  Round 27: Acc=48.01%, Round Comm=621.9 KB
+  Round 28: Acc=42.51%, Round Comm=621.5 KB
+  Round 29: Acc=52.94%, Round Comm=623.6 KB
+  Round 30: Acc=50.93%, Round Comm=621.5 KB
+  Round 31: Acc=47.45%, Round Comm=622.6 KB
+  Round 32: Acc=48.34%, Round Comm=631.1 KB
+  Round 33: Acc=48.08%, Round Comm=621.3 KB
+  Round 34: Acc=48.71%, Round Comm=549.9 KB
+  Round 35: Acc=43.82%, Round Comm=622.6 KB
+  Round 36: Acc=50.89%, Round Comm=621.5 KB
+  Round 37: Acc=46.57%, Round Comm=567.9 KB
+  Round 38: Acc=48.35%, Round Comm=630.7 KB
+  Round 39: Acc=49.53%, Round Comm=621.1 KB
+  Round 40: Acc=48.63%, Round Comm=569.0 KB
+
+============================================================
+Method          | Final Acc  | Total Comm (MB) | Time (s)  
+------------------------------------------------------------
+FedAvg (FP32)   | 49.25%      | 192.70            | 96
+Fixed 4-bit     | 48.84%      | 24.21            | 95
+Ours (DBS)      | 48.63%      | 23.21            | 107
+============================================================

@@ -1,0 +1,249 @@
+--- Federated Learning (Fixed 4-bit) ---
+Log File Saved to: ./logs/fl_fixed_4bit_20251219_0118.log
+Loading CIFAR-10... (Alpha=0.5)
+Partitioning data (iid)...
+
+[Data Distribution]
+Client 0: [498 528 515 513 495 494 483 467 478 529]
+Client 1: [488 512 473 518 504 497 500 484 502 522]
+Client 2: [488 528 519 506 503 473 492 520 491 480]
+Client 3: [484 499 541 487 499 536 480 491 488 495]
+Client 4: [514 489 488 490 485 515 525 493 522 479]
+Loading CIFAR-10 Test Set...
+
+Full Model Size (FP32): 1233.29 KB
+
+=== Round 1/50 ===
+  [C03] Acc: 60.2% | Fixed 4-bit | Rate: 8.0x
+  [C09] Acc: 62.1% | Fixed 4-bit | Rate: 8.0x
+  [C00] Acc: 61.3% | Fixed 4-bit | Rate: 8.0x
+  [C05] Acc: 59.4% | Fixed 4-bit | Rate: 8.0x
+  >> Global Result: Loss=1.2427, Acc=56.11%
+
+=== Round 2/50 ===
+  [C04] Acc: 83.6% | Fixed 4-bit | Rate: 8.0x
+  [C05] Acc: 85.5% | Fixed 4-bit | Rate: 8.0x
+  [C08] Acc: 83.1% | Fixed 4-bit | Rate: 8.0x
+  [C07] Acc: 84.1% | Fixed 4-bit | Rate: 8.0x
+  >> Global Result: Loss=1.1129, Acc=62.94%
+
+=== Round 3/50 ===
+  [C09] Acc: 94.8% | Fixed 4-bit | Rate: 8.0x
+  [C00] Acc: 93.9% | Fixed 4-bit | Rate: 8.0x
+  [C07] Acc: 96.1% | Fixed 4-bit | Rate: 8.0x
+  [C01] Acc: 94.4% | Fixed 4-bit | Rate: 8.0x
+  >> Global Result: Loss=1.2428, Acc=65.88%
+
+=== Round 4/50 ===
+  [C03] Acc: 97.8% | Fixed 4-bit | Rate: 8.0x
+  [C05] Acc: 98.2% | Fixed 4-bit | Rate: 8.0x
+  [C09] Acc: 98.4% | Fixed 4-bit | Rate: 8.0x
+  [C02] Acc: 97.1% | Fixed 4-bit | Rate: 8.0x
+  >> Global Result: Loss=1.2937, Acc=66.27%
+
+=== Round 5/50 ===
+  [C05] Acc: 99.1% | Fixed 4-bit | Rate: 8.0x
+  [C02] Acc: 99.0% | Fixed 4-bit | Rate: 8.0x
+  [C06] Acc: 98.8% | Fixed 4-bit | Rate: 8.0x
+  [C03] Acc: 99.6% | Fixed 4-bit | Rate: 8.0x
+  >> Global Result: Loss=1.3261, Acc=67.92%
+
+=== Round 6/50 ===
+  [C07] Acc: 99.9% | Fixed 4-bit | Rate: 8.0x
+  [C01] Acc: 99.3% | Fixed 4-bit | Rate: 8.0x
+  [C06] Acc: 99.9% | Fixed 4-bit | Rate: 8.0x
+  [C04] Acc: 99.2% | Fixed 4-bit | Rate: 8.0x
+  >> Global Result: Loss=1.2880, Acc=68.79%
+
+=== Round 7/50 ===
+  [C02] Acc: 99.9% | Fixed 4-bit | Rate: 8.0x
+  [C06] Acc: 99.9% | Fixed 4-bit | Rate: 8.0x
+  [C08] Acc: 99.7% | Fixed 4-bit | Rate: 8.0x
+  [C09] Acc: 99.7% | Fixed 4-bit | Rate: 8.0x
+  >> Global Result: Loss=1.3062, Acc=69.25%
+
+=== Round 8/50 ===
+  [C05] Acc: 99.1% | Fixed 4-bit | Rate: 8.0x
+  [C07] Acc: 99.9% | Fixed 4-bit | Rate: 8.0x
+  [C04] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C02] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  >> Global Result: Loss=1.3488, Acc=69.58%
+
+=== Round 9/50 ===
+  [C03] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C01] Acc: 99.9% | Fixed 4-bit | Rate: 8.0x
+  [C08] Acc: 99.9% | Fixed 4-bit | Rate: 8.0x
+  [C05] Acc: 99.8% | Fixed 4-bit | Rate: 8.0x
+  >> Global Result: Loss=1.3559, Acc=69.46%
+
+=== Round 10/50 ===
+  [C03] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C02] Acc: 99.8% | Fixed 4-bit | Rate: 8.0x
+  [C07] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C00] Acc: 99.7% | Fixed 4-bit | Rate: 8.0x
+  >> Global Result: Loss=1.3468, Acc=70.30%
+
+=== Round 11/50 ===
+  [C02] Acc: 99.9% | Fixed 4-bit | Rate: 8.0x
+  [C08] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C04] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C05] Acc: 99.7% | Fixed 4-bit | Rate: 8.0x
+  >> Global Result: Loss=1.3647, Acc=69.75%
+
+=== Round 12/50 ===
+  [C09] Acc: 99.9% | Fixed 4-bit | Rate: 8.0x
+  [C03] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C07] Acc: 99.0% | Fixed 4-bit | Rate: 8.0x
+  [C02] Acc: 99.2% | Fixed 4-bit | Rate: 8.0x
+  >> Global Result: Loss=1.4061, Acc=69.31%
+
+=== Round 13/50 ===
+  [C03] Acc: 99.8% | Fixed 4-bit | Rate: 8.0x
+  [C06] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C00] Acc: 99.8% | Fixed 4-bit | Rate: 8.0x
+  [C02] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  >> Global Result: Loss=1.3591, Acc=69.75%
+
+=== Round 14/50 ===
+  [C04] Acc: 99.8% | Fixed 4-bit | Rate: 8.0x
+  [C00] Acc: 99.9% | Fixed 4-bit | Rate: 8.0x
+  [C09] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C05] Acc: 99.8% | Fixed 4-bit | Rate: 8.0x
+  >> Global Result: Loss=1.3597, Acc=70.06%
+
+=== Round 15/50 ===
+  [C02] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C05] Acc: 99.3% | Fixed 4-bit | Rate: 8.0x
+  [C07] Acc: 99.9% | Fixed 4-bit | Rate: 8.0x
+  [C06] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  >> Global Result: Loss=1.3803, Acc=70.11%
+
+=== Round 16/50 ===
+  [C06] Acc: 99.9% | Fixed 4-bit | Rate: 8.0x
+  [C07] Acc: 99.4% | Fixed 4-bit | Rate: 8.0x
+  [C04] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C05] Acc: 99.9% | Fixed 4-bit | Rate: 8.0x
+  >> Global Result: Loss=1.4183, Acc=69.33%
+
+=== Round 17/50 ===
+  [C01] Acc: 99.9% | Fixed 4-bit | Rate: 8.0x
+  [C08] Acc: 99.9% | Fixed 4-bit | Rate: 8.0x
+  [C02] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C05] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  >> Global Result: Loss=1.3962, Acc=69.89%
+
+=== Round 18/50 ===
+  [C08] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C00] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C07] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C04] Acc: 99.9% | Fixed 4-bit | Rate: 8.0x
+  >> Global Result: Loss=1.3875, Acc=70.06%
+
+=== Round 19/50 ===
+  [C08] Acc: 99.9% | Fixed 4-bit | Rate: 8.0x
+  [C00] Acc: 99.9% | Fixed 4-bit | Rate: 8.0x
+  [C04] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C05] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  >> Global Result: Loss=1.4020, Acc=69.83%
+
+=== Round 20/50 ===
+  [C00] Acc: 99.7% | Fixed 4-bit | Rate: 8.0x
+  [C08] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C07] Acc: 99.9% | Fixed 4-bit | Rate: 8.0x
+  [C06] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  >> Global Result: Loss=1.4247, Acc=69.72%
+
+=== Round 21/50 ===
+  [C01] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C00] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C03] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C05] Acc: 99.8% | Fixed 4-bit | Rate: 8.0x
+  >> Global Result: Loss=1.3838, Acc=70.16%
+
+=== Round 22/50 ===
+  [C06] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C02] Acc: 99.9% | Fixed 4-bit | Rate: 8.0x
+  [C04] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C00] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  >> Global Result: Loss=1.3628, Acc=70.66%
+
+=== Round 23/50 ===
+  [C03] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C05] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C06] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C08] Acc: 99.9% | Fixed 4-bit | Rate: 8.0x
+  >> Global Result: Loss=1.4043, Acc=70.33%
+
+=== Round 24/50 ===
+  [C08] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C05] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C06] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C07] Acc: 99.4% | Fixed 4-bit | Rate: 8.0x
+  >> Global Result: Loss=1.4018, Acc=69.98%
+
+=== Round 25/50 ===
+  [C07] Acc: 99.8% | Fixed 4-bit | Rate: 8.0x
+  [C01] Acc: 99.9% | Fixed 4-bit | Rate: 8.0x
+  [C03] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C06] Acc: 98.9% | Fixed 4-bit | Rate: 8.0x
+  >> Global Result: Loss=1.3927, Acc=70.16%
+
+=== Round 26/50 ===
+  [C03] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C08] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C02] Acc: 99.9% | Fixed 4-bit | Rate: 8.0x
+  [C05] Acc: 99.6% | Fixed 4-bit | Rate: 8.0x
+  >> Global Result: Loss=1.4030, Acc=69.57%
+
+=== Round 27/50 ===
+  [C06] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C04] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C00] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C03] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  >> Global Result: Loss=1.3970, Acc=70.16%
+
+=== Round 28/50 ===
+  [C00] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C01] Acc: 99.9% | Fixed 4-bit | Rate: 8.0x
+  [C07] Acc: 99.9% | Fixed 4-bit | Rate: 8.0x
+  [C09] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  >> Global Result: Loss=1.3790, Acc=69.93%
+
+=== Round 29/50 ===
+  [C06] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C01] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C08] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C00] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  >> Global Result: Loss=1.3907, Acc=70.49%
+
+=== Round 30/50 ===
+  [C02] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C00] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C03] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C09] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  >> Global Result: Loss=1.3672, Acc=70.39%
+
+=== Round 31/50 ===
+  [C03] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C09] Acc: 99.9% | Fixed 4-bit | Rate: 8.0x
+  [C02] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C01] Acc: 99.9% | Fixed 4-bit | Rate: 8.0x
+  >> Global Result: Loss=1.3758, Acc=70.30%
+
+=== Round 32/50 ===
+  [C01] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C02] Acc: 99.9% | Fixed 4-bit | Rate: 8.0x
+  [C04] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C03] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  >> Global Result: Loss=1.3481, Acc=70.68%
+
+=== Round 33/50 ===
+  [C07] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C01] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C00] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  [C05] Acc:100.0% | Fixed 4-bit | Rate: 8.0x
+  >> Global Result: Loss=1.3757, Acc=70.58%
+
+=== Round 34/50 ===
+  [C02] Acc: 99.7% | Fixed 4-bit | Rate: 8.0x
+  [C09] Acc:100.0% | Fixed 4-bit | Rate: 8.0x

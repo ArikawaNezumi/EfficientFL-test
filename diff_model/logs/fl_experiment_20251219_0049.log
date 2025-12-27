@@ -1,0 +1,16 @@
+--- Federated Learning Experiment (DBS) ---
+Log File Saved to: ./logs/fl_experiment_20251219_0049.log
+Loading CIFAR-10... (Alpha=0.5)
+Partitioning data (iid)...
+
+[Data Distribution]
+Client 0: [538 474 480 498 522 477 503 491 489 528]
+Client 1: [480 464 499 485 486 511 493 535 506 541]
+Client 2: [498 494 489 502 490 512 501 489 530 495]
+Client 3: [506 501 533 477 482 508 504 495 513 481]
+Client 4: [518 499 478 497 482 505 489 505 508 519]
+Loading CIFAR-10 Test Set...
+
+Full Model Size (FP32): 1233.29 KB
+
+=== Round 1/50 ===
