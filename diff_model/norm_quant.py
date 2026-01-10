@@ -41,11 +41,11 @@ def log(msg):
 # ==========================================
 # 配置参数
 # ==========================================
-NUM_CLIENTS = 10
+NUM_CLIENTS = 20
 CLIENTS_PER_ROUND = 4
-NUM_ROUNDS = 50
+NUM_ROUNDS = 20
 LOCAL_EPOCHS = 5
-BATCH_SIZE = 32
+BATCH_SIZE = 64
 LR = 0.01
 
 DATA_DISTRIBUTION = "non-iid"  # 保持和 DBS 实验一致
