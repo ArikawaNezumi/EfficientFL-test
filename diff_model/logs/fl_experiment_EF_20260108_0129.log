@@ -1,0 +1,38 @@
+--- Federated Learning Experiment (DBS + ERAT + ErrorFeedback) ---
+Log File Saved to: ./logs/fl_experiment_EF_20260108_0129.log
+Loading CIFAR-10... (Alpha=0.5)
+Partitioning data (non-iid)...
+Loading CIFAR-10 Test Set...
+
+Full Model Size (FP32): 1233.29 KB
+
+=== Round 1/300 ===
+  [C08] Acc: 39.1% | BW:0.08 | Ep:04 | c1:4, c2:2, fc1:2
+  [C19] Acc: 50.6% | BW:0.08 | Ep:04 | c1:8, c2:2, fc1:2
+  [C02] Acc: 45.4% | BW:0.09 | Ep:04 | c1:2, c2:2, fc1:2
+  [C14] Acc: 48.4% | BW:0.06 | Ep:04 | c1:4, c2:2, fc1:2
+  [C03] Acc: 50.1% | BW:0.06 | Ep:04 | c1:4, c2:2, fc1:2
+  >> Global Result: Loss=2.1100, Acc=26.12%
+
+=== Round 2/300 ===
+  [C16] Acc: 76.0% | BW:0.06 | Ep:04 | c1:4, c2:2, fc1:2
+  [C19] Acc: 61.2% | BW:0.10 | Ep:04 | c1:4, c2:4, fc1:2
+  [C00] Acc: 66.0% | BW:0.10 | Ep:04 | c1:2, c2:2, fc1:2
+  [C11] Acc: 71.5% | BW:0.06 | Ep:04 | c1:4, c2:2, fc1:2
+  [C10] Acc: 67.8% | BW:0.11 | Ep:04 | c1:4, c2:2, fc1:2
+  >> Global Result: Loss=1.9702, Acc=24.92%
+
+=== Round 3/300 ===
+  [C01] Acc: 62.4% | BW:0.08 | Ep:04 | c1:4, c2:2, fc1:2
+  [C03] Acc: 66.0% | BW:0.05 | Ep:04 | c1:4, c2:2, fc1:2
+  [C07] Acc: 72.7% | BW:0.09 | Ep:04 | c1:2, c2:4, fc1:2
+  [C09] Acc: 85.0% | BW:0.07 | Ep:04 | c1:4, c2:2, fc1:2
+  [C00] Acc: 70.4% | BW:0.08 | Ep:04 | c1:4, c2:2, fc1:2
+  >> Global Result: Loss=1.9609, Acc=35.88%
+
+=== Round 4/300 ===
+  [C17] Acc: 66.0% | BW:0.11 | Ep:04 | c1:4, c2:2, fc1:2
+  [C19] Acc: 66.2% | BW:0.06 | Ep:04 | c1:8, c2:2, fc1:2
+  [C11] Acc: 76.8% | BW:0.08 | Ep:04 | c1:4, c2:2, fc1:2
+  [C05] Acc: 65.6% | BW:0.06 | Ep:04 | c1:4, c2:4, fc1:2
+  [C02] Acc: 70.8% | BW:0.07 | Ep:04 | c1:4, c2:2, fc1:2

@@ -1,0 +1,13 @@
+--- Federated Learning Experiment (DBS + ERAT + ErrorFeedback) ---
+Log File Saved to: ./logs/fl_experiment_EF_20260108_0103.log
+Loading CIFAR-10... (Alpha=0.5)
+Partitioning data (non-iid)...
+Loading CIFAR-10 Test Set...
+
+Full Model Size (FP32): 1233.29 KB
+
+=== Round 1/50 ===
+  [C07] Acc: 76.0% | BW:0.19 | c1:4, c2:4, fc1:8
+  [C08] Acc: 70.6% | BW:0.14 | c1:8, c2:4, fc1:4
+  [C05] Acc: 66.5% | BW:0.21 | c1:4, c2:8, fc1:4
+  [C03] Acc: 51.9% | BW:0.15 | c1:8, c2:4, fc1:4

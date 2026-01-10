@@ -1,0 +1,225 @@
+--- Federated Learning Experiment (DBS) ---
+Log File Saved to: ./logs/fl_experiment_20260104_1136.log
+Loading CIFAR-10... (Alpha=0.5)
+Partitioning data (non-iid)...
+
+[Data Distribution]
+Client 0: [  3 183 930  51 374 146  53 628 319   0]
+Client 1: [231   8 698 934 267 274 132   0   0   0]
+Client 2: [  65  619  316  524  113    1   26    2  325 1302]
+Client 3: [ 321    6   77   27   54 1259  109  777    0    0]
+Client 4: [ 33 195  16 668  74 197   0  84  82 225]
+Loading CIFAR-10 Test Set...
+
+Full Model Size (FP32): 1233.29 KB
+
+=== Round 1/30 ===
+  [C00] Acc: 57.9% | BW:0.12 | c1:8, c2:8, fc1:2
+  [C02] Acc: 63.1% | BW:0.19 | c1:8, c2:2, fc1:8
+  [C18] Acc: 46.5% | BW:0.14 | c1:2, c2:4, fc1:4
+  [C04] Acc: 54.1% | BW:0.19 | c1:2, c2:2, fc1:4
+  >> Global Result: Loss=1.9791, Acc=29.58%
+
+=== Round 2/30 ===
+  [C00] Acc: 67.5% | BW:0.11 | c1:2, c2:2, fc1:4
+  [C07] Acc: 76.3% | BW:0.17 | c1:8, c2:8, fc1:4
+  [C16] Acc: 64.0% | BW:0.10 | c1:8, c2:4, fc1:4
+  [C13] Acc: 70.6% | BW:0.18 | c1:4, c2:8, fc1:2
+  >> Global Result: Loss=1.5967, Acc=39.66%
+
+=== Round 3/30 ===
+  [C19] Acc: 79.1% | BW:0.16 | c1:8, c2:2, fc1:2
+  [C10] Acc: 76.1% | BW:0.13 | c1:8, c2:4, fc1:4
+  [C12] Acc: 69.8% | BW:0.19 | c1:8, c2:8, fc1:4
+  [C14] Acc: 81.0% | BW:0.11 | c1:8, c2:4, fc1:4
+  >> Global Result: Loss=1.7584, Acc=41.25%
+
+=== Round 4/30 ===
+  [C07] Acc: 82.0% | BW:0.17 | c1:4, c2:2, fc1:4
+  [C03] Acc: 82.0% | BW:0.19 | c1:4, c2:8, fc1:8
+  [C15] Acc: 76.9% | BW:0.18 | c1:8, c2:8, fc1:4
+  [C12] Acc: 78.0% | BW:0.11 | c1:8, c2:4, fc1:4
+  >> Global Result: Loss=1.4428, Acc=48.91%
+
+=== Round 5/30 ===
+  [C01] Acc: 70.7% | BW:0.20 | c1:4, c2:8, fc1:8
+  [C15] Acc: 86.3% | BW:0.19 | c1:8, c2:8, fc1:4
+  [C04] Acc: 80.2% | BW:0.20 | c1:8, c2:4, fc1:8
+  [C11] Acc: 85.9% | BW:0.13 | c1:8, c2:4, fc1:4
+  >> Global Result: Loss=1.4647, Acc=49.93%
+
+=== Round 6/30 ===
+  [C00] Acc: 83.4% | BW:0.12 | c1:4, c2:2, fc1:4
+  [C14] Acc: 89.7% | BW:0.11 | c1:4, c2:4, fc1:4
+  [C17] Acc: 84.6% | BW:0.18 | c1:8, c2:8, fc1:4
+  [C15] Acc: 89.3% | BW:0.13 | c1:8, c2:8, fc1:4
+  >> Global Result: Loss=1.3730, Acc=54.33%
+
+=== Round 7/30 ===
+  [C12] Acc: 88.9% | BW:0.12 | c1:4, c2:4, fc1:4
+  [C01] Acc: 80.9% | BW:0.17 | c1:8, c2:4, fc1:4
+  [C13] Acc: 88.7% | BW:0.13 | c1:8, c2:4, fc1:4
+  [C19] Acc: 89.5% | BW:0.12 | c1:4, c2:4, fc1:4
+  >> Global Result: Loss=1.5460, Acc=50.02%
+
+=== Round 8/30 ===
+  [C01] Acc: 90.3% | BW:0.14 | c1:8, c2:8, fc1:4
+  [C11] Acc: 95.9% | BW:0.13 | c1:8, c2:8, fc1:4
+  [C06] Acc: 92.3% | BW:0.13 | c1:8, c2:4, fc1:4
+  [C04] Acc: 91.7% | BW:0.11 | c1:8, c2:4, fc1:4
+  >> Global Result: Loss=1.6061, Acc=50.57%
+
+=== Round 9/30 ===
+  [C19] Acc: 95.6% | BW:0.20 | c1:8, c2:8, fc1:8
+  [C08] Acc: 88.4% | BW:0.19 | c1:8, c2:4, fc1:8
+  [C15] Acc: 95.7% | BW:0.11 | c1:8, c2:8, fc1:4
+  [C01] Acc: 94.1% | BW:0.13 | c1:8, c2:4, fc1:4
+  >> Global Result: Loss=1.4499, Acc=54.89%
+
+=== Round 10/30 ===
+  [C16] Acc: 92.5% | BW:0.19 | c1:4, c2:8, fc1:8
+  [C13] Acc: 95.9% | BW:0.16 | c1:8, c2:8, fc1:4
+  [C10] Acc: 94.3% | BW:0.19 | c1:4, c2:8, fc1:8
+  [C06] Acc: 87.6% | BW:0.12 | c1:8, c2:4, fc1:4
+  >> Global Result: Loss=1.3493, Acc=55.90%
+
+=== Round 11/30 ===
+  [C12] Acc: 97.9% | BW:0.15 | c1:8, c2:8, fc1:4
+  [C17] Acc: 95.5% | BW:0.17 | c1:8, c2:4, fc1:4
+  [C08] Acc: 95.7% | BW:0.17 | c1:8, c2:4, fc1:4
+  [C10] Acc: 98.6% | BW:0.17 | c1:8, c2:8, fc1:4
+  >> Global Result: Loss=1.5124, Acc=56.62%
+
+=== Round 12/30 ===
+  [C19] Acc: 99.2% | BW:0.11 | c1:8, c2:4, fc1:4
+  [C18] Acc: 93.5% | BW:0.18 | c1:8, c2:4, fc1:4
+  [C05] Acc: 81.5% | BW:0.14 | c1:2, c2:2, fc1:4
+  [C08] Acc: 98.5% | BW:0.19 | c1:8, c2:8, fc1:4
+  >> Global Result: Loss=1.5438, Acc=53.63%
+
+=== Round 13/30 ===
+  [C04] Acc: 98.2% | BW:0.13 | c1:8, c2:4, fc1:4
+  [C02] Acc: 94.4% | BW:0.14 | c1:4, c2:4, fc1:4
+  [C19] Acc: 99.7% | BW:0.15 | c1:8, c2:8, fc1:4
+  [C16] Acc: 98.3% | BW:0.14 | c1:8, c2:8, fc1:4
+  >> Global Result: Loss=1.4635, Acc=57.41%
+
+=== Round 14/30 ===
+  [C19] Acc: 99.9% | BW:0.11 | c1:8, c2:8, fc1:4
+  [C17] Acc: 98.9% | BW:0.14 | c1:8, c2:8, fc1:4
+  [C00] Acc: 98.0% | BW:0.15 | c1:8, c2:8, fc1:4
+  [C08] Acc: 99.6% | BW:0.16 | c1:8, c2:8, fc1:4
+  >> Global Result: Loss=1.6074, Acc=57.11%
+
+=== Round 15/30 ===
+  [C14] Acc: 98.2% | BW:0.16 | c1:8, c2:8, fc1:4
+  [C04] Acc: 99.5% | BW:0.11 | c1:8, c2:4, fc1:4
+  [C00] Acc: 99.4% | BW:0.18 | c1:4, c2:8, fc1:4
+  [C02] Acc: 98.1% | BW:0.16 | c1:8, c2:4, fc1:4
+  >> Global Result: Loss=1.5511, Acc=57.26%
+
+=== Round 16/30 ===
+  [C07] Acc: 99.0% | BW:0.11 | c1:8, c2:4, fc1:4
+  [C10] Acc: 99.5% | BW:0.11 | c1:8, c2:4, fc1:4
+  [C11] Acc: 98.4% | BW:0.11 | c1:4, c2:8, fc1:4
+  [C13] Acc: 99.0% | BW:0.16 | c1:8, c2:8, fc1:4
+  >> Global Result: Loss=1.6322, Acc=56.69%
+
+=== Round 17/30 ===
+  [C03] Acc: 97.5% | BW:0.18 | c1:4, c2:8, fc1:4
+  [C13] Acc: 99.6% | BW:0.17 | c1:8, c2:8, fc1:4
+  [C19] Acc:100.0% | BW:0.12 | c1:8, c2:8, fc1:4
+  [C16] Acc: 99.4% | BW:0.15 | c1:8, c2:8, fc1:4
+  >> Global Result: Loss=1.8081, Acc=54.37%
+
+=== Round 18/30 ===
+  [C02] Acc: 99.7% | BW:0.14 | c1:4, c2:8, fc1:4
+  [C06] Acc: 98.8% | BW:0.13 | c1:8, c2:4, fc1:4
+  [C12] Acc: 99.2% | BW:0.12 | c1:8, c2:4, fc1:4
+  [C09] Acc: 98.2% | BW:0.17 | c1:8, c2:8, fc1:4
+  >> Global Result: Loss=2.1437, Acc=50.45%
+
+=== Round 19/30 ===
+  [C12] Acc: 99.9% | BW:0.18 | c1:8, c2:8, fc1:4
+  [C08] Acc:100.0% | BW:0.13 | c1:8, c2:8, fc1:4
+  [C11] Acc: 99.2% | BW:0.15 | c1:8, c2:8, fc1:4
+  [C07] Acc: 99.0% | BW:0.16 | c1:8, c2:8, fc1:4
+  >> Global Result: Loss=1.3156, Acc=61.16%
+
+=== Round 20/30 ===
+  [C18] Acc: 98.1% | BW:0.14 | c1:8, c2:8, fc1:4
+  [C05] Acc: 90.1% | BW:0.12 | c1:4, c2:4, fc1:4
+  [C12] Acc: 99.3% | BW:0.11 | c1:4, c2:4, fc1:4
+  [C10] Acc: 99.9% | BW:0.19 | c1:8, c2:8, fc1:8
+  >> Global Result: Loss=1.6616, Acc=53.09%
+
+=== Round 21/30 ===
+  [C14] Acc: 98.7% | BW:0.16 | c1:4, c2:8, fc1:4
+  [C13] Acc: 99.7% | BW:0.11 | c1:8, c2:4, fc1:4
+  [C11] Acc: 99.6% | BW:0.16 | c1:8, c2:8, fc1:8
+  [C02] Acc: 99.7% | BW:0.18 | c1:4, c2:8, fc1:4
+  >> Global Result: Loss=1.5439, Acc=58.96%
+
+=== Round 22/30 ===
+  [C08] Acc:100.0% | BW:0.11 | c1:8, c2:8, fc1:4
+  [C00] Acc: 99.6% | BW:0.19 | c1:8, c2:8, fc1:8
+  [C09] Acc: 99.6% | BW:0.15 | c1:4, c2:4, fc1:4
+  [C05] Acc: 96.7% | BW:0.17 | c1:8, c2:4, fc1:4
+  >> Global Result: Loss=2.1054, Acc=50.51%
+
+=== Round 23/30 ===
+  [C10] Acc: 99.7% | BW:0.16 | c1:8, c2:8, fc1:4
+  [C05] Acc: 99.9% | BW:0.15 | c1:8, c2:8, fc1:4
+  [C17] Acc: 99.0% | BW:0.17 | c1:8, c2:8, fc1:4
+  [C04] Acc: 99.6% | BW:0.14 | c1:8, c2:8, fc1:4
+  >> Global Result: Loss=1.7502, Acc=55.30%
+
+=== Round 24/30 ===
+  [C09] Acc: 99.9% | BW:0.12 | c1:8, c2:8, fc1:4
+  [C01] Acc: 98.7% | BW:0.10 | c1:8, c2:8, fc1:2
+  [C02] Acc: 99.9% | BW:0.13 | c1:8, c2:8, fc1:4
+  [C15] Acc: 99.3% | BW:0.12 | c1:8, c2:8, fc1:4
+  >> Global Result: Loss=1.6561, Acc=55.70%
+
+=== Round 25/30 ===
+  [C05] Acc: 99.9% | BW:0.20 | c1:4, c2:4, fc1:8
+  [C11] Acc: 99.9% | BW:0.14 | c1:8, c2:4, fc1:4
+  [C09] Acc: 99.8% | BW:0.16 | c1:8, c2:4, fc1:4
+  [C00] Acc: 99.9% | BW:0.12 | c1:8, c2:4, fc1:4
+  >> Global Result: Loss=1.7466, Acc=57.75%
+
+=== Round 26/30 ===
+  [C14] Acc: 99.7% | BW:0.13 | c1:8, c2:8, fc1:4
+  [C17] Acc: 99.9% | BW:0.15 | c1:8, c2:8, fc1:4
+  [C00] Acc: 99.9% | BW:0.19 | c1:8, c2:8, fc1:8
+  [C03] Acc: 99.0% | BW:0.14 | c1:8, c2:8, fc1:4
+  >> Global Result: Loss=1.4803, Acc=61.26%
+
+=== Round 27/30 ===
+  [C18] Acc: 99.7% | BW:0.14 | c1:8, c2:8, fc1:4
+  [C07] Acc: 99.5% | BW:0.15 | c1:8, c2:4, fc1:4
+  [C05] Acc: 94.9% | BW:0.19 | c1:8, c2:4, fc1:4
+  [C00] Acc:100.0% | BW:0.15 | c1:8, c2:8, fc1:4
+  >> Global Result: Loss=1.5284, Acc=58.22%
+
+=== Round 28/30 ===
+  [C05] Acc:100.0% | BW:0.12 | c1:8, c2:4, fc1:4
+  [C17] Acc:100.0% | BW:0.12 | c1:8, c2:8, fc1:4
+  [C12] Acc: 99.8% | BW:0.19 | c1:8, c2:8, fc1:8
+  [C09] Acc:100.0% | BW:0.11 | c1:4, c2:4, fc1:4
+  >> Global Result: Loss=1.9512, Acc=56.54%
+
+=== Round 29/30 ===
+  [C07] Acc: 99.8% | BW:0.11 | c1:8, c2:4, fc1:4
+  [C05] Acc:100.0% | BW:0.19 | c1:8, c2:8, fc1:8
+  [C16] Acc: 99.8% | BW:0.12 | c1:8, c2:8, fc1:4
+  [C19] Acc: 99.8% | BW:0.13 | c1:8, c2:8, fc1:4
+  >> Global Result: Loss=1.3713, Acc=61.50%
+
+=== Round 30/30 ===
+  [C07] Acc:100.0% | BW:0.12 | c1:8, c2:4, fc1:4
+  [C01] Acc: 99.3% | BW:0.19 | c1:8, c2:8, fc1:8
+  [C04] Acc: 99.9% | BW:0.14 | c1:8, c2:8, fc1:4
+  [C03] Acc: 99.8% | BW:0.14 | c1:8, c2:8, fc1:4
+  >> Global Result: Loss=1.3708, Acc=61.82%
+

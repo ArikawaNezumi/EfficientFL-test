@@ -1,0 +1,404 @@
+2026-01-07 12:20:55,748 - Using device: cuda, Dataset: cifar10
+2026-01-07 12:20:57,478 - START: Proposed(Decay) (Decay=True, Lambda=0.8)
+2026-01-07 12:21:23,651 - [Proposed(Decay)] R1: Acc=11.22%, AvgGamma=1.00
+2026-01-07 12:21:35,795 - [Proposed(Decay)] R2: Acc=13.19%, AvgGamma=1.00
+2026-01-07 12:21:47,837 - [Proposed(Decay)] R3: Acc=18.29%, AvgGamma=0.96
+2026-01-07 12:21:59,977 - [Proposed(Decay)] R4: Acc=22.59%, AvgGamma=0.86
+2026-01-07 12:22:12,048 - [Proposed(Decay)] R5: Acc=25.32%, AvgGamma=0.81
+2026-01-07 12:22:23,962 - [Proposed(Decay)] R6: Acc=28.16%, AvgGamma=0.69
+2026-01-07 12:22:35,683 - [Proposed(Decay)] R7: Acc=31.64%, AvgGamma=0.84
+2026-01-07 12:22:47,047 - [Proposed(Decay)] R8: Acc=31.74%, AvgGamma=0.68
+2026-01-07 12:22:57,931 - [Proposed(Decay)] R9: Acc=31.10%, AvgGamma=0.73
+2026-01-07 12:23:09,569 - [Proposed(Decay)] R10: Acc=31.26%, AvgGamma=0.69
+2026-01-07 12:23:21,300 - [Proposed(Decay)] R11: Acc=28.12%, AvgGamma=0.58
+2026-01-07 12:23:32,924 - [Proposed(Decay)] R12: Acc=35.48%, AvgGamma=0.61
+2026-01-07 12:23:43,475 - [Proposed(Decay)] R13: Acc=30.59%, AvgGamma=0.86
+2026-01-07 12:23:55,235 - [Proposed(Decay)] R14: Acc=35.18%, AvgGamma=0.51
+2026-01-07 12:24:07,083 - [Proposed(Decay)] R15: Acc=38.80%, AvgGamma=0.82
+2026-01-07 12:24:18,278 - [Proposed(Decay)] R16: Acc=35.89%, AvgGamma=0.66
+2026-01-07 12:24:30,177 - [Proposed(Decay)] R17: Acc=40.40%, AvgGamma=0.64
+2026-01-07 12:24:42,166 - [Proposed(Decay)] R18: Acc=37.34%, AvgGamma=0.75
+2026-01-07 12:24:54,855 - [Proposed(Decay)] R19: Acc=40.25%, AvgGamma=0.71
+2026-01-07 12:25:07,782 - [Proposed(Decay)] R20: Acc=42.26%, AvgGamma=0.57
+2026-01-07 12:25:19,843 - [Proposed(Decay)] R21: Acc=37.11%, AvgGamma=0.59
+2026-01-07 12:25:31,999 - [Proposed(Decay)] R22: Acc=44.05%, AvgGamma=0.64
+2026-01-07 12:25:44,012 - [Proposed(Decay)] R23: Acc=42.66%, AvgGamma=0.68
+2026-01-07 12:25:55,220 - [Proposed(Decay)] R24: Acc=42.59%, AvgGamma=0.68
+2026-01-07 12:26:06,950 - [Proposed(Decay)] R25: Acc=45.20%, AvgGamma=0.63
+2026-01-07 12:26:17,431 - [Proposed(Decay)] R26: Acc=44.34%, AvgGamma=0.70
+2026-01-07 12:26:28,285 - [Proposed(Decay)] R27: Acc=45.68%, AvgGamma=0.67
+2026-01-07 12:26:39,117 - [Proposed(Decay)] R28: Acc=43.07%, AvgGamma=0.61
+2026-01-07 12:26:50,482 - [Proposed(Decay)] R29: Acc=44.59%, AvgGamma=0.71
+2026-01-07 12:27:01,459 - [Proposed(Decay)] R30: Acc=43.11%, AvgGamma=0.62
+2026-01-07 12:27:12,654 - [Proposed(Decay)] R31: Acc=36.80%, AvgGamma=0.44
+2026-01-07 12:27:23,948 - [Proposed(Decay)] R32: Acc=47.61%, AvgGamma=0.72
+2026-01-07 12:27:35,188 - [Proposed(Decay)] R33: Acc=46.59%, AvgGamma=0.70
+2026-01-07 12:27:46,571 - [Proposed(Decay)] R34: Acc=41.21%, AvgGamma=0.61
+2026-01-07 12:27:59,024 - [Proposed(Decay)] R35: Acc=49.60%, AvgGamma=0.65
+2026-01-07 12:28:10,450 - [Proposed(Decay)] R36: Acc=49.80%, AvgGamma=0.79
+2026-01-07 12:28:22,196 - [Proposed(Decay)] R37: Acc=48.40%, AvgGamma=0.49
+2026-01-07 12:28:34,466 - [Proposed(Decay)] R38: Acc=42.54%, AvgGamma=0.56
+2026-01-07 12:28:46,402 - [Proposed(Decay)] R39: Acc=48.04%, AvgGamma=0.62
+2026-01-07 12:28:58,214 - [Proposed(Decay)] R40: Acc=48.83%, AvgGamma=0.83
+2026-01-07 12:29:09,842 - [Proposed(Decay)] R41: Acc=50.33%, AvgGamma=0.75
+2026-01-07 12:29:21,137 - [Proposed(Decay)] R42: Acc=51.24%, AvgGamma=0.56
+2026-01-07 12:29:32,765 - [Proposed(Decay)] R43: Acc=49.48%, AvgGamma=0.77
+2026-01-07 12:29:44,560 - [Proposed(Decay)] R44: Acc=48.98%, AvgGamma=0.64
+2026-01-07 12:29:55,511 - [Proposed(Decay)] R45: Acc=48.25%, AvgGamma=0.66
+2026-01-07 12:30:07,201 - [Proposed(Decay)] R46: Acc=47.05%, AvgGamma=0.49
+2026-01-07 12:30:19,597 - [Proposed(Decay)] R47: Acc=53.46%, AvgGamma=0.46
+2026-01-07 12:30:31,842 - [Proposed(Decay)] R48: Acc=46.19%, AvgGamma=0.52
+2026-01-07 12:30:44,128 - [Proposed(Decay)] R49: Acc=50.91%, AvgGamma=0.73
+2026-01-07 12:30:55,288 - [Proposed(Decay)] R50: Acc=54.06%, AvgGamma=0.50
+2026-01-07 12:31:07,393 - [Proposed(Decay)] R51: Acc=47.35%, AvgGamma=0.63
+2026-01-07 12:31:19,640 - [Proposed(Decay)] R52: Acc=48.85%, AvgGamma=0.67
+2026-01-07 12:31:31,807 - [Proposed(Decay)] R53: Acc=54.82%, AvgGamma=0.85
+2026-01-07 12:31:44,036 - [Proposed(Decay)] R54: Acc=53.15%, AvgGamma=0.57
+2026-01-07 12:31:56,220 - [Proposed(Decay)] R55: Acc=43.19%, AvgGamma=0.73
+2026-01-07 12:32:08,427 - [Proposed(Decay)] R56: Acc=54.07%, AvgGamma=0.57
+2026-01-07 12:32:20,615 - [Proposed(Decay)] R57: Acc=52.81%, AvgGamma=0.63
+2026-01-07 12:32:32,749 - [Proposed(Decay)] R58: Acc=50.28%, AvgGamma=0.58
+2026-01-07 12:32:44,820 - [Proposed(Decay)] R59: Acc=51.90%, AvgGamma=0.56
+2026-01-07 12:32:57,008 - [Proposed(Decay)] R60: Acc=53.57%, AvgGamma=0.56
+2026-01-07 12:33:09,166 - [Proposed(Decay)] R61: Acc=53.00%, AvgGamma=0.50
+2026-01-07 12:33:21,319 - [Proposed(Decay)] R62: Acc=54.77%, AvgGamma=0.64
+2026-01-07 12:33:33,518 - [Proposed(Decay)] R63: Acc=56.79%, AvgGamma=0.56
+2026-01-07 12:33:45,712 - [Proposed(Decay)] R64: Acc=57.42%, AvgGamma=0.75
+2026-01-07 12:33:57,881 - [Proposed(Decay)] R65: Acc=55.41%, AvgGamma=0.79
+2026-01-07 12:34:09,933 - [Proposed(Decay)] R66: Acc=53.21%, AvgGamma=0.49
+2026-01-07 12:34:21,215 - [Proposed(Decay)] R67: Acc=54.62%, AvgGamma=0.56
+2026-01-07 12:34:33,362 - [Proposed(Decay)] R68: Acc=56.54%, AvgGamma=0.67
+2026-01-07 12:34:45,624 - [Proposed(Decay)] R69: Acc=53.52%, AvgGamma=0.71
+2026-01-07 12:34:57,835 - [Proposed(Decay)] R70: Acc=57.76%, AvgGamma=0.70
+2026-01-07 12:35:09,964 - [Proposed(Decay)] R71: Acc=55.16%, AvgGamma=0.51
+2026-01-07 12:35:22,202 - [Proposed(Decay)] R72: Acc=56.46%, AvgGamma=0.78
+2026-01-07 12:35:34,720 - [Proposed(Decay)] R73: Acc=52.59%, AvgGamma=0.60
+2026-01-07 12:35:47,234 - [Proposed(Decay)] R74: Acc=59.71%, AvgGamma=0.48
+2026-01-07 12:35:59,376 - [Proposed(Decay)] R75: Acc=59.19%, AvgGamma=0.52
+2026-01-07 12:36:11,631 - [Proposed(Decay)] R76: Acc=58.15%, AvgGamma=0.51
+2026-01-07 12:36:23,744 - [Proposed(Decay)] R77: Acc=59.84%, AvgGamma=0.65
+2026-01-07 12:36:36,233 - [Proposed(Decay)] R78: Acc=59.51%, AvgGamma=0.40
+2026-01-07 12:36:48,500 - [Proposed(Decay)] R79: Acc=57.63%, AvgGamma=0.81
+2026-01-07 12:37:00,661 - [Proposed(Decay)] R80: Acc=60.78%, AvgGamma=0.84
+2026-01-07 12:37:12,913 - [Proposed(Decay)] R81: Acc=60.80%, AvgGamma=0.55
+2026-01-07 12:37:25,120 - [Proposed(Decay)] R82: Acc=59.73%, AvgGamma=0.59
+2026-01-07 12:37:37,598 - [Proposed(Decay)] R83: Acc=60.51%, AvgGamma=0.50
+2026-01-07 12:37:49,749 - [Proposed(Decay)] R84: Acc=59.92%, AvgGamma=0.78
+2026-01-07 12:38:01,942 - [Proposed(Decay)] R85: Acc=57.38%, AvgGamma=0.59
+2026-01-07 12:38:14,198 - [Proposed(Decay)] R86: Acc=61.73%, AvgGamma=0.69
+2026-01-07 12:38:26,387 - [Proposed(Decay)] R87: Acc=60.71%, AvgGamma=0.68
+2026-01-07 12:38:38,811 - [Proposed(Decay)] R88: Acc=59.76%, AvgGamma=0.71
+2026-01-07 12:38:51,028 - [Proposed(Decay)] R89: Acc=57.19%, AvgGamma=0.62
+2026-01-07 12:39:03,190 - [Proposed(Decay)] R90: Acc=58.88%, AvgGamma=0.50
+2026-01-07 12:39:15,382 - [Proposed(Decay)] R91: Acc=57.49%, AvgGamma=0.63
+2026-01-07 12:39:27,518 - [Proposed(Decay)] R92: Acc=58.10%, AvgGamma=0.59
+2026-01-07 12:39:39,847 - [Proposed(Decay)] R93: Acc=62.96%, AvgGamma=0.63
+2026-01-07 12:39:52,055 - [Proposed(Decay)] R94: Acc=63.01%, AvgGamma=0.55
+2026-01-07 12:40:04,261 - [Proposed(Decay)] R95: Acc=60.36%, AvgGamma=0.57
+2026-01-07 12:40:16,430 - [Proposed(Decay)] R96: Acc=62.17%, AvgGamma=0.44
+2026-01-07 12:40:28,634 - [Proposed(Decay)] R97: Acc=61.28%, AvgGamma=0.85
+2026-01-07 12:40:41,200 - [Proposed(Decay)] R98: Acc=59.76%, AvgGamma=0.82
+2026-01-07 12:40:53,359 - [Proposed(Decay)] R99: Acc=62.89%, AvgGamma=0.46
+2026-01-07 12:41:05,538 - [Proposed(Decay)] R100: Acc=60.28%, AvgGamma=0.73
+2026-01-07 12:41:17,634 - [Proposed(Decay)] R101: Acc=63.95%, AvgGamma=0.82
+2026-01-07 12:41:29,848 - [Proposed(Decay)] R102: Acc=62.31%, AvgGamma=0.60
+2026-01-07 12:41:42,286 - [Proposed(Decay)] R103: Acc=63.93%, AvgGamma=0.56
+2026-01-07 12:41:54,500 - [Proposed(Decay)] R104: Acc=62.75%, AvgGamma=0.50
+2026-01-07 12:42:06,587 - [Proposed(Decay)] R105: Acc=57.80%, AvgGamma=0.65
+2026-01-07 12:42:18,836 - [Proposed(Decay)] R106: Acc=57.90%, AvgGamma=0.47
+2026-01-07 12:42:30,988 - [Proposed(Decay)] R107: Acc=61.99%, AvgGamma=0.60
+2026-01-07 12:42:43,485 - [Proposed(Decay)] R108: Acc=63.79%, AvgGamma=0.84
+2026-01-07 12:42:55,628 - [Proposed(Decay)] R109: Acc=58.70%, AvgGamma=0.53
+2026-01-07 12:43:07,813 - [Proposed(Decay)] R110: Acc=62.58%, AvgGamma=0.67
+2026-01-07 12:43:20,003 - [Proposed(Decay)] R111: Acc=63.58%, AvgGamma=0.67
+2026-01-07 12:43:32,239 - [Proposed(Decay)] R112: Acc=61.16%, AvgGamma=0.78
+2026-01-07 12:43:44,683 - [Proposed(Decay)] R113: Acc=60.57%, AvgGamma=0.63
+2026-01-07 12:43:57,021 - [Proposed(Decay)] R114: Acc=64.75%, AvgGamma=0.56
+2026-01-07 12:44:09,234 - [Proposed(Decay)] R115: Acc=63.59%, AvgGamma=0.57
+2026-01-07 12:44:21,401 - [Proposed(Decay)] R116: Acc=66.30%, AvgGamma=0.71
+2026-01-07 12:44:33,624 - [Proposed(Decay)] R117: Acc=61.65%, AvgGamma=0.71
+2026-01-07 12:44:46,164 - [Proposed(Decay)] R118: Acc=63.93%, AvgGamma=0.46
+2026-01-07 12:44:58,706 - [Proposed(Decay)] R119: Acc=58.05%, AvgGamma=0.47
+2026-01-07 12:45:10,870 - [Proposed(Decay)] R120: Acc=66.77%, AvgGamma=0.68
+2026-01-07 12:45:23,227 - [Proposed(Decay)] R121: Acc=62.67%, AvgGamma=0.69
+2026-01-07 12:45:35,415 - [Proposed(Decay)] R122: Acc=65.01%, AvgGamma=0.42
+2026-01-07 12:45:47,572 - [Proposed(Decay)] R123: Acc=62.58%, AvgGamma=0.64
+2026-01-07 12:45:59,791 - [Proposed(Decay)] R124: Acc=64.12%, AvgGamma=0.58
+2026-01-07 12:46:11,996 - [Proposed(Decay)] R125: Acc=63.86%, AvgGamma=0.66
+2026-01-07 12:46:24,157 - [Proposed(Decay)] R126: Acc=57.41%, AvgGamma=0.82
+2026-01-07 12:46:36,587 - [Proposed(Decay)] R127: Acc=66.61%, AvgGamma=0.61
+2026-01-07 12:46:48,958 - [Proposed(Decay)] R128: Acc=64.70%, AvgGamma=0.63
+2026-01-07 12:47:01,187 - [Proposed(Decay)] R129: Acc=62.98%, AvgGamma=0.72
+2026-01-07 12:47:13,520 - [Proposed(Decay)] R130: Acc=60.33%, AvgGamma=0.44
+2026-01-07 12:47:25,749 - [Proposed(Decay)] R131: Acc=58.57%, AvgGamma=0.59
+2026-01-07 12:47:38,234 - [Proposed(Decay)] R132: Acc=66.50%, AvgGamma=0.50
+2026-01-07 12:47:50,416 - [Proposed(Decay)] R133: Acc=63.94%, AvgGamma=0.61
+2026-01-07 12:48:02,504 - [Proposed(Decay)] R134: Acc=63.87%, AvgGamma=0.62
+2026-01-07 12:48:15,536 - [Proposed(Decay)] R135: Acc=68.19%, AvgGamma=0.55
+2026-01-07 12:48:27,934 - [Proposed(Decay)] R136: Acc=68.08%, AvgGamma=0.71
+2026-01-07 12:48:40,623 - [Proposed(Decay)] R137: Acc=63.29%, AvgGamma=0.79
+2026-01-07 12:48:52,921 - [Proposed(Decay)] R138: Acc=67.04%, AvgGamma=0.67
+2026-01-07 12:49:05,203 - [Proposed(Decay)] R139: Acc=66.21%, AvgGamma=0.53
+2026-01-07 12:49:17,311 - [Proposed(Decay)] R140: Acc=65.96%, AvgGamma=0.51
+2026-01-07 12:49:29,425 - [Proposed(Decay)] R141: Acc=64.75%, AvgGamma=0.65
+2026-01-07 12:49:42,098 - [Proposed(Decay)] R142: Acc=69.19%, AvgGamma=0.43
+2026-01-07 12:49:54,338 - [Proposed(Decay)] R143: Acc=66.52%, AvgGamma=0.57
+2026-01-07 12:50:06,489 - [Proposed(Decay)] R144: Acc=67.99%, AvgGamma=0.69
+2026-01-07 12:50:18,725 - [Proposed(Decay)] R145: Acc=56.07%, AvgGamma=0.44
+2026-01-07 12:50:30,923 - [Proposed(Decay)] R146: Acc=66.05%, AvgGamma=0.71
+2026-01-07 12:50:43,658 - [Proposed(Decay)] R147: Acc=67.73%, AvgGamma=0.55
+2026-01-07 12:50:55,818 - [Proposed(Decay)] R148: Acc=63.26%, AvgGamma=0.68
+2026-01-07 12:51:08,016 - [Proposed(Decay)] R149: Acc=67.37%, AvgGamma=0.55
+2026-01-07 12:51:20,133 - [Proposed(Decay)] R150: Acc=69.76%, AvgGamma=0.70
+2026-01-07 12:51:32,202 - [Proposed(Decay)] R151: Acc=66.16%, AvgGamma=0.55
+2026-01-07 12:51:44,716 - [Proposed(Decay)] R152: Acc=69.64%, AvgGamma=0.68
+2026-01-07 12:51:56,856 - [Proposed(Decay)] R153: Acc=65.78%, AvgGamma=0.81
+2026-01-07 12:52:08,630 - [Proposed(Decay)] R154: Acc=69.01%, AvgGamma=0.59
+2026-01-07 12:52:20,774 - [Proposed(Decay)] R155: Acc=68.92%, AvgGamma=0.61
+2026-01-07 12:52:33,037 - [Proposed(Decay)] R156: Acc=69.91%, AvgGamma=0.78
+2026-01-07 12:52:45,612 - [Proposed(Decay)] R157: Acc=59.96%, AvgGamma=0.46
+2026-01-07 12:52:57,837 - [Proposed(Decay)] R158: Acc=65.77%, AvgGamma=0.64
+2026-01-07 12:53:10,083 - [Proposed(Decay)] R159: Acc=66.45%, AvgGamma=0.64
+2026-01-07 12:53:22,157 - [Proposed(Decay)] R160: Acc=69.29%, AvgGamma=0.63
+2026-01-07 12:53:34,537 - [Proposed(Decay)] R161: Acc=68.58%, AvgGamma=0.55
+2026-01-07 12:53:46,837 - [Proposed(Decay)] R162: Acc=65.44%, AvgGamma=0.59
+2026-01-07 12:53:59,102 - [Proposed(Decay)] R163: Acc=67.81%, AvgGamma=0.57
+2026-01-07 12:54:11,381 - [Proposed(Decay)] R164: Acc=69.60%, AvgGamma=0.68
+2026-01-07 12:54:23,518 - [Proposed(Decay)] R165: Acc=66.53%, AvgGamma=0.79
+2026-01-07 12:54:35,930 - [Proposed(Decay)] R166: Acc=63.76%, AvgGamma=0.46
+2026-01-07 12:54:48,327 - [Proposed(Decay)] R167: Acc=66.91%, AvgGamma=0.40
+2026-01-07 12:55:00,468 - [Proposed(Decay)] R168: Acc=70.09%, AvgGamma=0.79
+2026-01-07 12:55:12,551 - [Proposed(Decay)] R169: Acc=70.71%, AvgGamma=0.85
+2026-01-07 12:55:24,610 - [Proposed(Decay)] R170: Acc=69.04%, AvgGamma=0.50
+2026-01-07 12:55:37,121 - [Proposed(Decay)] R171: Acc=64.56%, AvgGamma=0.71
+2026-01-07 12:55:49,282 - [Proposed(Decay)] R172: Acc=68.11%, AvgGamma=0.56
+2026-01-07 12:56:01,396 - [Proposed(Decay)] R173: Acc=71.46%, AvgGamma=0.86
+2026-01-07 12:56:13,521 - [Proposed(Decay)] R174: Acc=68.36%, AvgGamma=0.42
+2026-01-07 12:56:25,677 - [Proposed(Decay)] R175: Acc=65.69%, AvgGamma=0.39
+2026-01-07 12:56:38,457 - [Proposed(Decay)] R176: Acc=70.81%, AvgGamma=0.49
+2026-01-07 12:56:50,626 - [Proposed(Decay)] R177: Acc=69.28%, AvgGamma=0.70
+2026-01-07 12:57:02,842 - [Proposed(Decay)] R178: Acc=70.28%, AvgGamma=0.78
+2026-01-07 12:57:14,997 - [Proposed(Decay)] R179: Acc=70.40%, AvgGamma=0.54
+2026-01-07 12:57:27,163 - [Proposed(Decay)] R180: Acc=72.39%, AvgGamma=0.58
+2026-01-07 12:57:39,827 - [Proposed(Decay)] R181: Acc=69.64%, AvgGamma=0.45
+2026-01-07 12:57:52,007 - [Proposed(Decay)] R182: Acc=70.70%, AvgGamma=0.62
+2026-01-07 12:58:04,105 - [Proposed(Decay)] R183: Acc=72.12%, AvgGamma=0.59
+2026-01-07 12:58:16,430 - [Proposed(Decay)] R184: Acc=70.75%, AvgGamma=0.83
+2026-01-07 12:58:28,762 - [Proposed(Decay)] R185: Acc=65.75%, AvgGamma=0.57
+2026-01-07 12:58:40,337 - [Proposed(Decay)] R186: Acc=70.06%, AvgGamma=0.72
+2026-01-07 12:58:52,490 - [Proposed(Decay)] R187: Acc=66.18%, AvgGamma=0.57
+2026-01-07 12:59:04,343 - [Proposed(Decay)] R188: Acc=69.21%, AvgGamma=0.53
+2026-01-07 12:59:16,605 - [Proposed(Decay)] R189: Acc=68.92%, AvgGamma=0.43
+2026-01-07 12:59:28,777 - [Proposed(Decay)] R190: Acc=64.81%, AvgGamma=0.58
+2026-01-07 12:59:40,563 - [Proposed(Decay)] R191: Acc=67.82%, AvgGamma=0.74
+2026-01-07 12:59:52,788 - [Proposed(Decay)] R192: Acc=68.44%, AvgGamma=0.57
+2026-01-07 13:00:04,083 - [Proposed(Decay)] R193: Acc=68.07%, AvgGamma=0.84
+2026-01-07 13:00:15,175 - [Proposed(Decay)] R194: Acc=70.82%, AvgGamma=0.70
+2026-01-07 13:00:26,421 - [Proposed(Decay)] R195: Acc=69.20%, AvgGamma=0.62
+2026-01-07 13:00:37,376 - [Proposed(Decay)] R196: Acc=72.78%, AvgGamma=0.74
+2026-01-07 13:00:49,023 - [Proposed(Decay)] R197: Acc=70.93%, AvgGamma=0.73
+2026-01-07 13:01:00,462 - [Proposed(Decay)] R198: Acc=71.46%, AvgGamma=0.70
+2026-01-07 13:01:12,974 - [Proposed(Decay)] R199: Acc=71.42%, AvgGamma=0.46
+2026-01-07 13:01:24,585 - [Proposed(Decay)] R200: Acc=71.78%, AvgGamma=0.51
+2026-01-07 13:01:24,586 - START: Baseline(Std EF) (Decay=False, Lambda=0.8)
+2026-01-07 13:01:35,973 - [Baseline(Std EF)] R1: Acc=11.22%, AvgGamma=1.00
+2026-01-07 13:01:47,652 - [Baseline(Std EF)] R2: Acc=13.19%, AvgGamma=1.00
+2026-01-07 13:01:59,802 - [Baseline(Std EF)] R3: Acc=18.30%, AvgGamma=1.00
+2026-01-07 13:02:11,312 - [Baseline(Std EF)] R4: Acc=22.48%, AvgGamma=1.00
+2026-01-07 13:02:22,559 - [Baseline(Std EF)] R5: Acc=25.58%, AvgGamma=1.00
+2026-01-07 13:02:33,781 - [Baseline(Std EF)] R6: Acc=27.80%, AvgGamma=1.00
+2026-01-07 13:02:45,175 - [Baseline(Std EF)] R7: Acc=32.02%, AvgGamma=1.00
+2026-01-07 13:02:56,302 - [Baseline(Std EF)] R8: Acc=31.29%, AvgGamma=1.00
+2026-01-07 13:03:07,591 - [Baseline(Std EF)] R9: Acc=32.12%, AvgGamma=1.00
+2026-01-07 13:03:18,769 - [Baseline(Std EF)] R10: Acc=32.66%, AvgGamma=1.00
+2026-01-07 13:03:29,935 - [Baseline(Std EF)] R11: Acc=30.82%, AvgGamma=1.00
+2026-01-07 13:03:41,546 - [Baseline(Std EF)] R12: Acc=35.19%, AvgGamma=1.00
+2026-01-07 13:03:53,632 - [Baseline(Std EF)] R13: Acc=31.03%, AvgGamma=1.00
+2026-01-07 13:04:04,983 - [Baseline(Std EF)] R14: Acc=34.30%, AvgGamma=1.00
+2026-01-07 13:04:16,373 - [Baseline(Std EF)] R15: Acc=39.53%, AvgGamma=1.00
+2026-01-07 13:04:27,819 - [Baseline(Std EF)] R16: Acc=35.66%, AvgGamma=1.00
+2026-01-07 13:04:39,598 - [Baseline(Std EF)] R17: Acc=40.53%, AvgGamma=1.00
+2026-01-07 13:04:50,407 - [Baseline(Std EF)] R18: Acc=38.16%, AvgGamma=1.00
+2026-01-07 13:05:01,783 - [Baseline(Std EF)] R19: Acc=41.49%, AvgGamma=1.00
+2026-01-07 13:05:13,798 - [Baseline(Std EF)] R20: Acc=42.42%, AvgGamma=1.00
+2026-01-07 13:05:24,765 - [Baseline(Std EF)] R21: Acc=40.38%, AvgGamma=1.00
+2026-01-07 13:05:37,244 - [Baseline(Std EF)] R22: Acc=43.59%, AvgGamma=1.00
+2026-01-07 13:05:48,491 - [Baseline(Std EF)] R23: Acc=44.21%, AvgGamma=1.00
+2026-01-07 13:05:59,497 - [Baseline(Std EF)] R24: Acc=44.94%, AvgGamma=1.00
+2026-01-07 13:06:10,536 - [Baseline(Std EF)] R25: Acc=46.40%, AvgGamma=1.00
+2026-01-07 13:06:21,481 - [Baseline(Std EF)] R26: Acc=45.33%, AvgGamma=1.00
+2026-01-07 13:06:32,787 - [Baseline(Std EF)] R27: Acc=46.23%, AvgGamma=1.00
+2026-01-07 13:06:43,896 - [Baseline(Std EF)] R28: Acc=41.99%, AvgGamma=1.00
+2026-01-07 13:06:54,574 - [Baseline(Std EF)] R29: Acc=44.34%, AvgGamma=1.00
+2026-01-07 13:07:05,359 - [Baseline(Std EF)] R30: Acc=43.92%, AvgGamma=1.00
+2026-01-07 13:07:16,071 - [Baseline(Std EF)] R31: Acc=38.45%, AvgGamma=1.00
+2026-01-07 13:07:26,879 - [Baseline(Std EF)] R32: Acc=48.23%, AvgGamma=1.00
+2026-01-07 13:07:38,493 - [Baseline(Std EF)] R33: Acc=46.84%, AvgGamma=1.00
+2026-01-07 13:07:49,152 - [Baseline(Std EF)] R34: Acc=41.61%, AvgGamma=1.00
+2026-01-07 13:08:00,400 - [Baseline(Std EF)] R35: Acc=48.34%, AvgGamma=1.00
+2026-01-07 13:08:10,962 - [Baseline(Std EF)] R36: Acc=49.75%, AvgGamma=1.00
+2026-01-07 13:08:22,714 - [Baseline(Std EF)] R37: Acc=49.81%, AvgGamma=1.00
+2026-01-07 13:08:33,899 - [Baseline(Std EF)] R38: Acc=42.28%, AvgGamma=1.00
+2026-01-07 13:08:44,550 - [Baseline(Std EF)] R39: Acc=47.63%, AvgGamma=1.00
+2026-01-07 13:08:55,606 - [Baseline(Std EF)] R40: Acc=51.27%, AvgGamma=1.00
+2026-01-07 13:09:06,790 - [Baseline(Std EF)] R41: Acc=51.27%, AvgGamma=1.00
+2026-01-07 13:09:17,835 - [Baseline(Std EF)] R42: Acc=52.42%, AvgGamma=1.00
+2026-01-07 13:09:28,734 - [Baseline(Std EF)] R43: Acc=50.25%, AvgGamma=1.00
+2026-01-07 13:09:39,658 - [Baseline(Std EF)] R44: Acc=49.46%, AvgGamma=1.00
+2026-01-07 13:09:50,339 - [Baseline(Std EF)] R45: Acc=49.54%, AvgGamma=1.00
+2026-01-07 13:10:01,206 - [Baseline(Std EF)] R46: Acc=46.62%, AvgGamma=1.00
+2026-01-07 13:10:12,256 - [Baseline(Std EF)] R47: Acc=51.91%, AvgGamma=1.00
+2026-01-07 13:10:23,422 - [Baseline(Std EF)] R48: Acc=49.29%, AvgGamma=1.00
+2026-01-07 13:10:34,261 - [Baseline(Std EF)] R49: Acc=51.78%, AvgGamma=1.00
+2026-01-07 13:10:45,018 - [Baseline(Std EF)] R50: Acc=54.78%, AvgGamma=1.00
+2026-01-07 13:10:56,641 - [Baseline(Std EF)] R51: Acc=48.00%, AvgGamma=1.00
+2026-01-07 13:11:07,853 - [Baseline(Std EF)] R52: Acc=50.95%, AvgGamma=1.00
+2026-01-07 13:11:19,112 - [Baseline(Std EF)] R53: Acc=54.46%, AvgGamma=1.00
+2026-01-07 13:11:29,812 - [Baseline(Std EF)] R54: Acc=53.10%, AvgGamma=1.00
+2026-01-07 13:11:40,904 - [Baseline(Std EF)] R55: Acc=47.35%, AvgGamma=1.00
+2026-01-07 13:11:52,131 - [Baseline(Std EF)] R56: Acc=54.91%, AvgGamma=1.00
+2026-01-07 13:12:03,405 - [Baseline(Std EF)] R57: Acc=52.37%, AvgGamma=1.00
+2026-01-07 13:12:13,954 - [Baseline(Std EF)] R58: Acc=51.01%, AvgGamma=1.00
+2026-01-07 13:12:24,869 - [Baseline(Std EF)] R59: Acc=53.55%, AvgGamma=1.00
+2026-01-07 13:12:35,971 - [Baseline(Std EF)] R60: Acc=55.54%, AvgGamma=1.00
+2026-01-07 13:12:46,806 - [Baseline(Std EF)] R61: Acc=54.31%, AvgGamma=1.00
+2026-01-07 13:12:58,001 - [Baseline(Std EF)] R62: Acc=54.03%, AvgGamma=1.00
+2026-01-07 13:13:09,196 - [Baseline(Std EF)] R63: Acc=56.17%, AvgGamma=1.00
+2026-01-07 13:13:20,683 - [Baseline(Std EF)] R64: Acc=56.72%, AvgGamma=1.00
+2026-01-07 13:13:31,393 - [Baseline(Std EF)] R65: Acc=55.04%, AvgGamma=1.00
+2026-01-07 13:13:42,802 - [Baseline(Std EF)] R66: Acc=55.88%, AvgGamma=1.00
+2026-01-07 13:13:53,776 - [Baseline(Std EF)] R67: Acc=56.10%, AvgGamma=1.00
+2026-01-07 13:14:04,721 - [Baseline(Std EF)] R68: Acc=56.39%, AvgGamma=1.00
+2026-01-07 13:14:15,813 - [Baseline(Std EF)] R69: Acc=56.92%, AvgGamma=1.00
+2026-01-07 13:14:26,648 - [Baseline(Std EF)] R70: Acc=57.62%, AvgGamma=1.00
+2026-01-07 13:14:37,840 - [Baseline(Std EF)] R71: Acc=56.04%, AvgGamma=1.00
+2026-01-07 13:14:48,644 - [Baseline(Std EF)] R72: Acc=56.24%, AvgGamma=1.00
+2026-01-07 13:14:59,676 - [Baseline(Std EF)] R73: Acc=53.61%, AvgGamma=1.00
+2026-01-07 13:15:10,835 - [Baseline(Std EF)] R74: Acc=58.53%, AvgGamma=1.00
+2026-01-07 13:15:21,928 - [Baseline(Std EF)] R75: Acc=59.61%, AvgGamma=1.00
+2026-01-07 13:15:33,284 - [Baseline(Std EF)] R76: Acc=58.57%, AvgGamma=1.00
+2026-01-07 13:15:44,376 - [Baseline(Std EF)] R77: Acc=59.72%, AvgGamma=1.00
+2026-01-07 13:15:55,261 - [Baseline(Std EF)] R78: Acc=60.03%, AvgGamma=1.00
+2026-01-07 13:16:06,443 - [Baseline(Std EF)] R79: Acc=57.11%, AvgGamma=1.00
+2026-01-07 13:16:17,270 - [Baseline(Std EF)] R80: Acc=60.92%, AvgGamma=1.00
+2026-01-07 13:16:28,552 - [Baseline(Std EF)] R81: Acc=59.96%, AvgGamma=1.00
+2026-01-07 13:16:39,334 - [Baseline(Std EF)] R82: Acc=59.48%, AvgGamma=1.00
+2026-01-07 13:16:50,094 - [Baseline(Std EF)] R83: Acc=60.90%, AvgGamma=1.00
+2026-01-07 13:17:00,799 - [Baseline(Std EF)] R84: Acc=61.17%, AvgGamma=1.00
+2026-01-07 13:17:11,646 - [Baseline(Std EF)] R85: Acc=54.62%, AvgGamma=1.00
+2026-01-07 13:17:22,416 - [Baseline(Std EF)] R86: Acc=60.74%, AvgGamma=1.00
+2026-01-07 13:17:33,526 - [Baseline(Std EF)] R87: Acc=60.06%, AvgGamma=1.00
+2026-01-07 13:17:44,352 - [Baseline(Std EF)] R88: Acc=59.34%, AvgGamma=1.00
+2026-01-07 13:17:55,171 - [Baseline(Std EF)] R89: Acc=56.92%, AvgGamma=1.00
+2026-01-07 13:18:06,343 - [Baseline(Std EF)] R90: Acc=60.38%, AvgGamma=1.00
+2026-01-07 13:18:17,485 - [Baseline(Std EF)] R91: Acc=57.88%, AvgGamma=1.00
+2026-01-07 13:18:28,722 - [Baseline(Std EF)] R92: Acc=59.09%, AvgGamma=1.00
+2026-01-07 13:18:39,730 - [Baseline(Std EF)] R93: Acc=62.85%, AvgGamma=1.00
+2026-01-07 13:18:50,777 - [Baseline(Std EF)] R94: Acc=62.25%, AvgGamma=1.00
+2026-01-07 13:19:01,969 - [Baseline(Std EF)] R95: Acc=60.73%, AvgGamma=1.00
+2026-01-07 13:19:13,085 - [Baseline(Std EF)] R96: Acc=61.68%, AvgGamma=1.00
+2026-01-07 13:19:24,172 - [Baseline(Std EF)] R97: Acc=62.27%, AvgGamma=1.00
+2026-01-07 13:19:34,965 - [Baseline(Std EF)] R98: Acc=60.46%, AvgGamma=1.00
+2026-01-07 13:19:45,927 - [Baseline(Std EF)] R99: Acc=63.82%, AvgGamma=1.00
+2026-01-07 13:19:57,334 - [Baseline(Std EF)] R100: Acc=59.68%, AvgGamma=1.00
+2026-01-07 13:20:08,431 - [Baseline(Std EF)] R101: Acc=63.95%, AvgGamma=1.00
+2026-01-07 13:20:19,059 - [Baseline(Std EF)] R102: Acc=61.22%, AvgGamma=1.00
+2026-01-07 13:20:30,311 - [Baseline(Std EF)] R103: Acc=63.94%, AvgGamma=1.00
+2026-01-07 13:20:41,190 - [Baseline(Std EF)] R104: Acc=64.05%, AvgGamma=1.00
+2026-01-07 13:20:51,905 - [Baseline(Std EF)] R105: Acc=60.66%, AvgGamma=1.00
+2026-01-07 13:21:02,864 - [Baseline(Std EF)] R106: Acc=60.85%, AvgGamma=1.00
+2026-01-07 13:21:13,963 - [Baseline(Std EF)] R107: Acc=63.31%, AvgGamma=1.00
+2026-01-07 13:21:24,976 - [Baseline(Std EF)] R108: Acc=62.59%, AvgGamma=1.00
+2026-01-07 13:21:35,683 - [Baseline(Std EF)] R109: Acc=61.54%, AvgGamma=1.00
+2026-01-07 13:21:46,511 - [Baseline(Std EF)] R110: Acc=61.10%, AvgGamma=1.00
+2026-01-07 13:21:57,830 - [Baseline(Std EF)] R111: Acc=63.46%, AvgGamma=1.00
+2026-01-07 13:22:08,906 - [Baseline(Std EF)] R112: Acc=64.77%, AvgGamma=1.00
+2026-01-07 13:22:19,980 - [Baseline(Std EF)] R113: Acc=62.42%, AvgGamma=1.00
+2026-01-07 13:22:30,776 - [Baseline(Std EF)] R114: Acc=65.11%, AvgGamma=1.00
+2026-01-07 13:22:41,695 - [Baseline(Std EF)] R115: Acc=64.21%, AvgGamma=1.00
+2026-01-07 13:22:52,788 - [Baseline(Std EF)] R116: Acc=66.40%, AvgGamma=1.00
+2026-01-07 13:23:03,825 - [Baseline(Std EF)] R117: Acc=61.67%, AvgGamma=1.00
+2026-01-07 13:23:14,735 - [Baseline(Std EF)] R118: Acc=64.94%, AvgGamma=1.00
+2026-01-07 13:23:26,547 - [Baseline(Std EF)] R119: Acc=59.57%, AvgGamma=1.00
+2026-01-07 13:23:37,855 - [Baseline(Std EF)] R120: Acc=66.36%, AvgGamma=1.00
+2026-01-07 13:23:49,429 - [Baseline(Std EF)] R121: Acc=64.00%, AvgGamma=1.00
+2026-01-07 13:24:00,924 - [Baseline(Std EF)] R122: Acc=66.37%, AvgGamma=1.00
+2026-01-07 13:24:12,329 - [Baseline(Std EF)] R123: Acc=64.66%, AvgGamma=1.00
+2026-01-07 13:24:23,649 - [Baseline(Std EF)] R124: Acc=66.24%, AvgGamma=1.00
+2026-01-07 13:24:34,372 - [Baseline(Std EF)] R125: Acc=64.38%, AvgGamma=1.00
+2026-01-07 13:24:45,977 - [Baseline(Std EF)] R126: Acc=59.34%, AvgGamma=1.00
+2026-01-07 13:24:58,047 - [Baseline(Std EF)] R127: Acc=66.75%, AvgGamma=1.00
+2026-01-07 13:25:09,191 - [Baseline(Std EF)] R128: Acc=66.64%, AvgGamma=1.00
+2026-01-07 13:25:20,729 - [Baseline(Std EF)] R129: Acc=65.84%, AvgGamma=1.00
+2026-01-07 13:25:31,758 - [Baseline(Std EF)] R130: Acc=59.92%, AvgGamma=1.00
+2026-01-07 13:25:43,106 - [Baseline(Std EF)] R131: Acc=61.48%, AvgGamma=1.00
+2026-01-07 13:25:54,256 - [Baseline(Std EF)] R132: Acc=67.19%, AvgGamma=1.00
+2026-01-07 13:26:05,588 - [Baseline(Std EF)] R133: Acc=65.22%, AvgGamma=1.00
+2026-01-07 13:26:16,885 - [Baseline(Std EF)] R134: Acc=64.20%, AvgGamma=1.00
+2026-01-07 13:26:27,837 - [Baseline(Std EF)] R135: Acc=68.77%, AvgGamma=1.00
+2026-01-07 13:26:39,127 - [Baseline(Std EF)] R136: Acc=67.83%, AvgGamma=1.00
+2026-01-07 13:26:50,742 - [Baseline(Std EF)] R137: Acc=64.78%, AvgGamma=1.00
+2026-01-07 13:27:02,437 - [Baseline(Std EF)] R138: Acc=67.77%, AvgGamma=1.00
+2026-01-07 13:27:14,099 - [Baseline(Std EF)] R139: Acc=66.41%, AvgGamma=1.00
+2026-01-07 13:27:25,797 - [Baseline(Std EF)] R140: Acc=65.86%, AvgGamma=1.00
+2026-01-07 13:27:37,495 - [Baseline(Std EF)] R141: Acc=65.46%, AvgGamma=1.00
+2026-01-07 13:27:48,707 - [Baseline(Std EF)] R142: Acc=69.08%, AvgGamma=1.00
+2026-01-07 13:28:00,533 - [Baseline(Std EF)] R143: Acc=66.76%, AvgGamma=1.00
+2026-01-07 13:28:11,952 - [Baseline(Std EF)] R144: Acc=69.04%, AvgGamma=1.00
+2026-01-07 13:28:23,912 - [Baseline(Std EF)] R145: Acc=63.43%, AvgGamma=1.00
+2026-01-07 13:28:35,468 - [Baseline(Std EF)] R146: Acc=64.90%, AvgGamma=1.00
+2026-01-07 13:28:46,861 - [Baseline(Std EF)] R147: Acc=68.11%, AvgGamma=1.00
+2026-01-07 13:28:58,381 - [Baseline(Std EF)] R148: Acc=65.85%, AvgGamma=1.00
+2026-01-07 13:29:09,950 - [Baseline(Std EF)] R149: Acc=67.86%, AvgGamma=1.00
+2026-01-07 13:29:21,249 - [Baseline(Std EF)] R150: Acc=70.56%, AvgGamma=1.00
+2026-01-07 13:29:33,018 - [Baseline(Std EF)] R151: Acc=68.69%, AvgGamma=1.00
+2026-01-07 13:29:43,990 - [Baseline(Std EF)] R152: Acc=67.50%, AvgGamma=1.00
+2026-01-07 13:29:55,138 - [Baseline(Std EF)] R153: Acc=63.24%, AvgGamma=1.00
+2026-01-07 13:30:06,431 - [Baseline(Std EF)] R154: Acc=70.49%, AvgGamma=1.00
+2026-01-07 13:30:17,286 - [Baseline(Std EF)] R155: Acc=70.05%, AvgGamma=1.00
+2026-01-07 13:30:28,724 - [Baseline(Std EF)] R156: Acc=69.39%, AvgGamma=1.00
+2026-01-07 13:30:39,680 - [Baseline(Std EF)] R157: Acc=62.57%, AvgGamma=1.00
+2026-01-07 13:30:51,479 - [Baseline(Std EF)] R158: Acc=68.36%, AvgGamma=1.00
+2026-01-07 13:31:02,728 - [Baseline(Std EF)] R159: Acc=69.83%, AvgGamma=1.00
+2026-01-07 13:31:14,229 - [Baseline(Std EF)] R160: Acc=69.49%, AvgGamma=1.00
+2026-01-07 13:31:25,740 - [Baseline(Std EF)] R161: Acc=69.60%, AvgGamma=1.00
+2026-01-07 13:31:37,475 - [Baseline(Std EF)] R162: Acc=67.37%, AvgGamma=1.00
+2026-01-07 13:31:49,259 - [Baseline(Std EF)] R163: Acc=68.87%, AvgGamma=1.00
+2026-01-07 13:32:01,123 - [Baseline(Std EF)] R164: Acc=69.04%, AvgGamma=1.00
+2026-01-07 13:32:12,944 - [Baseline(Std EF)] R165: Acc=66.27%, AvgGamma=1.00
+2026-01-07 13:32:24,458 - [Baseline(Std EF)] R166: Acc=66.17%, AvgGamma=1.00
+2026-01-07 13:32:36,378 - [Baseline(Std EF)] R167: Acc=70.00%, AvgGamma=1.00
+2026-01-07 13:32:48,056 - [Baseline(Std EF)] R168: Acc=70.48%, AvgGamma=1.00
+2026-01-07 13:32:59,335 - [Baseline(Std EF)] R169: Acc=70.75%, AvgGamma=1.00
+2026-01-07 13:33:10,668 - [Baseline(Std EF)] R170: Acc=69.04%, AvgGamma=1.00
+2026-01-07 13:33:21,724 - [Baseline(Std EF)] R171: Acc=66.28%, AvgGamma=1.00
+2026-01-07 13:33:32,911 - [Baseline(Std EF)] R172: Acc=69.74%, AvgGamma=1.00
+2026-01-07 13:33:44,111 - [Baseline(Std EF)] R173: Acc=70.94%, AvgGamma=1.00
+2026-01-07 13:33:55,505 - [Baseline(Std EF)] R174: Acc=70.40%, AvgGamma=1.00
+2026-01-07 13:34:06,915 - [Baseline(Std EF)] R175: Acc=66.47%, AvgGamma=1.00
+2026-01-07 13:34:17,940 - [Baseline(Std EF)] R176: Acc=70.25%, AvgGamma=1.00
+2026-01-07 13:34:29,558 - [Baseline(Std EF)] R177: Acc=70.72%, AvgGamma=1.00
+2026-01-07 13:34:41,067 - [Baseline(Std EF)] R178: Acc=70.28%, AvgGamma=1.00
+2026-01-07 13:34:52,534 - [Baseline(Std EF)] R179: Acc=71.68%, AvgGamma=1.00
+2026-01-07 13:35:03,995 - [Baseline(Std EF)] R180: Acc=72.32%, AvgGamma=1.00
+2026-01-07 13:35:15,316 - [Baseline(Std EF)] R181: Acc=69.89%, AvgGamma=1.00
+2026-01-07 13:35:27,333 - [Baseline(Std EF)] R182: Acc=70.25%, AvgGamma=1.00
+2026-01-07 13:35:38,394 - [Baseline(Std EF)] R183: Acc=72.58%, AvgGamma=1.00
+2026-01-07 13:35:50,043 - [Baseline(Std EF)] R184: Acc=70.07%, AvgGamma=1.00
+2026-01-07 13:36:01,627 - [Baseline(Std EF)] R185: Acc=66.76%, AvgGamma=1.00
+2026-01-07 13:36:13,065 - [Baseline(Std EF)] R186: Acc=71.10%, AvgGamma=1.00
+2026-01-07 13:36:24,490 - [Baseline(Std EF)] R187: Acc=67.46%, AvgGamma=1.00
+2026-01-07 13:36:36,136 - [Baseline(Std EF)] R188: Acc=68.46%, AvgGamma=1.00
+2026-01-07 13:36:47,715 - [Baseline(Std EF)] R189: Acc=70.34%, AvgGamma=1.00
+2026-01-07 13:36:58,849 - [Baseline(Std EF)] R190: Acc=67.86%, AvgGamma=1.00
+2026-01-07 13:37:10,158 - [Baseline(Std EF)] R191: Acc=72.11%, AvgGamma=1.00
+2026-01-07 13:37:21,683 - [Baseline(Std EF)] R192: Acc=68.90%, AvgGamma=1.00
+2026-01-07 13:37:32,822 - [Baseline(Std EF)] R193: Acc=69.00%, AvgGamma=1.00
+2026-01-07 13:37:44,168 - [Baseline(Std EF)] R194: Acc=69.66%, AvgGamma=1.00
+2026-01-07 13:37:55,689 - [Baseline(Std EF)] R195: Acc=70.43%, AvgGamma=1.00
+2026-01-07 13:38:07,092 - [Baseline(Std EF)] R196: Acc=73.51%, AvgGamma=1.00
+2026-01-07 13:38:18,274 - [Baseline(Std EF)] R197: Acc=70.46%, AvgGamma=1.00
+2026-01-07 13:38:29,627 - [Baseline(Std EF)] R198: Acc=72.26%, AvgGamma=1.00
+2026-01-07 13:38:41,214 - [Baseline(Std EF)] R199: Acc=70.92%, AvgGamma=1.00
+2026-01-07 13:38:52,320 - [Baseline(Std EF)] R200: Acc=72.74%, AvgGamma=1.00
+2026-01-07 13:38:53,089 - Plots saved to ./logs\comparison_decay_cifar10.png

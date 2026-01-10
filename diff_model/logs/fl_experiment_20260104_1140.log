@@ -1,0 +1,108 @@
+--- Federated Learning Experiment (DBS) ---
+Log File Saved to: ./logs/fl_experiment_20260104_1140.log
+Loading CIFAR-10... (Alpha=0.5)
+Partitioning data (non-iid)...
+
+[Data Distribution]
+Client 0: [ 11 179 105 182 166  32 150 996 271 136]
+Client 1: [323 934   3 347  10 129   0   1   2   7]
+Client 2: [   4   50    0  150  373   21   64  123 1475 1562]
+Client 3: [ 127   58    8  715   68   26 1179  148  728    0]
+Client 4: [ 211    0    8   44   26   51   97  117    0 1037]
+Loading CIFAR-10 Test Set...
+
+Full Model Size (FP32): 1233.29 KB
+
+=== Round 1/30 ===
+  [C00] Acc: 59.5% | BW:0.09 | c1:4, c2:2, fc1:2
+  [C08] Acc: 65.8% | BW:0.07 | c1:8, c2:4, fc1:2
+  [C01] Acc: 73.7% | BW:0.07 | c1:4, c2:4, fc1:2
+  [C09] Acc: 54.3% | BW:0.07 | c1:8, c2:4, fc1:2
+  >> Global Result: Loss=2.3246, Acc=28.83%
+
+=== Round 2/30 ===
+  [C02] Acc: 78.8% | BW:0.08 | c1:2, c2:2, fc1:2
+  [C13] Acc: 62.3% | BW:0.10 | c1:8, c2:2, fc1:4
+  [C04] Acc: 77.1% | BW:0.09 | c1:2, c2:2, fc1:2
+  [C00] Acc: 69.1% | BW:0.09 | c1:2, c2:4, fc1:2
+  >> Global Result: Loss=1.7296, Acc=38.67%
+
+=== Round 3/30 ===
+  [C06] Acc: 75.6% | BW:0.10 | c1:4, c2:4, fc1:4
+  [C03] Acc: 78.6% | BW:0.08 | c1:4, c2:4, fc1:2
+  [C17] Acc: 71.9% | BW:0.07 | c1:2, c2:4, fc1:2
+  [C18] Acc: 81.4% | BW:0.09 | c1:4, c2:4, fc1:4
+  >> Global Result: Loss=1.8270, Acc=37.27%
+
+=== Round 4/30 ===
+  [C03] Acc: 81.4% | BW:0.09 | c1:4, c2:4, fc1:4
+  [C15] Acc: 78.3% | BW:0.06 | c1:4, c2:4, fc1:2
+  [C10] Acc: 63.1% | BW:0.05 | c1:4, c2:2, fc1:4
+  [C04] Acc: 83.9% | BW:0.10 | c1:8, c2:4, fc1:2
+  >> Global Result: Loss=1.6053, Acc=38.08%
+
+=== Round 5/30 ===
+  [C00] Acc: 79.1% | BW:0.08 | c1:8, c2:4, fc1:4
+  [C19] Acc: 80.9% | BW:0.06 | c1:4, c2:4, fc1:4
+  [C14] Acc: 77.1% | BW:0.08 | c1:2, c2:2, fc1:4
+  [C12] Acc: 72.5% | BW:0.09 | c1:8, c2:4, fc1:4
+  >> Global Result: Loss=1.4169, Acc=48.72%
+
+=== Round 6/30 ===
+  [C11] Acc: 70.5% | BW:0.08 | c1:8, c2:4, fc1:4
+  [C17] Acc: 81.8% | BW:0.08 | c1:8, c2:4, fc1:4
+  [C04] Acc: 89.8% | BW:0.07 | c1:8, c2:4, fc1:4
+  [C06] Acc: 80.8% | BW:0.07 | c1:8, c2:4, fc1:4
+  >> Global Result: Loss=1.7631, Acc=41.36%
+
+=== Round 7/30 ===
+  [C14] Acc: 82.6% | BW:0.07 | c1:8, c2:2, fc1:4
+  [C17] Acc: 86.8% | BW:0.09 | c1:4, c2:4, fc1:4
+  [C05] Acc: 88.2% | BW:0.09 | c1:8, c2:4, fc1:4
+  [C09] Acc: 79.5% | BW:0.07 | c1:8, c2:4, fc1:4
+  >> Global Result: Loss=1.4754, Acc=48.56%
+
+=== Round 8/30 ===
+  [C11] Acc: 80.7% | BW:0.06 | c1:8, c2:4, fc1:4
+  [C04] Acc: 94.2% | BW:0.07 | c1:4, c2:4, fc1:2
+  [C19] Acc: 87.2% | BW:0.09 | c1:4, c2:4, fc1:4
+  [C07] Acc: 90.2% | BW:0.06 | c1:8, c2:4, fc1:2
+  >> Global Result: Loss=1.6167, Acc=45.11%
+
+=== Round 9/30 ===
+  [C09] Acc: 86.3% | BW:0.10 | c1:4, c2:4, fc1:4
+  [C12] Acc: 84.3% | BW:0.09 | c1:8, c2:4, fc1:4
+  [C05] Acc: 93.0% | BW:0.08 | c1:8, c2:4, fc1:4
+  [C17] Acc: 90.4% | BW:0.08 | c1:8, c2:2, fc1:4
+  >> Global Result: Loss=1.4369, Acc=52.76%
+
+=== Round 10/30 ===
+  [C15] Acc: 88.9% | BW:0.06 | c1:8, c2:4, fc1:4
+  [C12] Acc: 90.2% | BW:0.07 | c1:8, c2:4, fc1:4
+  [C10] Acc: 81.5% | BW:0.06 | c1:8, c2:4, fc1:4
+  [C03] Acc: 93.1% | BW:0.06 | c1:8, c2:4, fc1:4
+  >> Global Result: Loss=2.0654, Acc=42.15%
+
+=== Round 11/30 ===
+  [C15] Acc: 93.9% | BW:0.07 | c1:8, c2:4, fc1:4
+  [C06] Acc: 91.3% | BW:0.07 | c1:8, c2:4, fc1:4
+  [C16] Acc: 92.4% | BW:0.07 | c1:4, c2:2, fc1:4
+  [C11] Acc: 87.1% | BW:0.06 | c1:8, c2:4, fc1:4
+  >> Global Result: Loss=1.3829, Acc=53.54%
+
+=== Round 12/30 ===
+  [C05] Acc: 96.7% | BW:0.05 | c1:4, c2:4, fc1:4
+  [C06] Acc: 94.6% | BW:0.06 | c1:8, c2:4, fc1:4
+  [C10] Acc: 86.2% | BW:0.07 | c1:4, c2:4, fc1:4
+  [C19] Acc: 93.6% | BW:0.08 | c1:4, c2:4, fc1:4
+  >> Global Result: Loss=1.4023, Acc=54.62%
+
+=== Round 13/30 ===
+  [C14] Acc: 93.1% | BW:0.09 | c1:4, c2:4, fc1:4
+  [C04] Acc: 98.2% | BW:0.06 | c1:8, c2:4, fc1:4
+  [C03] Acc: 95.2% | BW:0.09 | c1:8, c2:4, fc1:4
+  [C09] Acc: 95.4% | BW:0.07 | c1:8, c2:4, fc1:4
+  >> Global Result: Loss=1.3360, Acc=57.67%
+
+=== Round 14/30 ===
+  [C05] Acc: 98.3% | BW:0.05 | c1:8, c2:4, fc1:4

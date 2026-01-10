@@ -1,0 +1,69 @@
+--- Federated Learning Experiment (DBS + ERAT + ErrorFeedback) ---
+Log File Saved to: ./logs/fl_experiment_EF_20260108_0127.log
+Loading CIFAR-10... (Alpha=0.5)
+Partitioning data (non-iid)...
+Loading CIFAR-10 Test Set...
+
+Full Model Size (FP32): 1233.29 KB
+
+=== Round 1/300 ===
+  [C02] Acc: 64.0% | BW:0.08 | Ep:05 | c1:4, c2:2, fc1:2
+  [C19] Acc: 45.1% | BW:0.09 | Ep:05 | c1:2, c2:2, fc1:2
+  [C11] Acc: 66.4% | BW:0.07 | Ep:05 | c1:4, c2:2, fc1:2
+  [C12] Acc: 67.4% | BW:0.11 | Ep:05 | c1:4, c2:2, fc1:2
+  >> Global Result: Loss=2.4264, Acc=19.11%
+
+=== Round 2/300 ===
+  [C08] Acc: 66.9% | BW:0.08 | Ep:05 | c1:4, c2:2, fc1:2
+  [C04] Acc: 66.9% | BW:0.06 | Ep:05 | c1:2, c2:2, fc1:2
+  [C18] Acc: 39.6% | BW:0.08 | Ep:05 | c1:4, c2:2, fc1:2
+  [C19] Acc: 57.1% | BW:0.09 | Ep:05 | c1:4, c2:2, fc1:2
+  >> Global Result: Loss=1.8384, Acc=32.39%
+
+=== Round 3/300 ===
+  [C03] Acc: 54.0% | BW:0.08 | Ep:05 | c1:4, c2:2, fc1:2
+  [C15] Acc: 71.3% | BW:0.12 | Ep:05 | c1:4, c2:2, fc1:2
+  [C18] Acc: 47.2% | BW:0.06 | Ep:05 | c1:2, c2:2, fc1:2
+  [C10] Acc: 63.1% | BW:0.11 | Ep:05 | c1:8, c2:2, fc1:2
+  >> Global Result: Loss=1.7851, Acc=30.56%
+
+=== Round 4/300 ===
+  [C04] Acc: 72.5% | BW:0.07 | Ep:05 | c1:8, c2:2, fc1:2
+  [C05] Acc: 76.2% | BW:0.07 | Ep:05 | c1:4, c2:2, fc1:2
+  [C18] Acc: 51.7% | BW:0.09 | Ep:05 | c1:8, c2:4, fc1:2
+  [C07] Acc: 60.7% | BW:0.10 | Ep:05 | c1:4, c2:2, fc1:2
+  >> Global Result: Loss=1.6910, Acc=37.39%
+
+=== Round 5/300 ===
+  [C13] Acc: 99.2% | BW:0.07 | Ep:05 | c1:2, c2:2, fc1:2
+  [C14] Acc: 62.5% | BW:0.11 | Ep:05 | c1:4, c2:2, fc1:2
+  [C10] Acc: 67.7% | BW:0.11 | Ep:05 | c1:8, c2:2, fc1:2
+  [C11] Acc: 81.9% | BW:0.09 | Ep:05 | c1:4, c2:2, fc1:2
+  >> Global Result: Loss=1.6825, Acc=35.38%
+
+=== Round 6/300 ===
+  [C13] Acc: 99.8% | BW:0.06 | Ep:05 | c1:2, c2:2, fc1:2
+  [C06] Acc: 77.6% | BW:0.10 | Ep:05 | c1:8, c2:4, fc1:2
+  [C18] Acc: 53.9% | BW:0.06 | Ep:05 | c1:2, c2:4, fc1:2
+  [C19] Acc: 64.8% | BW:0.08 | Ep:05 | c1:8, c2:2, fc1:2
+  >> Global Result: Loss=2.4086, Acc=23.31%
+
+=== Round 7/300 ===
+  [C07] Acc: 62.0% | BW:0.09 | Ep:05 | c1:4, c2:4, fc1:2
+  [C14] Acc: 64.0% | BW:0.08 | Ep:05 | c1:4, c2:2, fc1:2
+  [C16] Acc: 55.6% | BW:0.10 | Ep:05 | c1:8, c2:2, fc1:2
+  [C02] Acc: 80.8% | BW:0.11 | Ep:05 | c1:2, c2:4, fc1:2
+  >> Global Result: Loss=1.7417, Acc=36.69%
+
+=== Round 8/300 ===
+  [C04] Acc: 73.5% | BW:0.08 | Ep:05 | c1:4, c2:2, fc1:2
+  [C15] Acc: 75.3% | BW:0.08 | Ep:05 | c1:8, c2:4, fc1:2
+  [C08] Acc: 72.4% | BW:0.11 | Ep:05 | c1:2, c2:2, fc1:2
+  [C10] Acc: 68.4% | BW:0.06 | Ep:05 | c1:8, c2:2, fc1:2
+  >> Global Result: Loss=1.5516, Acc=41.41%
+
+=== Round 9/300 ===
+  [C11] Acc: 84.5% | BW:0.11 | Ep:05 | c1:4, c2:2, fc1:2
+  [C00] Acc: 66.9% | BW:0.05 | Ep:05 | c1:4, c2:2, fc1:2
+  [C06] Acc: 80.2% | BW:0.07 | Ep:05 | c1:4, c2:4, fc1:2
+  [C16] Acc: 64.0% | BW:0.09 | Ep:05 | c1:4, c2:2, fc1:2

@@ -1,0 +1,16 @@
+--- Federated Learning (Fixed 2-bit) ---
+Log File Saved to: ./logs/fl_fixed_2bit_20260104_1018.log
+Loading CIFAR-10... (Alpha=0.5)
+Partitioning data (non-iid)...
+
+[Data Distribution]
+Client 0: [529 322 733 749 437   0   0   0   0   0]
+Client 1: [ 53   5  93 127 590 175 352 526  38 287]
+Client 2: [  2  34  21   0 112 385  26 209 277 469]
+Client 3: [ 61 153  66  88 274  52 435 261 116  62]
+Client 4: [936 536 342  17  22 310 445   0   0   0]
+Loading CIFAR-10 Test Set...
+
+Full Model Size (FP32): 1233.29 KB
+
+=== Round 1/20 ===
