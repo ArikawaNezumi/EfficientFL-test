@@ -1,0 +1,1014 @@
+--- Experiment Initialized | Target Device: mps ---
+--- Run Timestamp: 20260316_132010 ---
+--- Log File: fedavg_noniid_quantization_3_20260316_132010.log ---
+--- Checkpoint Directory: ./saved_models/20260316_132010 ---
+
+[Global Round 1]
+  Client 9 Local Update Completed | Local Train Loss: 1.2173 | Local Test Acc: 24.84%
+  Client 2 Local Update Completed | Local Train Loss: 1.1710 | Local Test Acc: 21.39%
+  Client 7 Local Update Completed | Local Train Loss: 1.3508 | Local Test Acc: 31.05%
+  Client 0 Local Update Completed | Local Train Loss: 1.1063 | Local Test Acc: 33.28%
+  Client 1 Local Update Completed | Local Train Loss: 1.4639 | Local Test Acc: 36.69%
+Global Round 1 Aggregation Completed | Global Test Loss: 2.5605 | Global Test Acc: 10.20%
+
+[Global Round 2]
+  Client 6 Local Update Completed | Local Train Loss: 1.1771 | Local Test Acc: 15.37%
+  Client 1 Local Update Completed | Local Train Loss: 1.2300 | Local Test Acc: 36.72%
+  Client 0 Local Update Completed | Local Train Loss: 0.8715 | Local Test Acc: 36.16%
+  Client 3 Local Update Completed | Local Train Loss: 0.9662 | Local Test Acc: 38.52%
+  Client 2 Local Update Completed | Local Train Loss: 1.0236 | Local Test Acc: 22.22%
+Global Round 2 Aggregation Completed | Global Test Loss: 1.8449 | Global Test Acc: 34.10%
+
+[Global Round 3]
+  Client 3 Local Update Completed | Local Train Loss: 0.7587 | Local Test Acc: 39.70%
+  Client 9 Local Update Completed | Local Train Loss: 0.8255 | Local Test Acc: 27.19%
+  Client 5 Local Update Completed | Local Train Loss: 0.9512 | Local Test Acc: 39.87%
+  Client 8 Local Update Completed | Local Train Loss: 0.8523 | Local Test Acc: 33.00%
+  Client 7 Local Update Completed | Local Train Loss: 0.9679 | Local Test Acc: 41.50%
+Global Round 3 Aggregation Completed | Global Test Loss: 1.6135 | Global Test Acc: 44.64%
+
+[Global Round 4]
+  Client 9 Local Update Completed | Local Train Loss: 0.5780 | Local Test Acc: 37.38%
+  Client 7 Local Update Completed | Local Train Loss: 0.7547 | Local Test Acc: 42.29%
+  Client 1 Local Update Completed | Local Train Loss: 0.8163 | Local Test Acc: 41.17%
+  Client 4 Local Update Completed | Local Train Loss: 0.8678 | Local Test Acc: 45.34%
+  Client 8 Local Update Completed | Local Train Loss: 0.5951 | Local Test Acc: 40.65%
+Global Round 4 Aggregation Completed | Global Test Loss: 1.1006 | Global Test Acc: 59.66%
+
+[Global Round 5]
+  Client 1 Local Update Completed | Local Train Loss: 0.6323 | Local Test Acc: 41.98%
+  Client 6 Local Update Completed | Local Train Loss: 0.7700 | Local Test Acc: 47.13%
+  Client 9 Local Update Completed | Local Train Loss: 0.4884 | Local Test Acc: 40.65%
+  Client 7 Local Update Completed | Local Train Loss: 0.6002 | Local Test Acc: 48.80%
+  Client 5 Local Update Completed | Local Train Loss: 0.6385 | Local Test Acc: 43.59%
+Global Round 5 Aggregation Completed | Global Test Loss: 1.0546 | Global Test Acc: 63.29%
+
+[Global Round 6]
+  Client 5 Local Update Completed | Local Train Loss: 0.4581 | Local Test Acc: 50.28%
+  Client 9 Local Update Completed | Local Train Loss: 0.3682 | Local Test Acc: 41.70%
+  Client 0 Local Update Completed | Local Train Loss: 0.4320 | Local Test Acc: 51.57%
+  Client 2 Local Update Completed | Local Train Loss: 0.6556 | Local Test Acc: 40.72%
+  Client 7 Local Update Completed | Local Train Loss: 0.4581 | Local Test Acc: 46.94%
+Global Round 6 Aggregation Completed | Global Test Loss: 0.9320 | Global Test Acc: 67.19%
+
+[Global Round 7]
+  Client 6 Local Update Completed | Local Train Loss: 0.5142 | Local Test Acc: 42.94%
+  Client 2 Local Update Completed | Local Train Loss: 0.4908 | Local Test Acc: 37.89%
+  Client 4 Local Update Completed | Local Train Loss: 0.5906 | Local Test Acc: 43.72%
+  Client 1 Local Update Completed | Local Train Loss: 0.4742 | Local Test Acc: 48.30%
+  Client 9 Local Update Completed | Local Train Loss: 0.2965 | Local Test Acc: 43.41%
+Global Round 7 Aggregation Completed | Global Test Loss: 1.1347 | Global Test Acc: 64.34%
+
+[Global Round 8]
+  Client 1 Local Update Completed | Local Train Loss: 0.3924 | Local Test Acc: 46.77%
+  Client 2 Local Update Completed | Local Train Loss: 0.4010 | Local Test Acc: 41.67%
+  Client 0 Local Update Completed | Local Train Loss: 0.3177 | Local Test Acc: 54.55%
+  Client 8 Local Update Completed | Local Train Loss: 0.3966 | Local Test Acc: 51.30%
+  Client 3 Local Update Completed | Local Train Loss: 0.4552 | Local Test Acc: 48.49%
+Global Round 8 Aggregation Completed | Global Test Loss: 1.0168 | Global Test Acc: 67.30%
+
+[Global Round 9]
+  Client 3 Local Update Completed | Local Train Loss: 0.3256 | Local Test Acc: 48.63%
+  Client 8 Local Update Completed | Local Train Loss: 0.3189 | Local Test Acc: 49.34%
+  Client 0 Local Update Completed | Local Train Loss: 0.2335 | Local Test Acc: 54.17%
+  Client 7 Local Update Completed | Local Train Loss: 0.3621 | Local Test Acc: 55.10%
+  Client 9 Local Update Completed | Local Train Loss: 0.2660 | Local Test Acc: 44.11%
+Global Round 9 Aggregation Completed | Global Test Loss: 0.9901 | Global Test Acc: 69.20%
+
+[Global Round 10]
+  Client 8 Local Update Completed | Local Train Loss: 0.2378 | Local Test Acc: 50.44%
+
+  >>> [Validation Phase] Analyzing Client 8 Post-Update Weights | Model saved to ./saved_models/20260316_132010/client_8_round_10_20260316_132010.pth <<<
+    ResNet-18 layer_01 | Param: conv1.weight | Params: 1728 | Shannon Entropy: 7.3411
+      Quantization Noise L2^2: [2b: 30.9222] [3b: 3.4837] [4b: 0.6396] [5b: 0.1367] [6b: 0.0325] [7b: 0.0082] [8b: 0.0020] 
+    ResNet-18 layer_02 | Param: layer1.0.conv1.weight | Params: 36864 | Shannon Entropy: 6.8971
+      Quantization Noise L2^2: [2b: 126.4307] [3b: 25.5119] [4b: 4.6886] [5b: 1.0253] [6b: 0.2397] [7b: 0.0582] [8b: 0.0143] 
+    ResNet-18 layer_03 | Param: layer1.0.conv2.weight | Params: 36864 | Shannon Entropy: 7.0519
+      Quantization Noise L2^2: [2b: 119.5743] [3b: 20.8353] [4b: 3.8289] [5b: 0.8273] [6b: 0.1941] [7b: 0.0464] [8b: 0.0116] 
+    ResNet-18 layer_04 | Param: layer1.1.conv1.weight | Params: 36864 | Shannon Entropy: 6.9803
+      Quantization Noise L2^2: [2b: 120.2084] [3b: 21.9361] [4b: 4.0540] [5b: 0.8839] [6b: 0.2058] [7b: 0.0503] [8b: 0.0123] 
+    ResNet-18 layer_05 | Param: layer1.1.conv2.weight | Params: 36864 | Shannon Entropy: 7.1153
+      Quantization Noise L2^2: [2b: 116.2561] [3b: 19.3688] [4b: 3.5309] [5b: 0.7716] [6b: 0.1811] [7b: 0.0438] [8b: 0.0108] 
+    ResNet-18 layer_06 | Param: layer2.0.conv1.weight | Params: 73728 | Shannon Entropy: 6.7806
+      Quantization Noise L2^2: [2b: 137.3166] [3b: 35.1677] [4b: 6.4251] [5b: 1.4025] [6b: 0.3284] [7b: 0.0800] [8b: 0.0196] 
+    ResNet-18 layer_07 | Param: layer2.0.conv2.weight | Params: 147456 | Shannon Entropy: 6.8834
+      Quantization Noise L2^2: [2b: 250.7057] [3b: 51.4362] [4b: 9.4458] [5b: 2.0588] [6b: 0.4813] [7b: 0.1167] [8b: 0.0287] 
+    ResNet-18 layer_08 | Param: layer2.1.conv1.weight | Params: 147456 | Shannon Entropy: 6.9058
+      Quantization Noise L2^2: [2b: 252.4840] [3b: 51.8779] [4b: 9.5407] [5b: 2.0828] [6b: 0.4871] [7b: 0.1179] [8b: 0.0291] 
+    ResNet-18 layer_09 | Param: layer2.1.conv2.weight | Params: 147456 | Shannon Entropy: 6.8624
+      Quantization Noise L2^2: [2b: 258.4847] [3b: 61.2479] [4b: 11.2522] [5b: 2.4581] [6b: 0.5724] [7b: 0.1387] [8b: 0.0343] 
+    ResNet-18 layer_10 | Param: layer3.0.conv1.weight | Params: 294912 | Shannon Entropy: 6.7961
+      Quantization Noise L2^2: [2b: 266.3578] [3b: 60.3571] [4b: 11.1119] [5b: 2.4168] [6b: 0.5667] [7b: 0.1370] [8b: 0.0337] 
+    ResNet-18 layer_11 | Param: layer3.0.conv2.weight | Params: 589824 | Shannon Entropy: 6.8561
+      Quantization Noise L2^2: [2b: 501.5351] [3b: 105.6809] [4b: 19.4331] [5b: 4.2277] [6b: 0.9915] [7b: 0.2398] [8b: 0.0590] 
+    ResNet-18 layer_12 | Param: layer3.1.conv1.weight | Params: 589824 | Shannon Entropy: 6.7846
+      Quantization Noise L2^2: [2b: 506.8674] [3b: 114.7929] [4b: 21.0956] [5b: 4.5857] [6b: 1.0745] [7b: 0.2598] [8b: 0.0640] 
+    ResNet-18 layer_13 | Param: layer3.1.conv2.weight | Params: 589824 | Shannon Entropy: 6.8684
+      Quantization Noise L2^2: [2b: 492.8386] [3b: 102.0578] [4b: 18.7352] [5b: 4.0832] [6b: 0.9572] [7b: 0.2312] [8b: 0.0569] 
+    ResNet-18 layer_14 | Param: layer4.0.conv1.weight | Params: 1179648 | Shannon Entropy: 6.7736
+      Quantization Noise L2^2: [2b: 515.2440] [3b: 123.5817] [4b: 22.7759] [5b: 4.9461] [6b: 1.1598] [7b: 0.2806] [8b: 0.0691] 
+    ResNet-18 layer_15 | Param: layer4.0.conv2.weight | Params: 2359296 | Shannon Entropy: 6.6774
+      Quantization Noise L2^2: [2b: 1022.2598] [3b: 274.7140] [4b: 50.5915] [5b: 11.0140] [6b: 2.5791] [7b: 0.6240] [8b: 0.1536] 
+    ResNet-18 layer_16 | Param: layer4.1.conv1.weight | Params: 2359296 | Shannon Entropy: 6.6856
+      Quantization Noise L2^2: [2b: 1016.3577] [3b: 272.5370] [4b: 50.1419] [5b: 10.9325] [6b: 2.5590] [7b: 0.6190] [8b: 0.1525] 
+    ResNet-18 layer_17 | Param: layer4.1.conv2.weight | Params: 2359296 | Shannon Entropy: 6.7294
+      Quantization Noise L2^2: [2b: 996.1909] [3b: 241.5620] [4b: 44.4166] [5b: 9.6760] [6b: 2.2639] [7b: 0.5485] [8b: 0.1350] 
+    ResNet-18 layer_18 | Param: fc.weight | Params: 5120 | Shannon Entropy: 7.2448
+      Quantization Noise L2^2: [2b: 23.2063] [3b: 3.6627] [4b: 0.6753] [5b: 0.1448] [6b: 0.0336] [7b: 0.0082] [8b: 0.0020] 
+  Client 6 Local Update Completed | Local Train Loss: 0.5447 | Local Test Acc: 49.13%
+
+  >>> [Validation Phase] Analyzing Client 6 Post-Update Weights | Model saved to ./saved_models/20260316_132010/client_6_round_10_20260316_132010.pth <<<
+    ResNet-18 layer_01 | Param: conv1.weight | Params: 1728 | Shannon Entropy: 7.2362
+      Quantization Noise L2^2: [2b: 33.3122] [3b: 3.9199] [4b: 0.7517] [5b: 0.1631] [6b: 0.0398] [7b: 0.0095] [8b: 0.0023] 
+    ResNet-18 layer_02 | Param: layer1.0.conv1.weight | Params: 36864 | Shannon Entropy: 6.9052
+      Quantization Noise L2^2: [2b: 127.6505] [3b: 27.0171] [4b: 4.9878] [5b: 1.0969] [6b: 0.2559] [7b: 0.0622] [8b: 0.0152] 
+    ResNet-18 layer_03 | Param: layer1.0.conv2.weight | Params: 36864 | Shannon Entropy: 7.0629
+      Quantization Noise L2^2: [2b: 119.3647] [3b: 20.8453] [4b: 3.8442] [5b: 0.8323] [6b: 0.1946] [7b: 0.0468] [8b: 0.0115] 
+    ResNet-18 layer_04 | Param: layer1.1.conv1.weight | Params: 36864 | Shannon Entropy: 6.9465
+      Quantization Noise L2^2: [2b: 122.1248] [3b: 23.3404] [4b: 4.3077] [5b: 0.9389] [6b: 0.2192] [7b: 0.0530] [8b: 0.0130] 
+    ResNet-18 layer_05 | Param: layer1.1.conv2.weight | Params: 36864 | Shannon Entropy: 7.1182
+      Quantization Noise L2^2: [2b: 115.2263] [3b: 19.0105] [4b: 3.4794] [5b: 0.7518] [6b: 0.1778] [7b: 0.0428] [8b: 0.0106] 
+    ResNet-18 layer_06 | Param: layer2.0.conv1.weight | Params: 73728 | Shannon Entropy: 6.8151
+      Quantization Noise L2^2: [2b: 135.7129] [3b: 33.7170] [4b: 6.1733] [5b: 1.3460] [6b: 0.3175] [7b: 0.0763] [8b: 0.0188] 
+    ResNet-18 layer_07 | Param: layer2.0.conv2.weight | Params: 147456 | Shannon Entropy: 6.8544
+      Quantization Noise L2^2: [2b: 250.5459] [3b: 52.2249] [4b: 9.5869] [5b: 2.0922] [6b: 0.4907] [7b: 0.1190] [8b: 0.0292] 
+    ResNet-18 layer_08 | Param: layer2.1.conv1.weight | Params: 147456 | Shannon Entropy: 6.9381
+      Quantization Noise L2^2: [2b: 246.3441] [3b: 47.7303] [4b: 8.7801] [5b: 1.9094] [6b: 0.4490] [7b: 0.1084] [8b: 0.0268] 
+    ResNet-18 layer_09 | Param: layer2.1.conv2.weight | Params: 147456 | Shannon Entropy: 6.8893
+      Quantization Noise L2^2: [2b: 254.3893] [3b: 57.1391] [4b: 10.5046] [5b: 2.2937] [6b: 0.5379] [7b: 0.1297] [8b: 0.0320] 
+    ResNet-18 layer_10 | Param: layer3.0.conv1.weight | Params: 294912 | Shannon Entropy: 6.7993
+      Quantization Noise L2^2: [2b: 263.6209] [3b: 59.8925] [4b: 11.0055] [5b: 2.3993] [6b: 0.5593] [7b: 0.1358] [8b: 0.0334] 
+    ResNet-18 layer_11 | Param: layer3.0.conv2.weight | Params: 589824 | Shannon Entropy: 6.8335
+      Quantization Noise L2^2: [2b: 501.8107] [3b: 108.7672] [4b: 19.9761] [5b: 4.3517] [6b: 1.0172] [7b: 0.2466] [8b: 0.0607] 
+    ResNet-18 layer_12 | Param: layer3.1.conv1.weight | Params: 589824 | Shannon Entropy: 6.7574
+      Quantization Noise L2^2: [2b: 509.0780] [3b: 121.8596] [4b: 22.3801] [5b: 4.8779] [6b: 1.1400] [7b: 0.2762] [8b: 0.0679] 
+    ResNet-18 layer_13 | Param: layer3.1.conv2.weight | Params: 589824 | Shannon Entropy: 6.8776
+      Quantization Noise L2^2: [2b: 493.7080] [3b: 104.5560] [4b: 19.1767] [5b: 4.1715] [6b: 0.9779] [7b: 0.2370] [8b: 0.0583] 
+    ResNet-18 layer_14 | Param: layer4.0.conv1.weight | Params: 1179648 | Shannon Entropy: 6.7766
+      Quantization Noise L2^2: [2b: 512.9167] [3b: 123.6069] [4b: 22.7311] [5b: 4.9448] [6b: 1.1608] [7b: 0.2809] [8b: 0.0691] 
+    ResNet-18 layer_15 | Param: layer4.0.conv2.weight | Params: 2359296 | Shannon Entropy: 6.6768
+      Quantization Noise L2^2: [2b: 1020.1475] [3b: 273.7825] [4b: 50.4003] [5b: 10.9791] [6b: 2.5689] [7b: 0.6225] [8b: 0.1531] 
+    ResNet-18 layer_16 | Param: layer4.1.conv1.weight | Params: 2359296 | Shannon Entropy: 6.6758
+      Quantization Noise L2^2: [2b: 1019.7498] [3b: 286.3647] [4b: 52.7485] [5b: 11.4976] [6b: 2.6911] [7b: 0.6515] [8b: 0.1605] 
+    ResNet-18 layer_17 | Param: layer4.1.conv2.weight | Params: 2359296 | Shannon Entropy: 6.7101
+      Quantization Noise L2^2: [2b: 1001.2499] [3b: 251.5808] [4b: 46.2694] [5b: 10.0788] [6b: 2.3584] [7b: 0.5718] [8b: 0.1404] 
+    ResNet-18 layer_18 | Param: fc.weight | Params: 5120 | Shannon Entropy: 7.1523
+      Quantization Noise L2^2: [2b: 22.4779] [3b: 4.0720] [4b: 0.7494] [5b: 0.1619] [6b: 0.0381] [7b: 0.0093] [8b: 0.0023] 
+  Client 0 Local Update Completed | Local Train Loss: 0.1850 | Local Test Acc: 58.88%
+
+  >>> [Validation Phase] Analyzing Client 0 Post-Update Weights | Model saved to ./saved_models/20260316_132010/client_0_round_10_20260316_132010.pth <<<
+    ResNet-18 layer_01 | Param: conv1.weight | Params: 1728 | Shannon Entropy: 7.2875
+      Quantization Noise L2^2: [2b: 32.4911] [3b: 3.6990] [4b: 0.6987] [5b: 0.1516] [6b: 0.0364] [7b: 0.0086] [8b: 0.0022] 
+    ResNet-18 layer_02 | Param: layer1.0.conv1.weight | Params: 36864 | Shannon Entropy: 6.9090
+      Quantization Noise L2^2: [2b: 127.5509] [3b: 26.8757] [4b: 4.9387] [5b: 1.0837] [6b: 0.2533] [7b: 0.0613] [8b: 0.0152] 
+    ResNet-18 layer_03 | Param: layer1.0.conv2.weight | Params: 36864 | Shannon Entropy: 7.0745
+      Quantization Noise L2^2: [2b: 116.9342] [3b: 19.6683] [4b: 3.6278] [5b: 0.7861] [6b: 0.1843] [7b: 0.0447] [8b: 0.0110] 
+    ResNet-18 layer_04 | Param: layer1.1.conv1.weight | Params: 36864 | Shannon Entropy: 6.9722
+      Quantization Noise L2^2: [2b: 120.6279] [3b: 22.3439] [4b: 4.1062] [5b: 0.8933] [6b: 0.2100] [7b: 0.0504] [8b: 0.0124] 
+    ResNet-18 layer_05 | Param: layer1.1.conv2.weight | Params: 36864 | Shannon Entropy: 7.0904
+      Quantization Noise L2^2: [2b: 117.5739] [3b: 20.0208] [4b: 3.6702] [5b: 0.7952] [6b: 0.1883] [7b: 0.0454] [8b: 0.0111] 
+    ResNet-18 layer_06 | Param: layer2.0.conv1.weight | Params: 73728 | Shannon Entropy: 6.7748
+      Quantization Noise L2^2: [2b: 137.0540] [3b: 36.6970] [4b: 6.7071] [5b: 1.4649] [6b: 0.3437] [7b: 0.0835] [8b: 0.0204] 
+    ResNet-18 layer_07 | Param: layer2.0.conv2.weight | Params: 147456 | Shannon Entropy: 6.9019
+      Quantization Noise L2^2: [2b: 249.9718] [3b: 51.4859] [4b: 9.4891] [5b: 2.0612] [6b: 0.4855] [7b: 0.1163] [8b: 0.0287] 
+    ResNet-18 layer_08 | Param: layer2.1.conv1.weight | Params: 147456 | Shannon Entropy: 6.9193
+      Quantization Noise L2^2: [2b: 249.7915] [3b: 50.5082] [4b: 9.2796] [5b: 2.0181] [6b: 0.4762] [7b: 0.1140] [8b: 0.0282] 
+    ResNet-18 layer_09 | Param: layer2.1.conv2.weight | Params: 147456 | Shannon Entropy: 6.8807
+      Quantization Noise L2^2: [2b: 254.9267] [3b: 57.6907] [4b: 10.6630] [5b: 2.3215] [6b: 0.5419] [7b: 0.1308] [8b: 0.0322] 
+    ResNet-18 layer_10 | Param: layer3.0.conv1.weight | Params: 294912 | Shannon Entropy: 6.7971
+      Quantization Noise L2^2: [2b: 264.3797] [3b: 60.6546] [4b: 11.1332] [5b: 2.4277] [6b: 0.5681] [7b: 0.1379] [8b: 0.0338] 
+    ResNet-18 layer_11 | Param: layer3.0.conv2.weight | Params: 589824 | Shannon Entropy: 6.8169
+      Quantization Noise L2^2: [2b: 507.0357] [3b: 115.1626] [4b: 21.1886] [5b: 4.6195] [6b: 1.0793] [7b: 0.2615] [8b: 0.0643] 
+    ResNet-18 layer_12 | Param: layer3.1.conv1.weight | Params: 589824 | Shannon Entropy: 6.7626
+      Quantization Noise L2^2: [2b: 508.7532] [3b: 121.1133] [4b: 22.2320] [5b: 4.8488] [6b: 1.1338] [7b: 0.2747] [8b: 0.0675] 
+    ResNet-18 layer_13 | Param: layer3.1.conv2.weight | Params: 589824 | Shannon Entropy: 6.8751
+      Quantization Noise L2^2: [2b: 488.8071] [3b: 99.7361] [4b: 18.2640] [5b: 3.9921] [6b: 0.9312] [7b: 0.2262] [8b: 0.0557] 
+    ResNet-18 layer_14 | Param: layer4.0.conv1.weight | Params: 1179648 | Shannon Entropy: 6.7604
+      Quantization Noise L2^2: [2b: 517.8074] [3b: 132.6763] [4b: 24.4526] [5b: 5.3224] [6b: 1.2471] [7b: 0.3013] [8b: 0.0742] 
+    ResNet-18 layer_15 | Param: layer4.0.conv2.weight | Params: 2359296 | Shannon Entropy: 6.6757
+      Quantization Noise L2^2: [2b: 1020.8643] [3b: 276.0915] [4b: 50.8440] [5b: 11.0674] [6b: 2.5893] [7b: 0.6279] [8b: 0.1544] 
+    ResNet-18 layer_16 | Param: layer4.1.conv1.weight | Params: 2359296 | Shannon Entropy: 6.6832
+      Quantization Noise L2^2: [2b: 1015.2119] [3b: 273.4803] [4b: 50.3603] [5b: 10.9753] [6b: 2.5661] [7b: 0.6215] [8b: 0.1529] 
+    ResNet-18 layer_17 | Param: layer4.1.conv2.weight | Params: 2359296 | Shannon Entropy: 6.7135
+      Quantization Noise L2^2: [2b: 1000.8881] [3b: 251.2921] [4b: 46.2084] [5b: 10.0688] [6b: 2.3564] [7b: 0.5708] [8b: 0.1403] 
+    ResNet-18 layer_18 | Param: fc.weight | Params: 5120 | Shannon Entropy: 7.2203
+      Quantization Noise L2^2: [2b: 22.9056] [3b: 3.5643] [4b: 0.6666] [5b: 0.1451] [6b: 0.0333] [7b: 0.0083] [8b: 0.0020] 
+  Client 7 Local Update Completed | Local Train Loss: 0.2939 | Local Test Acc: 55.07%
+
+  >>> [Validation Phase] Analyzing Client 7 Post-Update Weights | Model saved to ./saved_models/20260316_132010/client_7_round_10_20260316_132010.pth <<<
+    ResNet-18 layer_01 | Param: conv1.weight | Params: 1728 | Shannon Entropy: 7.3836
+      Quantization Noise L2^2: [2b: 29.8493] [3b: 3.2272] [4b: 0.6089] [5b: 0.1280] [6b: 0.0312] [7b: 0.0074] [8b: 0.0018] 
+    ResNet-18 layer_02 | Param: layer1.0.conv1.weight | Params: 36864 | Shannon Entropy: 6.9380
+      Quantization Noise L2^2: [2b: 126.0762] [3b: 24.6858] [4b: 4.5119] [5b: 0.9921] [6b: 0.2317] [7b: 0.0563] [8b: 0.0139] 
+    ResNet-18 layer_03 | Param: layer1.0.conv2.weight | Params: 36864 | Shannon Entropy: 7.0549
+      Quantization Noise L2^2: [2b: 120.3096] [3b: 20.8712] [4b: 3.8494] [5b: 0.8373] [6b: 0.1952] [7b: 0.0472] [8b: 0.0116] 
+    ResNet-18 layer_04 | Param: layer1.1.conv1.weight | Params: 36864 | Shannon Entropy: 7.0126
+      Quantization Noise L2^2: [2b: 119.4312] [3b: 21.1702] [4b: 3.9211] [5b: 0.8548] [6b: 0.1994] [7b: 0.0479] [8b: 0.0119] 
+    ResNet-18 layer_05 | Param: layer1.1.conv2.weight | Params: 36864 | Shannon Entropy: 7.1125
+      Quantization Noise L2^2: [2b: 116.5057] [3b: 19.2135] [4b: 3.4996] [5b: 0.7696] [6b: 0.1785] [7b: 0.0437] [8b: 0.0108] 
+    ResNet-18 layer_06 | Param: layer2.0.conv1.weight | Params: 73728 | Shannon Entropy: 6.8123
+      Quantization Noise L2^2: [2b: 138.0886] [3b: 34.0997] [4b: 6.2433] [5b: 1.3664] [6b: 0.3184] [7b: 0.0768] [8b: 0.0190] 
+    ResNet-18 layer_07 | Param: layer2.0.conv2.weight | Params: 147456 | Shannon Entropy: 6.8693
+      Quantization Noise L2^2: [2b: 256.2037] [3b: 54.8582] [4b: 10.0967] [5b: 2.1965] [6b: 0.5134] [7b: 0.1246] [8b: 0.0307] 
+    ResNet-18 layer_08 | Param: layer2.1.conv1.weight | Params: 147456 | Shannon Entropy: 6.9378
+      Quantization Noise L2^2: [2b: 252.5969] [3b: 50.3581] [4b: 9.2868] [5b: 2.0186] [6b: 0.4724] [7b: 0.1148] [8b: 0.0282] 
+    ResNet-18 layer_09 | Param: layer2.1.conv2.weight | Params: 147456 | Shannon Entropy: 6.8961
+      Quantization Noise L2^2: [2b: 257.2707] [3b: 56.4698] [4b: 10.4260] [5b: 2.2686] [6b: 0.5291] [7b: 0.1285] [8b: 0.0316] 
+    ResNet-18 layer_10 | Param: layer3.0.conv1.weight | Params: 294912 | Shannon Entropy: 6.8024
+      Quantization Noise L2^2: [2b: 271.8479] [3b: 62.5874] [4b: 11.4717] [5b: 2.4985] [6b: 0.5871] [7b: 0.1420] [8b: 0.0350] 
+    ResNet-18 layer_11 | Param: layer3.0.conv2.weight | Params: 589824 | Shannon Entropy: 6.8130
+      Quantization Noise L2^2: [2b: 512.3253] [3b: 112.2264] [4b: 20.6038] [5b: 4.4896] [6b: 1.0505] [7b: 0.2551] [8b: 0.0627] 
+    ResNet-18 layer_12 | Param: layer3.1.conv1.weight | Params: 589824 | Shannon Entropy: 6.7748
+      Quantization Noise L2^2: [2b: 518.3566] [3b: 125.6723] [4b: 23.0629] [5b: 5.0198] [6b: 1.1756] [7b: 0.2849] [8b: 0.0699] 
+    ResNet-18 layer_13 | Param: layer3.1.conv2.weight | Params: 589824 | Shannon Entropy: 6.8974
+      Quantization Noise L2^2: [2b: 492.1162] [3b: 98.4451] [4b: 18.0488] [5b: 3.9291] [6b: 0.9217] [7b: 0.2227] [8b: 0.0549] 
+    ResNet-18 layer_14 | Param: layer4.0.conv1.weight | Params: 1179648 | Shannon Entropy: 6.7645
+      Quantization Noise L2^2: [2b: 521.3397] [3b: 124.8205] [4b: 22.9593] [5b: 5.0053] [6b: 1.1716] [7b: 0.2836] [8b: 0.0698] 
+    ResNet-18 layer_15 | Param: layer4.0.conv2.weight | Params: 2359296 | Shannon Entropy: 6.6782
+      Quantization Noise L2^2: [2b: 1022.6155] [3b: 263.5035] [4b: 48.4534] [5b: 10.5654] [6b: 2.4718] [7b: 0.5982] [8b: 0.1472] 
+    ResNet-18 layer_16 | Param: layer4.1.conv1.weight | Params: 2359296 | Shannon Entropy: 6.6710
+      Quantization Noise L2^2: [2b: 1026.6506] [3b: 291.5026] [4b: 53.6714] [5b: 11.7100] [6b: 2.7429] [7b: 0.6637] [8b: 0.1633] 
+    ResNet-18 layer_17 | Param: layer4.1.conv2.weight | Params: 2359296 | Shannon Entropy: 6.7352
+      Quantization Noise L2^2: [2b: 994.7314] [3b: 237.2251] [4b: 43.6104] [5b: 9.4955] [6b: 2.2239] [7b: 0.5385] [8b: 0.1326] 
+    ResNet-18 layer_18 | Param: fc.weight | Params: 5120 | Shannon Entropy: 7.1744
+      Quantization Noise L2^2: [2b: 24.6578] [3b: 4.0795] [4b: 0.7544] [5b: 0.1647] [6b: 0.0378] [7b: 0.0091] [8b: 0.0023] 
+  Client 5 Local Update Completed | Local Train Loss: 0.3749 | Local Test Acc: 56.05%
+
+  >>> [Validation Phase] Analyzing Client 5 Post-Update Weights | Model saved to ./saved_models/20260316_132010/client_5_round_10_20260316_132010.pth <<<
+    ResNet-18 layer_01 | Param: conv1.weight | Params: 1728 | Shannon Entropy: 7.2698
+      Quantization Noise L2^2: [2b: 32.6968] [3b: 3.7565] [4b: 0.7088] [5b: 0.1585] [6b: 0.0349] [7b: 0.0090] [8b: 0.0022] 
+    ResNet-18 layer_02 | Param: layer1.0.conv1.weight | Params: 36864 | Shannon Entropy: 6.9214
+      Quantization Noise L2^2: [2b: 126.6082] [3b: 25.6437] [4b: 4.7206] [5b: 1.0321] [6b: 0.2420] [7b: 0.0588] [8b: 0.0145] 
+    ResNet-18 layer_03 | Param: layer1.0.conv2.weight | Params: 36864 | Shannon Entropy: 7.0464
+      Quantization Noise L2^2: [2b: 119.8014] [3b: 20.9719] [4b: 3.8931] [5b: 0.8372] [6b: 0.1948] [7b: 0.0475] [8b: 0.0117] 
+    ResNet-18 layer_04 | Param: layer1.1.conv1.weight | Params: 36864 | Shannon Entropy: 7.0012
+      Quantization Noise L2^2: [2b: 119.5591] [3b: 21.6318] [4b: 3.9906] [5b: 0.8708] [6b: 0.2021] [7b: 0.0486] [8b: 0.0122] 
+    ResNet-18 layer_05 | Param: layer1.1.conv2.weight | Params: 36864 | Shannon Entropy: 7.0952
+      Quantization Noise L2^2: [2b: 116.9537] [3b: 19.7069] [4b: 3.6080] [5b: 0.7874] [6b: 0.1838] [7b: 0.0444] [8b: 0.0109] 
+    ResNet-18 layer_06 | Param: layer2.0.conv1.weight | Params: 73728 | Shannon Entropy: 6.8127
+      Quantization Noise L2^2: [2b: 136.4349] [3b: 33.8483] [4b: 6.1933] [5b: 1.3605] [6b: 0.3169] [7b: 0.0769] [8b: 0.0188] 
+    ResNet-18 layer_07 | Param: layer2.0.conv2.weight | Params: 147456 | Shannon Entropy: 6.8902
+      Quantization Noise L2^2: [2b: 249.0099] [3b: 50.0514] [4b: 9.2573] [5b: 2.0120] [6b: 0.4695] [7b: 0.1139] [8b: 0.0281] 
+    ResNet-18 layer_08 | Param: layer2.1.conv1.weight | Params: 147456 | Shannon Entropy: 6.9378
+      Quantization Noise L2^2: [2b: 248.6666] [3b: 49.1306] [4b: 9.0429] [5b: 1.9689] [6b: 0.4587] [7b: 0.1119] [8b: 0.0274] 
+    ResNet-18 layer_09 | Param: layer2.1.conv2.weight | Params: 147456 | Shannon Entropy: 6.8503
+      Quantization Noise L2^2: [2b: 259.4496] [3b: 63.6774] [4b: 11.7696] [5b: 2.5581] [6b: 0.5965] [7b: 0.1453] [8b: 0.0357] 
+    ResNet-18 layer_10 | Param: layer3.0.conv1.weight | Params: 294912 | Shannon Entropy: 6.8388
+      Quantization Noise L2^2: [2b: 261.5094] [3b: 55.7560] [4b: 10.2367] [5b: 2.2363] [6b: 0.5232] [7b: 0.1265] [8b: 0.0312] 
+    ResNet-18 layer_11 | Param: layer3.0.conv2.weight | Params: 589824 | Shannon Entropy: 6.7971
+      Quantization Noise L2^2: [2b: 506.7995] [3b: 112.7051] [4b: 20.7256] [5b: 4.5067] [6b: 1.0567] [7b: 0.2559] [8b: 0.0628] 
+    ResNet-18 layer_12 | Param: layer3.1.conv1.weight | Params: 589824 | Shannon Entropy: 6.7690
+      Quantization Noise L2^2: [2b: 508.7508] [3b: 118.7396] [4b: 21.7911] [5b: 4.7540] [6b: 1.1120] [7b: 0.2694] [8b: 0.0663] 
+    ResNet-18 layer_13 | Param: layer3.1.conv2.weight | Params: 589824 | Shannon Entropy: 6.8820
+      Quantization Noise L2^2: [2b: 488.7336] [3b: 98.6659] [4b: 18.1186] [5b: 3.9384] [6b: 0.9232] [7b: 0.2238] [8b: 0.0551] 
+    ResNet-18 layer_14 | Param: layer4.0.conv1.weight | Params: 1179648 | Shannon Entropy: 6.7801
+      Quantization Noise L2^2: [2b: 514.2063] [3b: 122.9500] [4b: 22.6097] [5b: 4.9286] [6b: 1.1538] [7b: 0.2796] [8b: 0.0687] 
+    ResNet-18 layer_15 | Param: layer4.0.conv2.weight | Params: 2359296 | Shannon Entropy: 6.6699
+      Quantization Noise L2^2: [2b: 1018.5214] [3b: 265.7005] [4b: 48.8990] [5b: 10.6517] [6b: 2.4922] [7b: 0.6034] [8b: 0.1484] 
+    ResNet-18 layer_16 | Param: layer4.1.conv1.weight | Params: 2359296 | Shannon Entropy: 6.6859
+      Quantization Noise L2^2: [2b: 1020.2500] [3b: 282.8698] [4b: 52.1018] [5b: 11.3599] [6b: 2.6582] [7b: 0.6441] [8b: 0.1585] 
+    ResNet-18 layer_17 | Param: layer4.1.conv2.weight | Params: 2359296 | Shannon Entropy: 6.7245
+      Quantization Noise L2^2: [2b: 1000.0353] [3b: 248.2589] [4b: 45.6476] [5b: 9.9451] [6b: 2.3249] [7b: 0.5634] [8b: 0.1387] 
+    ResNet-18 layer_18 | Param: fc.weight | Params: 5120 | Shannon Entropy: 7.2137
+      Quantization Noise L2^2: [2b: 22.5633] [3b: 3.6684] [4b: 0.6758] [5b: 0.1493] [6b: 0.0343] [7b: 0.0084] [8b: 0.0020] 
+Global Round 10 Aggregation Completed | Global Test Loss: 0.9445 | Global Test Acc: 70.09%
+
+[Global Round 11]
+  Client 3 Local Update Completed | Local Train Loss: 0.2995 | Local Test Acc: 54.58%
+  Client 4 Local Update Completed | Local Train Loss: 0.4504 | Local Test Acc: 58.00%
+  Client 5 Local Update Completed | Local Train Loss: 0.2941 | Local Test Acc: 50.11%
+  Client 2 Local Update Completed | Local Train Loss: 0.3583 | Local Test Acc: 44.33%
+  Client 0 Local Update Completed | Local Train Loss: 0.1294 | Local Test Acc: 61.91%
+Global Round 11 Aggregation Completed | Global Test Loss: 0.9892 | Global Test Acc: 70.72%
+
+[Global Round 12]
+  Client 8 Local Update Completed | Local Train Loss: 0.2304 | Local Test Acc: 53.24%
+  Client 3 Local Update Completed | Local Train Loss: 0.2220 | Local Test Acc: 52.84%
+  Client 5 Local Update Completed | Local Train Loss: 0.2120 | Local Test Acc: 57.49%
+  Client 1 Local Update Completed | Local Train Loss: 0.3097 | Local Test Acc: 55.41%
+  Client 9 Local Update Completed | Local Train Loss: 0.2661 | Local Test Acc: 45.73%
+Global Round 12 Aggregation Completed | Global Test Loss: 0.8520 | Global Test Acc: 73.67%
+
+[Global Round 13]
+  Client 1 Local Update Completed | Local Train Loss: 0.2153 | Local Test Acc: 58.96%
+  Client 7 Local Update Completed | Local Train Loss: 0.2484 | Local Test Acc: 54.64%
+  Client 6 Local Update Completed | Local Train Loss: 0.3694 | Local Test Acc: 59.74%
+  Client 8 Local Update Completed | Local Train Loss: 0.1305 | Local Test Acc: 51.67%
+  Client 9 Local Update Completed | Local Train Loss: 0.1645 | Local Test Acc: 43.79%
+Global Round 13 Aggregation Completed | Global Test Loss: 0.7916 | Global Test Acc: 74.97%
+
+[Global Round 14]
+  Client 0 Local Update Completed | Local Train Loss: 0.1622 | Local Test Acc: 58.46%
+  Client 5 Local Update Completed | Local Train Loss: 0.1721 | Local Test Acc: 60.27%
+  Client 9 Local Update Completed | Local Train Loss: 0.0850 | Local Test Acc: 47.79%
+  Client 3 Local Update Completed | Local Train Loss: 0.2118 | Local Test Acc: 53.23%
+  Client 1 Local Update Completed | Local Train Loss: 0.1573 | Local Test Acc: 54.01%
+Global Round 14 Aggregation Completed | Global Test Loss: 0.8645 | Global Test Acc: 74.60%
+
+[Global Round 15]
+  Client 7 Local Update Completed | Local Train Loss: 0.2140 | Local Test Acc: 54.62%
+  Client 4 Local Update Completed | Local Train Loss: 0.3592 | Local Test Acc: 58.41%
+  Client 5 Local Update Completed | Local Train Loss: 0.0876 | Local Test Acc: 57.59%
+  Client 0 Local Update Completed | Local Train Loss: 0.0548 | Local Test Acc: 63.74%
+  Client 8 Local Update Completed | Local Train Loss: 0.1591 | Local Test Acc: 48.46%
+Global Round 15 Aggregation Completed | Global Test Loss: 0.8613 | Global Test Acc: 74.42%
+
+[Global Round 16]
+  Client 5 Local Update Completed | Local Train Loss: 0.0449 | Local Test Acc: 58.34%
+  Client 2 Local Update Completed | Local Train Loss: 0.3212 | Local Test Acc: 47.45%
+  Client 3 Local Update Completed | Local Train Loss: 0.1684 | Local Test Acc: 51.87%
+  Client 6 Local Update Completed | Local Train Loss: 0.3932 | Local Test Acc: 55.86%
+  Client 8 Local Update Completed | Local Train Loss: 0.0481 | Local Test Acc: 56.28%
+Global Round 16 Aggregation Completed | Global Test Loss: 0.8721 | Global Test Acc: 73.37%
+
+[Global Round 17]
+  Client 3 Local Update Completed | Local Train Loss: 0.1161 | Local Test Acc: 53.12%
+  Client 1 Local Update Completed | Local Train Loss: 0.1559 | Local Test Acc: 52.35%
+  Client 2 Local Update Completed | Local Train Loss: 0.2192 | Local Test Acc: 43.77%
+  Client 7 Local Update Completed | Local Train Loss: 0.1784 | Local Test Acc: 50.98%
+  Client 4 Local Update Completed | Local Train Loss: 0.2553 | Local Test Acc: 58.38%
+Global Round 17 Aggregation Completed | Global Test Loss: 0.9100 | Global Test Acc: 73.14%
+
+[Global Round 18]
+  Client 8 Local Update Completed | Local Train Loss: 0.0913 | Local Test Acc: 56.98%
+  Client 9 Local Update Completed | Local Train Loss: 0.1947 | Local Test Acc: 49.01%
+  Client 1 Local Update Completed | Local Train Loss: 0.0551 | Local Test Acc: 59.67%
+  Client 0 Local Update Completed | Local Train Loss: 0.1124 | Local Test Acc: 56.56%
+  Client 6 Local Update Completed | Local Train Loss: 0.1891 | Local Test Acc: 50.92%
+Global Round 18 Aggregation Completed | Global Test Loss: 0.8355 | Global Test Acc: 75.17%
+
+[Global Round 19]
+  Client 9 Local Update Completed | Local Train Loss: 0.0670 | Local Test Acc: 51.42%
+  Client 2 Local Update Completed | Local Train Loss: 0.2279 | Local Test Acc: 47.09%
+  Client 8 Local Update Completed | Local Train Loss: 0.0433 | Local Test Acc: 49.69%
+  Client 1 Local Update Completed | Local Train Loss: 0.0263 | Local Test Acc: 61.86%
+  Client 3 Local Update Completed | Local Train Loss: 0.1022 | Local Test Acc: 56.67%
+Global Round 19 Aggregation Completed | Global Test Loss: 0.8603 | Global Test Acc: 75.22%
+
+[Global Round 20]
+  Client 0 Local Update Completed | Local Train Loss: 0.0917 | Local Test Acc: 60.86%
+
+  >>> [Validation Phase] Analyzing Client 0 Post-Update Weights | Model saved to ./saved_models/20260316_132010/client_0_round_20_20260316_132010.pth <<<
+    ResNet-18 layer_01 | Param: conv1.weight | Params: 1728 | Shannon Entropy: 7.2082
+      Quantization Noise L2^2: [2b: 40.0411] [3b: 5.0133] [4b: 0.9748] [5b: 0.2073] [6b: 0.0469] [7b: 0.0118] [8b: 0.0028] 
+    ResNet-18 layer_02 | Param: layer1.0.conv1.weight | Params: 36864 | Shannon Entropy: 6.9147
+      Quantization Noise L2^2: [2b: 132.0513] [3b: 27.3966] [4b: 5.0014] [5b: 1.1027] [6b: 0.2587] [7b: 0.0626] [8b: 0.0155] 
+    ResNet-18 layer_03 | Param: layer1.0.conv2.weight | Params: 36864 | Shannon Entropy: 7.0738
+      Quantization Noise L2^2: [2b: 124.7745] [3b: 21.7381] [4b: 3.9962] [5b: 0.8641] [6b: 0.2061] [7b: 0.0493] [8b: 0.0120] 
+    ResNet-18 layer_04 | Param: layer1.1.conv1.weight | Params: 36864 | Shannon Entropy: 6.9813
+      Quantization Noise L2^2: [2b: 124.5145] [3b: 22.7714] [4b: 4.1861] [5b: 0.9078] [6b: 0.2117] [7b: 0.0515] [8b: 0.0126] 
+    ResNet-18 layer_05 | Param: layer1.1.conv2.weight | Params: 36864 | Shannon Entropy: 7.0773
+      Quantization Noise L2^2: [2b: 121.8540] [3b: 20.5797] [4b: 3.7608] [5b: 0.8188] [6b: 0.1921] [7b: 0.0467] [8b: 0.0114] 
+    ResNet-18 layer_06 | Param: layer2.0.conv1.weight | Params: 73728 | Shannon Entropy: 6.7558
+      Quantization Noise L2^2: [2b: 145.3948] [3b: 38.8918] [4b: 7.0963] [5b: 1.5526] [6b: 0.3608] [7b: 0.0883] [8b: 0.0217] 
+    ResNet-18 layer_07 | Param: layer2.0.conv2.weight | Params: 147456 | Shannon Entropy: 6.8954
+      Quantization Noise L2^2: [2b: 260.3004] [3b: 52.2531] [4b: 9.6177] [5b: 2.0923] [6b: 0.4913] [7b: 0.1186] [8b: 0.0291] 
+    ResNet-18 layer_08 | Param: layer2.1.conv1.weight | Params: 147456 | Shannon Entropy: 6.9248
+      Quantization Noise L2^2: [2b: 261.1104] [3b: 52.0580] [4b: 9.5275] [5b: 2.0827] [6b: 0.4891] [7b: 0.1179] [8b: 0.0291] 
+    ResNet-18 layer_09 | Param: layer2.1.conv2.weight | Params: 147456 | Shannon Entropy: 6.8348
+      Quantization Noise L2^2: [2b: 268.4029] [3b: 61.3255] [4b: 11.2886] [5b: 2.4592] [6b: 0.5754] [7b: 0.1390] [8b: 0.0343] 
+    ResNet-18 layer_10 | Param: layer3.0.conv1.weight | Params: 294912 | Shannon Entropy: 6.8184
+      Quantization Noise L2^2: [2b: 286.7039] [3b: 66.4364] [4b: 12.2636] [5b: 2.6645] [6b: 0.6225] [7b: 0.1508] [8b: 0.0371] 
+    ResNet-18 layer_11 | Param: layer3.0.conv2.weight | Params: 589824 | Shannon Entropy: 6.8222
+      Quantization Noise L2^2: [2b: 529.6783] [3b: 115.4193] [4b: 21.2094] [5b: 4.6126] [6b: 1.0794] [7b: 0.2614] [8b: 0.0643] 
+    ResNet-18 layer_12 | Param: layer3.1.conv1.weight | Params: 589824 | Shannon Entropy: 6.7677
+      Quantization Noise L2^2: [2b: 529.8614] [3b: 121.4632] [4b: 22.2745] [5b: 4.8524] [6b: 1.1373] [7b: 0.2754] [8b: 0.0679] 
+    ResNet-18 layer_13 | Param: layer3.1.conv2.weight | Params: 589824 | Shannon Entropy: 6.9063
+      Quantization Noise L2^2: [2b: 503.7962] [3b: 99.3599] [4b: 18.2291] [5b: 3.9710] [6b: 0.9296] [7b: 0.2252] [8b: 0.0554] 
+    ResNet-18 layer_14 | Param: layer4.0.conv1.weight | Params: 1179648 | Shannon Entropy: 6.7984
+      Quantization Noise L2^2: [2b: 536.5192] [3b: 125.9974] [4b: 23.1837] [5b: 5.0456] [6b: 1.1832] [7b: 0.2858] [8b: 0.0704] 
+    ResNet-18 layer_15 | Param: layer4.0.conv2.weight | Params: 2359296 | Shannon Entropy: 6.6785
+      Quantization Noise L2^2: [2b: 1042.0902] [3b: 272.9965] [4b: 50.1729] [5b: 10.9406] [6b: 2.5606] [7b: 0.6198] [8b: 0.1526] 
+    ResNet-18 layer_16 | Param: layer4.1.conv1.weight | Params: 2359296 | Shannon Entropy: 6.6694
+      Quantization Noise L2^2: [2b: 1040.1245] [3b: 294.4215] [4b: 54.2603] [5b: 11.8180] [6b: 2.7691] [7b: 0.6705] [8b: 0.1648] 
+    ResNet-18 layer_17 | Param: layer4.1.conv2.weight | Params: 2359296 | Shannon Entropy: 6.7288
+      Quantization Noise L2^2: [2b: 1001.8724] [3b: 241.6418] [4b: 44.4379] [5b: 9.6807] [6b: 2.2640] [7b: 0.5487] [8b: 0.1350] 
+    ResNet-18 layer_18 | Param: fc.weight | Params: 5120 | Shannon Entropy: 7.2204
+      Quantization Noise L2^2: [2b: 36.3176] [3b: 5.6590] [4b: 1.0339] [5b: 0.2293] [6b: 0.0520] [7b: 0.0127] [8b: 0.0032] 
+  Client 1 Local Update Completed | Local Train Loss: 0.0235 | Local Test Acc: 61.59%
+
+  >>> [Validation Phase] Analyzing Client 1 Post-Update Weights | Model saved to ./saved_models/20260316_132010/client_1_round_20_20260316_132010.pth <<<
+    ResNet-18 layer_01 | Param: conv1.weight | Params: 1728 | Shannon Entropy: 7.1760
+      Quantization Noise L2^2: [2b: 40.9925] [3b: 5.3944] [4b: 1.0084] [5b: 0.2117] [6b: 0.0496] [7b: 0.0121] [8b: 0.0032] 
+    ResNet-18 layer_02 | Param: layer1.0.conv1.weight | Params: 36864 | Shannon Entropy: 6.9231
+      Quantization Noise L2^2: [2b: 131.8551] [3b: 27.4276] [4b: 5.0055] [5b: 1.1033] [6b: 0.2603] [7b: 0.0621] [8b: 0.0153] 
+    ResNet-18 layer_03 | Param: layer1.0.conv2.weight | Params: 36864 | Shannon Entropy: 7.0751
+      Quantization Noise L2^2: [2b: 123.0812] [3b: 20.9771] [4b: 3.8805] [5b: 0.8306] [6b: 0.1970] [7b: 0.0477] [8b: 0.0117] 
+    ResNet-18 layer_04 | Param: layer1.1.conv1.weight | Params: 36864 | Shannon Entropy: 6.9734
+      Quantization Noise L2^2: [2b: 124.8238] [3b: 23.0539] [4b: 4.2679] [5b: 0.9155] [6b: 0.2168] [7b: 0.0520] [8b: 0.0127] 
+    ResNet-18 layer_05 | Param: layer1.1.conv2.weight | Params: 36864 | Shannon Entropy: 7.0797
+      Quantization Noise L2^2: [2b: 122.3873] [3b: 21.0059] [4b: 3.8411] [5b: 0.8374] [6b: 0.1959] [7b: 0.0474] [8b: 0.0116] 
+    ResNet-18 layer_06 | Param: layer2.0.conv1.weight | Params: 73728 | Shannon Entropy: 6.7531
+      Quantization Noise L2^2: [2b: 144.4693] [3b: 37.8537] [4b: 6.9399] [5b: 1.5169] [6b: 0.3584] [7b: 0.0861] [8b: 0.0211] 
+    ResNet-18 layer_07 | Param: layer2.0.conv2.weight | Params: 147456 | Shannon Entropy: 6.8791
+      Quantization Noise L2^2: [2b: 260.1276] [3b: 52.7564] [4b: 9.6843] [5b: 2.1170] [6b: 0.4948] [7b: 0.1196] [8b: 0.0295] 
+    ResNet-18 layer_08 | Param: layer2.1.conv1.weight | Params: 147456 | Shannon Entropy: 6.9609
+      Quantization Noise L2^2: [2b: 256.9583] [3b: 49.3411] [4b: 9.0613] [5b: 1.9760] [6b: 0.4636] [7b: 0.1119] [8b: 0.0275] 
+    ResNet-18 layer_09 | Param: layer2.1.conv2.weight | Params: 147456 | Shannon Entropy: 6.8227
+      Quantization Noise L2^2: [2b: 269.3430] [3b: 64.0420] [4b: 11.7949] [5b: 2.5520] [6b: 0.6006] [7b: 0.1450] [8b: 0.0358] 
+    ResNet-18 layer_10 | Param: layer3.0.conv1.weight | Params: 294912 | Shannon Entropy: 6.8065
+      Quantization Noise L2^2: [2b: 284.8519] [3b: 66.3597] [4b: 12.2053] [5b: 2.6575] [6b: 0.6213] [7b: 0.1506] [8b: 0.0371] 
+    ResNet-18 layer_11 | Param: layer3.0.conv2.weight | Params: 589824 | Shannon Entropy: 6.7970
+      Quantization Noise L2^2: [2b: 532.4918] [3b: 121.2704] [4b: 22.3127] [5b: 4.8436] [6b: 1.1326] [7b: 0.2749] [8b: 0.0676] 
+    ResNet-18 layer_12 | Param: layer3.1.conv1.weight | Params: 589824 | Shannon Entropy: 6.7912
+      Quantization Noise L2^2: [2b: 528.1666] [3b: 121.5349] [4b: 22.3306] [5b: 4.8635] [6b: 1.1370] [7b: 0.2758] [8b: 0.0679] 
+    ResNet-18 layer_13 | Param: layer3.1.conv2.weight | Params: 589824 | Shannon Entropy: 6.8767
+      Quantization Noise L2^2: [2b: 510.4706] [3b: 106.4472] [4b: 19.5117] [5b: 4.2474] [6b: 0.9963] [7b: 0.2409] [8b: 0.0594] 
+    ResNet-18 layer_14 | Param: layer4.0.conv1.weight | Params: 1179648 | Shannon Entropy: 6.7769
+      Quantization Noise L2^2: [2b: 536.2234] [3b: 128.5626] [4b: 23.6555] [5b: 5.1543] [6b: 1.2067] [7b: 0.2923] [8b: 0.0718] 
+    ResNet-18 layer_15 | Param: layer4.0.conv2.weight | Params: 2359296 | Shannon Entropy: 6.6860
+      Quantization Noise L2^2: [2b: 1037.4369] [3b: 266.4373] [4b: 48.9987] [5b: 10.6733] [6b: 2.4999] [7b: 0.6051] [8b: 0.1490] 
+    ResNet-18 layer_16 | Param: layer4.1.conv1.weight | Params: 2359296 | Shannon Entropy: 6.6846
+      Quantization Noise L2^2: [2b: 1035.1604] [3b: 283.6197] [4b: 52.2133] [5b: 11.3695] [6b: 2.6663] [7b: 0.6455] [8b: 0.1586] 
+    ResNet-18 layer_17 | Param: layer4.1.conv2.weight | Params: 2359296 | Shannon Entropy: 6.7196
+      Quantization Noise L2^2: [2b: 1003.6655] [3b: 245.5108] [4b: 45.1521] [5b: 9.8354] [6b: 2.3007] [7b: 0.5579] [8b: 0.1371] 
+    ResNet-18 layer_18 | Param: fc.weight | Params: 5120 | Shannon Entropy: 7.1362
+      Quantization Noise L2^2: [2b: 37.6911] [3b: 6.9447] [4b: 1.2646] [5b: 0.2795] [6b: 0.0649] [7b: 0.0157] [8b: 0.0039] 
+  Client 8 Local Update Completed | Local Train Loss: 0.0325 | Local Test Acc: 58.09%
+
+  >>> [Validation Phase] Analyzing Client 8 Post-Update Weights | Model saved to ./saved_models/20260316_132010/client_8_round_20_20260316_132010.pth <<<
+    ResNet-18 layer_01 | Param: conv1.weight | Params: 1728 | Shannon Entropy: 7.2013
+      Quantization Noise L2^2: [2b: 40.1445] [3b: 5.1030] [4b: 0.9792] [5b: 0.2062] [6b: 0.0471] [7b: 0.0114] [8b: 0.0028] 
+    ResNet-18 layer_02 | Param: layer1.0.conv1.weight | Params: 36864 | Shannon Entropy: 6.9334
+      Quantization Noise L2^2: [2b: 131.4817] [3b: 26.9955] [4b: 4.9265] [5b: 1.0877] [6b: 0.2528] [7b: 0.0610] [8b: 0.0152] 
+    ResNet-18 layer_03 | Param: layer1.0.conv2.weight | Params: 36864 | Shannon Entropy: 7.0752
+      Quantization Noise L2^2: [2b: 123.0687] [3b: 20.9749] [4b: 3.8742] [5b: 0.8354] [6b: 0.1955] [7b: 0.0473] [8b: 0.0117] 
+    ResNet-18 layer_04 | Param: layer1.1.conv1.weight | Params: 36864 | Shannon Entropy: 6.9780
+      Quantization Noise L2^2: [2b: 124.7443] [3b: 23.0218] [4b: 4.2459] [5b: 0.9186] [6b: 0.2138] [7b: 0.0518] [8b: 0.0129] 
+    ResNet-18 layer_05 | Param: layer1.1.conv2.weight | Params: 36864 | Shannon Entropy: 7.0764
+      Quantization Noise L2^2: [2b: 123.3653] [3b: 21.4349] [4b: 3.9188] [5b: 0.8554] [6b: 0.1991] [7b: 0.0483] [8b: 0.0119] 
+    ResNet-18 layer_06 | Param: layer2.0.conv1.weight | Params: 73728 | Shannon Entropy: 6.7500
+      Quantization Noise L2^2: [2b: 144.8786] [3b: 38.4570] [4b: 7.0235] [5b: 1.5403] [6b: 0.3633] [7b: 0.0876] [8b: 0.0215] 
+    ResNet-18 layer_07 | Param: layer2.0.conv2.weight | Params: 147456 | Shannon Entropy: 6.8780
+      Quantization Noise L2^2: [2b: 262.3979] [3b: 54.6671] [4b: 10.0572] [5b: 2.1926] [6b: 0.5138] [7b: 0.1240] [8b: 0.0305] 
+    ResNet-18 layer_08 | Param: layer2.1.conv1.weight | Params: 147456 | Shannon Entropy: 6.9539
+      Quantization Noise L2^2: [2b: 256.6438] [3b: 48.9975] [4b: 8.9866] [5b: 1.9679] [6b: 0.4592] [7b: 0.1111] [8b: 0.0273] 
+    ResNet-18 layer_09 | Param: layer2.1.conv2.weight | Params: 147456 | Shannon Entropy: 6.8157
+      Quantization Noise L2^2: [2b: 268.2596] [3b: 61.7167] [4b: 11.3748] [5b: 2.4703] [6b: 0.5792] [7b: 0.1407] [8b: 0.0345] 
+    ResNet-18 layer_10 | Param: layer3.0.conv1.weight | Params: 294912 | Shannon Entropy: 6.8109
+      Quantization Noise L2^2: [2b: 283.8547] [3b: 64.1589] [4b: 11.8008] [5b: 2.5705] [6b: 0.6007] [7b: 0.1458] [8b: 0.0359] 
+    ResNet-18 layer_11 | Param: layer3.0.conv2.weight | Params: 589824 | Shannon Entropy: 6.7998
+      Quantization Noise L2^2: [2b: 530.6758] [3b: 117.9462] [4b: 21.7200] [5b: 4.7155] [6b: 1.1038] [7b: 0.2670] [8b: 0.0658] 
+    ResNet-18 layer_12 | Param: layer3.1.conv1.weight | Params: 589824 | Shannon Entropy: 6.8049
+      Quantization Noise L2^2: [2b: 524.0717] [3b: 115.1906] [4b: 21.1424] [5b: 4.6088] [6b: 1.0796] [7b: 0.2610] [8b: 0.0643] 
+    ResNet-18 layer_13 | Param: layer3.1.conv2.weight | Params: 589824 | Shannon Entropy: 6.8757
+      Quantization Noise L2^2: [2b: 510.4637] [3b: 106.0423] [4b: 19.4633] [5b: 4.2374] [6b: 0.9929] [7b: 0.2401] [8b: 0.0592] 
+    ResNet-18 layer_14 | Param: layer4.0.conv1.weight | Params: 1179648 | Shannon Entropy: 6.7805
+      Quantization Noise L2^2: [2b: 535.6535] [3b: 126.6434] [4b: 23.2855] [5b: 5.0693] [6b: 1.1889] [7b: 0.2878] [8b: 0.0707] 
+    ResNet-18 layer_15 | Param: layer4.0.conv2.weight | Params: 2359296 | Shannon Entropy: 6.7015
+      Quantization Noise L2^2: [2b: 1036.6799] [3b: 263.7155] [4b: 48.4780] [5b: 10.5625] [6b: 2.4723] [7b: 0.5982] [8b: 0.1474] 
+    ResNet-18 layer_16 | Param: layer4.1.conv1.weight | Params: 2359296 | Shannon Entropy: 6.6762
+      Quantization Noise L2^2: [2b: 1038.3604] [3b: 292.1662] [4b: 53.8240] [5b: 11.7327] [6b: 2.7438] [7b: 0.6644] [8b: 0.1637] 
+    ResNet-18 layer_17 | Param: layer4.1.conv2.weight | Params: 2359296 | Shannon Entropy: 6.7193
+      Quantization Noise L2^2: [2b: 1004.3425] [3b: 246.5540] [4b: 45.3438] [5b: 9.8781] [6b: 2.3142] [7b: 0.5604] [8b: 0.1377] 
+    ResNet-18 layer_18 | Param: fc.weight | Params: 5120 | Shannon Entropy: 7.2410
+      Quantization Noise L2^2: [2b: 34.9613] [3b: 5.3416] [4b: 0.9808] [5b: 0.2150] [6b: 0.0505] [7b: 0.0122] [8b: 0.0030] 
+  Client 4 Local Update Completed | Local Train Loss: 0.2439 | Local Test Acc: 60.62%
+
+  >>> [Validation Phase] Analyzing Client 4 Post-Update Weights | Model saved to ./saved_models/20260316_132010/client_4_round_20_20260316_132010.pth <<<
+    ResNet-18 layer_01 | Param: conv1.weight | Params: 1728 | Shannon Entropy: 7.1687
+      Quantization Noise L2^2: [2b: 42.9205] [3b: 5.8112] [4b: 1.0730] [5b: 0.2355] [6b: 0.0541] [7b: 0.0138] [8b: 0.0032] 
+    ResNet-18 layer_02 | Param: layer1.0.conv1.weight | Params: 36864 | Shannon Entropy: 6.9392
+      Quantization Noise L2^2: [2b: 131.7738] [3b: 26.5368] [4b: 4.8495] [5b: 1.0664] [6b: 0.2480] [7b: 0.0608] [8b: 0.0149] 
+    ResNet-18 layer_03 | Param: layer1.0.conv2.weight | Params: 36864 | Shannon Entropy: 7.0544
+      Quantization Noise L2^2: [2b: 126.8096] [3b: 22.4681] [4b: 4.1423] [5b: 0.9034] [6b: 0.2104] [7b: 0.0511] [8b: 0.0125] 
+    ResNet-18 layer_04 | Param: layer1.1.conv1.weight | Params: 36864 | Shannon Entropy: 6.9938
+      Quantization Noise L2^2: [2b: 124.7872] [3b: 22.4610] [4b: 4.1357] [5b: 0.8980] [6b: 0.2120] [7b: 0.0506] [8b: 0.0125] 
+    ResNet-18 layer_05 | Param: layer1.1.conv2.weight | Params: 36864 | Shannon Entropy: 7.0964
+      Quantization Noise L2^2: [2b: 120.7720] [3b: 19.9455] [4b: 3.6257] [5b: 0.7963] [6b: 0.1868] [7b: 0.0452] [8b: 0.0111] 
+    ResNet-18 layer_06 | Param: layer2.0.conv1.weight | Params: 73728 | Shannon Entropy: 6.7546
+      Quantization Noise L2^2: [2b: 147.2328] [3b: 38.7822] [4b: 7.1295] [5b: 1.5598] [6b: 0.3637] [7b: 0.0878] [8b: 0.0217] 
+    ResNet-18 layer_07 | Param: layer2.0.conv2.weight | Params: 147456 | Shannon Entropy: 6.8868
+      Quantization Noise L2^2: [2b: 264.9140] [3b: 54.3487] [4b: 9.9823] [5b: 2.1765] [6b: 0.5086] [7b: 0.1233] [8b: 0.0303] 
+    ResNet-18 layer_08 | Param: layer2.1.conv1.weight | Params: 147456 | Shannon Entropy: 6.9599
+      Quantization Noise L2^2: [2b: 262.0826] [3b: 50.8109] [4b: 9.3090] [5b: 2.0267] [6b: 0.4728] [7b: 0.1150] [8b: 0.0283] 
+    ResNet-18 layer_09 | Param: layer2.1.conv2.weight | Params: 147456 | Shannon Entropy: 6.8005
+      Quantization Noise L2^2: [2b: 274.7944] [3b: 66.6878] [4b: 12.2660] [5b: 2.6633] [6b: 0.6257] [7b: 0.1515] [8b: 0.0374] 
+    ResNet-18 layer_10 | Param: layer3.0.conv1.weight | Params: 294912 | Shannon Entropy: 6.8435
+      Quantization Noise L2^2: [2b: 288.0015] [3b: 61.5911] [4b: 11.3481] [5b: 2.4634] [6b: 0.5785] [7b: 0.1401] [8b: 0.0344] 
+    ResNet-18 layer_11 | Param: layer3.0.conv2.weight | Params: 589824 | Shannon Entropy: 6.7985
+      Quantization Noise L2^2: [2b: 541.0963] [3b: 121.0954] [4b: 22.2932] [5b: 4.8414] [6b: 1.1336] [7b: 0.2749] [8b: 0.0677] 
+    ResNet-18 layer_12 | Param: layer3.1.conv1.weight | Params: 589824 | Shannon Entropy: 6.8122
+      Quantization Noise L2^2: [2b: 531.9858] [3b: 116.3821] [4b: 21.3340] [5b: 4.6496] [6b: 1.0881] [7b: 0.2632] [8b: 0.0648] 
+    ResNet-18 layer_13 | Param: layer3.1.conv2.weight | Params: 589824 | Shannon Entropy: 6.8729
+      Quantization Noise L2^2: [2b: 516.8865] [3b: 106.6308] [4b: 19.5377] [5b: 4.2655] [6b: 0.9979] [7b: 0.2419] [8b: 0.0595] 
+    ResNet-18 layer_14 | Param: layer4.0.conv1.weight | Params: 1179648 | Shannon Entropy: 6.7410
+      Quantization Noise L2^2: [2b: 547.0970] [3b: 132.4122] [4b: 24.3521] [5b: 5.2978] [6b: 1.2412] [7b: 0.3012] [8b: 0.0740] 
+    ResNet-18 layer_15 | Param: layer4.0.conv2.weight | Params: 2359296 | Shannon Entropy: 6.6922
+      Quantization Noise L2^2: [2b: 1043.8430] [3b: 263.3571] [4b: 48.4239] [5b: 10.5521] [6b: 2.4703] [7b: 0.5979] [8b: 0.1472] 
+    ResNet-18 layer_16 | Param: layer4.1.conv1.weight | Params: 2359296 | Shannon Entropy: 6.6783
+      Quantization Noise L2^2: [2b: 1041.7144] [3b: 284.9990] [4b: 52.4676] [5b: 11.4363] [6b: 2.6773] [7b: 0.6482] [8b: 0.1595] 
+    ResNet-18 layer_17 | Param: layer4.1.conv2.weight | Params: 2359296 | Shannon Entropy: 6.7265
+      Quantization Noise L2^2: [2b: 1004.1400] [3b: 243.8017] [4b: 44.8307] [5b: 9.7622] [6b: 2.2859] [7b: 0.5539] [8b: 0.1361] 
+    ResNet-18 layer_18 | Param: fc.weight | Params: 5120 | Shannon Entropy: 7.1809
+      Quantization Noise L2^2: [2b: 36.2428] [3b: 6.0768] [4b: 1.0853] [5b: 0.2447] [6b: 0.0575] [7b: 0.0135] [8b: 0.0032] 
+  Client 9 Local Update Completed | Local Train Loss: 0.0676 | Local Test Acc: 49.97%
+
+  >>> [Validation Phase] Analyzing Client 9 Post-Update Weights | Model saved to ./saved_models/20260316_132010/client_9_round_20_20260316_132010.pth <<<
+    ResNet-18 layer_01 | Param: conv1.weight | Params: 1728 | Shannon Entropy: 7.2283
+      Quantization Noise L2^2: [2b: 39.9603] [3b: 5.0456] [4b: 0.9218] [5b: 0.2070] [6b: 0.0453] [7b: 0.0117] [8b: 0.0028] 
+    ResNet-18 layer_02 | Param: layer1.0.conv1.weight | Params: 36864 | Shannon Entropy: 6.9314
+      Quantization Noise L2^2: [2b: 131.5596] [3b: 26.9838] [4b: 4.9186] [5b: 1.0876] [6b: 0.2527] [7b: 0.0615] [8b: 0.0151] 
+    ResNet-18 layer_03 | Param: layer1.0.conv2.weight | Params: 36864 | Shannon Entropy: 7.0579
+      Quantization Noise L2^2: [2b: 124.3248] [3b: 21.5631] [4b: 3.9798] [5b: 0.8615] [6b: 0.2014] [7b: 0.0487] [8b: 0.0120] 
+    ResNet-18 layer_04 | Param: layer1.1.conv1.weight | Params: 36864 | Shannon Entropy: 6.9847
+      Quantization Noise L2^2: [2b: 124.8694] [3b: 22.9937] [4b: 4.2491] [5b: 0.9164] [6b: 0.2169] [7b: 0.0519] [8b: 0.0128] 
+    ResNet-18 layer_05 | Param: layer1.1.conv2.weight | Params: 36864 | Shannon Entropy: 7.0858
+      Quantization Noise L2^2: [2b: 122.0773] [3b: 20.7784] [4b: 3.7868] [5b: 0.8298] [6b: 0.1934] [7b: 0.0466] [8b: 0.0115] 
+    ResNet-18 layer_06 | Param: layer2.0.conv1.weight | Params: 73728 | Shannon Entropy: 6.7784
+      Quantization Noise L2^2: [2b: 144.3286] [3b: 36.4853] [4b: 6.6697] [5b: 1.4642] [6b: 0.3415] [7b: 0.0828] [8b: 0.0204] 
+    ResNet-18 layer_07 | Param: layer2.0.conv2.weight | Params: 147456 | Shannon Entropy: 6.8879
+      Quantization Noise L2^2: [2b: 260.4335] [3b: 52.3698] [4b: 9.6367] [5b: 2.0957] [6b: 0.4925] [7b: 0.1191] [8b: 0.0291] 
+    ResNet-18 layer_08 | Param: layer2.1.conv1.weight | Params: 147456 | Shannon Entropy: 6.9370
+      Quantization Noise L2^2: [2b: 258.6282] [3b: 50.0406] [4b: 9.1766] [5b: 1.9977] [6b: 0.4697] [7b: 0.1132] [8b: 0.0279] 
+    ResNet-18 layer_09 | Param: layer2.1.conv2.weight | Params: 147456 | Shannon Entropy: 6.8190
+      Quantization Noise L2^2: [2b: 270.5486] [3b: 64.2624] [4b: 11.8447] [5b: 2.5675] [6b: 0.6050] [7b: 0.1461] [8b: 0.0360] 
+    ResNet-18 layer_10 | Param: layer3.0.conv1.weight | Params: 294912 | Shannon Entropy: 6.7725
+      Quantization Noise L2^2: [2b: 289.7983] [3b: 71.0938] [4b: 13.0896] [5b: 2.8495] [6b: 0.6683] [7b: 0.1619] [8b: 0.0398] 
+    ResNet-18 layer_11 | Param: layer3.0.conv2.weight | Params: 589824 | Shannon Entropy: 6.8006
+      Quantization Noise L2^2: [2b: 532.0250] [3b: 117.8053] [4b: 21.6818] [5b: 4.7083] [6b: 1.1019] [7b: 0.2673] [8b: 0.0657] 
+    ResNet-18 layer_12 | Param: layer3.1.conv1.weight | Params: 589824 | Shannon Entropy: 6.8115
+      Quantization Noise L2^2: [2b: 527.3994] [3b: 117.5767] [4b: 21.5981] [5b: 4.6976] [6b: 1.1011] [7b: 0.2666] [8b: 0.0656] 
+    ResNet-18 layer_13 | Param: layer3.1.conv2.weight | Params: 589824 | Shannon Entropy: 6.8737
+      Quantization Noise L2^2: [2b: 515.3409] [3b: 109.7983] [4b: 20.1418] [5b: 4.3826] [6b: 1.0280] [7b: 0.2487] [8b: 0.0613] 
+    ResNet-18 layer_14 | Param: layer4.0.conv1.weight | Params: 1179648 | Shannon Entropy: 6.7568
+      Quantization Noise L2^2: [2b: 540.6996] [3b: 132.4815] [4b: 24.3960] [5b: 5.3111] [6b: 1.2421] [7b: 0.3011] [8b: 0.0741] 
+    ResNet-18 layer_15 | Param: layer4.0.conv2.weight | Params: 2359296 | Shannon Entropy: 6.6878
+      Quantization Noise L2^2: [2b: 1040.5106] [3b: 269.2211] [4b: 49.5176] [5b: 10.7815] [6b: 2.5254] [7b: 0.6115] [8b: 0.1503] 
+    ResNet-18 layer_16 | Param: layer4.1.conv1.weight | Params: 2359296 | Shannon Entropy: 6.6795
+      Quantization Noise L2^2: [2b: 1037.1749] [3b: 285.8560] [4b: 52.6407] [5b: 11.4708] [6b: 2.6865] [7b: 0.6506] [8b: 0.1601] 
+    ResNet-18 layer_17 | Param: layer4.1.conv2.weight | Params: 2359296 | Shannon Entropy: 6.7253
+      Quantization Noise L2^2: [2b: 1001.9658] [3b: 242.0082] [4b: 44.4925] [5b: 9.6941] [6b: 2.2696] [7b: 0.5493] [8b: 0.1351] 
+    ResNet-18 layer_18 | Param: fc.weight | Params: 5120 | Shannon Entropy: 7.1646
+      Quantization Noise L2^2: [2b: 36.8071] [3b: 6.3072] [4b: 1.1635] [5b: 0.2536] [6b: 0.0589] [7b: 0.0144] [8b: 0.0036] 
+Global Round 20 Aggregation Completed | Global Test Loss: 0.8555 | Global Test Acc: 75.85%
+
+[Global Round 21]
+  Client 1 Local Update Completed | Local Train Loss: 0.0161 | Local Test Acc: 63.22%
+  Client 3 Local Update Completed | Local Train Loss: 0.0939 | Local Test Acc: 54.84%
+  Client 4 Local Update Completed | Local Train Loss: 0.1091 | Local Test Acc: 60.07%
+  Client 2 Local Update Completed | Local Train Loss: 0.1980 | Local Test Acc: 47.74%
+  Client 6 Local Update Completed | Local Train Loss: 0.2488 | Local Test Acc: 58.40%
+Global Round 21 Aggregation Completed | Global Test Loss: 1.0527 | Global Test Acc: 71.36%
+
+[Global Round 22]
+  Client 3 Local Update Completed | Local Train Loss: 0.0531 | Local Test Acc: 55.23%
+  Client 1 Local Update Completed | Local Train Loss: 0.0579 | Local Test Acc: 56.31%
+  Client 7 Local Update Completed | Local Train Loss: 0.2042 | Local Test Acc: 57.17%
+  Client 5 Local Update Completed | Local Train Loss: 0.2118 | Local Test Acc: 59.60%
+  Client 4 Local Update Completed | Local Train Loss: 0.1848 | Local Test Acc: 61.91%
+Global Round 22 Aggregation Completed | Global Test Loss: 1.0536 | Global Test Acc: 72.27%
+
+[Global Round 23]
+  Client 9 Local Update Completed | Local Train Loss: 0.1413 | Local Test Acc: 50.05%
+  Client 4 Local Update Completed | Local Train Loss: 0.0939 | Local Test Acc: 58.96%
+  Client 3 Local Update Completed | Local Train Loss: 0.0255 | Local Test Acc: 57.83%
+  Client 5 Local Update Completed | Local Train Loss: 0.0623 | Local Test Acc: 63.19%
+  Client 7 Local Update Completed | Local Train Loss: 0.1130 | Local Test Acc: 55.79%
+Global Round 23 Aggregation Completed | Global Test Loss: 0.9635 | Global Test Acc: 74.56%
+
+[Global Round 24]
+  Client 0 Local Update Completed | Local Train Loss: 0.0949 | Local Test Acc: 64.24%
+  Client 4 Local Update Completed | Local Train Loss: 0.1202 | Local Test Acc: 58.97%
+  Client 7 Local Update Completed | Local Train Loss: 0.0626 | Local Test Acc: 61.29%
+  Client 3 Local Update Completed | Local Train Loss: 0.0255 | Local Test Acc: 57.83%
+  Client 9 Local Update Completed | Local Train Loss: 0.0704 | Local Test Acc: 54.04%
+Global Round 24 Aggregation Completed | Global Test Loss: 0.9715 | Global Test Acc: 74.91%
+
+[Global Round 25]
+  Client 9 Local Update Completed | Local Train Loss: 0.0379 | Local Test Acc: 57.74%
+  Client 5 Local Update Completed | Local Train Loss: 0.0947 | Local Test Acc: 58.17%
+  Client 7 Local Update Completed | Local Train Loss: 0.0239 | Local Test Acc: 61.08%
+  Client 4 Local Update Completed | Local Train Loss: 0.0944 | Local Test Acc: 51.00%
+  Client 3 Local Update Completed | Local Train Loss: 0.0108 | Local Test Acc: 59.91%
+Global Round 25 Aggregation Completed | Global Test Loss: 0.9776 | Global Test Acc: 74.79%
+
+[Global Round 26]
+  Client 6 Local Update Completed | Local Train Loss: 0.2704 | Local Test Acc: 58.28%
+  Client 5 Local Update Completed | Local Train Loss: 0.0456 | Local Test Acc: 57.38%
+  Client 2 Local Update Completed | Local Train Loss: 0.1873 | Local Test Acc: 49.20%
+  Client 9 Local Update Completed | Local Train Loss: 0.0583 | Local Test Acc: 51.19%
+  Client 4 Local Update Completed | Local Train Loss: 0.0343 | Local Test Acc: 59.96%
+Global Round 26 Aggregation Completed | Global Test Loss: 0.9415 | Global Test Acc: 74.13%
+
+[Global Round 27]
+  Client 6 Local Update Completed | Local Train Loss: 0.0519 | Local Test Acc: 63.64%
+  Client 3 Local Update Completed | Local Train Loss: 0.0836 | Local Test Acc: 52.84%
+  Client 5 Local Update Completed | Local Train Loss: 0.0366 | Local Test Acc: 63.11%
+  Client 7 Local Update Completed | Local Train Loss: 0.0566 | Local Test Acc: 58.61%
+  Client 9 Local Update Completed | Local Train Loss: 0.0553 | Local Test Acc: 52.70%
+Global Round 27 Aggregation Completed | Global Test Loss: 0.9437 | Global Test Acc: 76.03%
+
+[Global Round 28]
+  Client 7 Local Update Completed | Local Train Loss: 0.0132 | Local Test Acc: 62.01%
+  Client 4 Local Update Completed | Local Train Loss: 0.1496 | Local Test Acc: 60.91%
+  Client 3 Local Update Completed | Local Train Loss: 0.0138 | Local Test Acc: 59.09%
+  Client 6 Local Update Completed | Local Train Loss: 0.0950 | Local Test Acc: 58.50%
+  Client 1 Local Update Completed | Local Train Loss: 0.1138 | Local Test Acc: 58.90%
+Global Round 28 Aggregation Completed | Global Test Loss: 1.0411 | Global Test Acc: 73.09%
+
+[Global Round 29]
+  Client 2 Local Update Completed | Local Train Loss: 0.1460 | Local Test Acc: 46.73%
+  Client 5 Local Update Completed | Local Train Loss: 0.0480 | Local Test Acc: 63.62%
+  Client 3 Local Update Completed | Local Train Loss: 0.0126 | Local Test Acc: 59.66%
+  Client 8 Local Update Completed | Local Train Loss: 0.1184 | Local Test Acc: 58.43%
+  Client 6 Local Update Completed | Local Train Loss: 0.0214 | Local Test Acc: 58.94%
+Global Round 29 Aggregation Completed | Global Test Loss: 0.9426 | Global Test Acc: 74.96%
+
+[Global Round 30]
+  Client 3 Local Update Completed | Local Train Loss: 0.0098 | Local Test Acc: 59.32%
+  Client 7 Local Update Completed | Local Train Loss: 0.0475 | Local Test Acc: 59.62%
+  Client 8 Local Update Completed | Local Train Loss: 0.0371 | Local Test Acc: 57.22%
+  Client 0 Local Update Completed | Local Train Loss: 0.0871 | Local Test Acc: 62.43%
+  Client 2 Local Update Completed | Local Train Loss: 0.0331 | Local Test Acc: 49.01%
+Global Round 30 Aggregation Completed | Global Test Loss: 0.8948 | Global Test Acc: 75.97%
+
+[Global Round 31]
+  Client 0 Local Update Completed | Local Train Loss: 0.0433 | Local Test Acc: 63.41%
+  Client 1 Local Update Completed | Local Train Loss: 0.0476 | Local Test Acc: 60.87%
+  Client 8 Local Update Completed | Local Train Loss: 0.0127 | Local Test Acc: 60.62%
+  Client 3 Local Update Completed | Local Train Loss: 0.0213 | Local Test Acc: 57.95%
+  Client 4 Local Update Completed | Local Train Loss: 0.1507 | Local Test Acc: 61.26%
+Global Round 31 Aggregation Completed | Global Test Loss: 0.9789 | Global Test Acc: 75.15%
+
+[Global Round 32]
+  Client 1 Local Update Completed | Local Train Loss: 0.0117 | Local Test Acc: 66.29%
+  Client 2 Local Update Completed | Local Train Loss: 0.0653 | Local Test Acc: 47.38%
+  Client 3 Local Update Completed | Local Train Loss: 0.0074 | Local Test Acc: 60.92%
+  Client 4 Local Update Completed | Local Train Loss: 0.0077 | Local Test Acc: 69.03%
+  Client 8 Local Update Completed | Local Train Loss: 0.0130 | Local Test Acc: 60.04%
+Global Round 32 Aggregation Completed | Global Test Loss: 0.9545 | Global Test Acc: 75.25%
+
+[Global Round 33]
+  Client 4 Local Update Completed | Local Train Loss: 0.0725 | Local Test Acc: 60.09%
+  Client 1 Local Update Completed | Local Train Loss: 0.0085 | Local Test Acc: 66.54%
+  Client 3 Local Update Completed | Local Train Loss: 0.0068 | Local Test Acc: 60.91%
+  Client 9 Local Update Completed | Local Train Loss: 0.1024 | Local Test Acc: 52.37%
+  Client 7 Local Update Completed | Local Train Loss: 0.0425 | Local Test Acc: 59.61%
+Global Round 33 Aggregation Completed | Global Test Loss: 1.0471 | Global Test Acc: 74.65%
+
+[Global Round 34]
+  Client 1 Local Update Completed | Local Train Loss: 0.0135 | Local Test Acc: 64.46%
+  Client 3 Local Update Completed | Local Train Loss: 0.0070 | Local Test Acc: 61.34%
+  Client 6 Local Update Completed | Local Train Loss: 0.1109 | Local Test Acc: 57.17%
+  Client 7 Local Update Completed | Local Train Loss: 0.0247 | Local Test Acc: 61.17%
+  Client 4 Local Update Completed | Local Train Loss: 0.0078 | Local Test Acc: 69.81%
+Global Round 34 Aggregation Completed | Global Test Loss: 1.0350 | Global Test Acc: 74.86%
+
+[Global Round 35]
+  Client 7 Local Update Completed | Local Train Loss: 0.0082 | Local Test Acc: 62.54%
+  Client 0 Local Update Completed | Local Train Loss: 0.0578 | Local Test Acc: 65.00%
+  Client 3 Local Update Completed | Local Train Loss: 0.0073 | Local Test Acc: 61.21%
+  Client 6 Local Update Completed | Local Train Loss: 0.0351 | Local Test Acc: 64.60%
+  Client 8 Local Update Completed | Local Train Loss: 0.0419 | Local Test Acc: 56.02%
+Global Round 35 Aggregation Completed | Global Test Loss: 1.0268 | Global Test Acc: 75.10%
+
+[Global Round 36]
+  Client 7 Local Update Completed | Local Train Loss: 0.0053 | Local Test Acc: 63.19%
+  Client 0 Local Update Completed | Local Train Loss: 0.0534 | Local Test Acc: 65.17%
+  Client 5 Local Update Completed | Local Train Loss: 0.0996 | Local Test Acc: 60.37%
+  Client 9 Local Update Completed | Local Train Loss: 0.0857 | Local Test Acc: 55.06%
+  Client 8 Local Update Completed | Local Train Loss: 0.0313 | Local Test Acc: 58.03%
+Global Round 36 Aggregation Completed | Global Test Loss: 0.9870 | Global Test Acc: 75.59%
+
+[Global Round 37]
+  Client 1 Local Update Completed | Local Train Loss: 0.0271 | Local Test Acc: 66.69%
+  Client 0 Local Update Completed | Local Train Loss: 0.0128 | Local Test Acc: 67.04%
+  Client 2 Local Update Completed | Local Train Loss: 0.0996 | Local Test Acc: 49.42%
+  Client 7 Local Update Completed | Local Train Loss: 0.0036 | Local Test Acc: 64.29%
+  Client 6 Local Update Completed | Local Train Loss: 0.1309 | Local Test Acc: 55.08%
+Global Round 37 Aggregation Completed | Global Test Loss: 1.0433 | Global Test Acc: 73.88%
+
+[Global Round 38]
+  Client 1 Local Update Completed | Local Train Loss: 0.0059 | Local Test Acc: 68.60%
+  Client 9 Local Update Completed | Local Train Loss: 0.1073 | Local Test Acc: 47.34%
+  Client 8 Local Update Completed | Local Train Loss: 0.0158 | Local Test Acc: 60.54%
+  Client 0 Local Update Completed | Local Train Loss: 0.0152 | Local Test Acc: 65.96%
+  Client 2 Local Update Completed | Local Train Loss: 0.0153 | Local Test Acc: 55.01%
+Global Round 38 Aggregation Completed | Global Test Loss: 0.9998 | Global Test Acc: 75.28%
+
+[Global Round 39]
+  Client 5 Local Update Completed | Local Train Loss: 0.0354 | Local Test Acc: 59.18%
+  Client 7 Local Update Completed | Local Train Loss: 0.0154 | Local Test Acc: 60.45%
+  Client 8 Local Update Completed | Local Train Loss: 0.0149 | Local Test Acc: 57.83%
+  Client 2 Local Update Completed | Local Train Loss: 0.1098 | Local Test Acc: 48.88%
+  Client 1 Local Update Completed | Local Train Loss: 0.0104 | Local Test Acc: 67.97%
+Global Round 39 Aggregation Completed | Global Test Loss: 0.9677 | Global Test Acc: 74.77%
+
+[Global Round 40]
+  Client 8 Local Update Completed | Local Train Loss: 0.0095 | Local Test Acc: 62.37%
+  Client 5 Local Update Completed | Local Train Loss: 0.0137 | Local Test Acc: 58.16%
+  Client 6 Local Update Completed | Local Train Loss: 0.0715 | Local Test Acc: 58.39%
+  Client 4 Local Update Completed | Local Train Loss: 0.0169 | Local Test Acc: 66.60%
+  Client 2 Local Update Completed | Local Train Loss: 0.0082 | Local Test Acc: 58.75%
+Global Round 40 Aggregation Completed | Global Test Loss: 1.0613 | Global Test Acc: 74.34%
+
+[Global Round 41]
+  Client 8 Local Update Completed | Local Train Loss: 0.0077 | Local Test Acc: 62.79%
+  Client 2 Local Update Completed | Local Train Loss: 0.0059 | Local Test Acc: 57.90%
+  Client 3 Local Update Completed | Local Train Loss: 0.0731 | Local Test Acc: 56.65%
+  Client 5 Local Update Completed | Local Train Loss: 0.0245 | Local Test Acc: 64.03%
+  Client 9 Local Update Completed | Local Train Loss: 0.0327 | Local Test Acc: 53.16%
+Global Round 41 Aggregation Completed | Global Test Loss: 0.9591 | Global Test Acc: 75.20%
+
+[Global Round 42]
+  Client 5 Local Update Completed | Local Train Loss: 0.0082 | Local Test Acc: 65.90%
+  Client 2 Local Update Completed | Local Train Loss: 0.0205 | Local Test Acc: 53.95%
+  Client 0 Local Update Completed | Local Train Loss: 0.0399 | Local Test Acc: 65.86%
+  Client 8 Local Update Completed | Local Train Loss: 0.0117 | Local Test Acc: 61.01%
+  Client 9 Local Update Completed | Local Train Loss: 0.0196 | Local Test Acc: 57.76%
+Global Round 42 Aggregation Completed | Global Test Loss: 0.9669 | Global Test Acc: 75.79%
+
+[Global Round 43]
+  Client 9 Local Update Completed | Local Train Loss: 0.0069 | Local Test Acc: 63.88%
+  Client 8 Local Update Completed | Local Train Loss: 0.0240 | Local Test Acc: 56.79%
+  Client 5 Local Update Completed | Local Train Loss: 0.0045 | Local Test Acc: 66.21%
+  Client 7 Local Update Completed | Local Train Loss: 0.0337 | Local Test Acc: 62.95%
+  Client 1 Local Update Completed | Local Train Loss: 0.0097 | Local Test Acc: 69.62%
+Global Round 43 Aggregation Completed | Global Test Loss: 1.0452 | Global Test Acc: 75.67%
+
+[Global Round 44]
+  Client 6 Local Update Completed | Local Train Loss: 0.1157 | Local Test Acc: 58.00%
+  Client 4 Local Update Completed | Local Train Loss: 0.0376 | Local Test Acc: 62.91%
+  Client 3 Local Update Completed | Local Train Loss: 0.0880 | Local Test Acc: 57.76%
+  Client 2 Local Update Completed | Local Train Loss: 0.0182 | Local Test Acc: 52.06%
+  Client 5 Local Update Completed | Local Train Loss: 0.0078 | Local Test Acc: 65.65%
+Global Round 44 Aggregation Completed | Global Test Loss: 1.2582 | Global Test Acc: 71.56%
+
+[Global Round 45]
+  Client 2 Local Update Completed | Local Train Loss: 0.0412 | Local Test Acc: 53.60%
+  Client 9 Local Update Completed | Local Train Loss: 0.0899 | Local Test Acc: 54.34%
+  Client 4 Local Update Completed | Local Train Loss: 0.0059 | Local Test Acc: 70.19%
+  Client 0 Local Update Completed | Local Train Loss: 0.0647 | Local Test Acc: 63.21%
+  Client 5 Local Update Completed | Local Train Loss: 0.0311 | Local Test Acc: 63.23%
+Global Round 45 Aggregation Completed | Global Test Loss: 0.9595 | Global Test Acc: 76.14%
+
+[Global Round 46]
+  Client 4 Local Update Completed | Local Train Loss: 0.1421 | Local Test Acc: 63.51%
+  Client 7 Local Update Completed | Local Train Loss: 0.0330 | Local Test Acc: 58.70%
+  Client 3 Local Update Completed | Local Train Loss: 0.0316 | Local Test Acc: 54.07%
+  Client 1 Local Update Completed | Local Train Loss: 0.0171 | Local Test Acc: 67.32%
+  Client 0 Local Update Completed | Local Train Loss: 0.0180 | Local Test Acc: 66.71%
+Global Round 46 Aggregation Completed | Global Test Loss: 1.0740 | Global Test Acc: 74.67%
+
+[Global Round 47]
+  Client 1 Local Update Completed | Local Train Loss: 0.0162 | Local Test Acc: 69.19%
+  Client 7 Local Update Completed | Local Train Loss: 0.0065 | Local Test Acc: 65.06%
+  Client 6 Local Update Completed | Local Train Loss: 0.1372 | Local Test Acc: 54.61%
+  Client 9 Local Update Completed | Local Train Loss: 0.0275 | Local Test Acc: 56.05%
+  Client 8 Local Update Completed | Local Train Loss: 0.0513 | Local Test Acc: 58.56%
+Global Round 47 Aggregation Completed | Global Test Loss: 0.9471 | Global Test Acc: 76.16%
+
+[Global Round 48]
+  Client 6 Local Update Completed | Local Train Loss: 0.0323 | Local Test Acc: 53.36%
+  Client 1 Local Update Completed | Local Train Loss: 0.0138 | Local Test Acc: 68.94%
+  Client 0 Local Update Completed | Local Train Loss: 0.0309 | Local Test Acc: 66.05%
+  Client 5 Local Update Completed | Local Train Loss: 0.0185 | Local Test Acc: 65.63%
+  Client 3 Local Update Completed | Local Train Loss: 0.0154 | Local Test Acc: 58.66%
+Global Round 48 Aggregation Completed | Global Test Loss: 1.0515 | Global Test Acc: 75.69%
+
+[Global Round 49]
+  Client 6 Local Update Completed | Local Train Loss: 0.0140 | Local Test Acc: 59.70%
+  Client 9 Local Update Completed | Local Train Loss: 0.0970 | Local Test Acc: 53.01%
+  Client 8 Local Update Completed | Local Train Loss: 0.0202 | Local Test Acc: 59.77%
+  Client 1 Local Update Completed | Local Train Loss: 0.0038 | Local Test Acc: 71.21%
+  Client 3 Local Update Completed | Local Train Loss: 0.0121 | Local Test Acc: 61.60%
+Global Round 49 Aggregation Completed | Global Test Loss: 0.9662 | Global Test Acc: 75.95%
+
+[Global Round 50]
+  Client 7 Local Update Completed | Local Train Loss: 0.0109 | Local Test Acc: 62.35%
+
+  >>> [Validation Phase] Analyzing Client 7 Post-Update Weights | Model saved to ./saved_models/20260316_132010/client_7_round_50_20260316_132010.pth <<<
+    ResNet-18 layer_01 | Param: conv1.weight | Params: 1728 | Shannon Entropy: 7.1535
+      Quantization Noise L2^2: [2b: 49.8213] [3b: 7.0558] [4b: 1.3070] [5b: 0.2752] [6b: 0.0652] [7b: 0.0164] [8b: 0.0039] 
+    ResNet-18 layer_02 | Param: layer1.0.conv1.weight | Params: 36864 | Shannon Entropy: 6.9237
+      Quantization Noise L2^2: [2b: 137.5996] [3b: 28.3721] [4b: 5.1990] [5b: 1.1318] [6b: 0.2670] [7b: 0.0646] [8b: 0.0159] 
+    ResNet-18 layer_03 | Param: layer1.0.conv2.weight | Params: 36864 | Shannon Entropy: 7.0424
+      Quantization Noise L2^2: [2b: 132.4815] [3b: 23.6310] [4b: 4.3589] [5b: 0.9476] [6b: 0.2221] [7b: 0.0536] [8b: 0.0132] 
+    ResNet-18 layer_04 | Param: layer1.1.conv1.weight | Params: 36864 | Shannon Entropy: 6.9634
+      Quantization Noise L2^2: [2b: 130.9708] [3b: 24.4234] [4b: 4.4827] [5b: 0.9781] [6b: 0.2282] [7b: 0.0556] [8b: 0.0138] 
+    ResNet-18 layer_05 | Param: layer1.1.conv2.weight | Params: 36864 | Shannon Entropy: 7.0554
+      Quantization Noise L2^2: [2b: 129.8934] [3b: 22.6600] [4b: 4.1107] [5b: 0.9006] [6b: 0.2124] [7b: 0.0507] [8b: 0.0126] 
+    ResNet-18 layer_06 | Param: layer2.0.conv1.weight | Params: 73728 | Shannon Entropy: 6.7499
+      Quantization Noise L2^2: [2b: 154.4884] [3b: 38.8350] [4b: 7.1246] [5b: 1.5516] [6b: 0.3669] [7b: 0.0882] [8b: 0.0219] 
+    ResNet-18 layer_07 | Param: layer2.0.conv2.weight | Params: 147456 | Shannon Entropy: 6.9217
+      Quantization Noise L2^2: [2b: 277.6117] [3b: 56.2300] [4b: 10.3283] [5b: 2.2506] [6b: 0.5287] [7b: 0.1276] [8b: 0.0314] 
+    ResNet-18 layer_08 | Param: layer2.1.conv1.weight | Params: 147456 | Shannon Entropy: 6.9381
+      Quantization Noise L2^2: [2b: 277.6279] [3b: 54.8916] [4b: 10.0586] [5b: 2.2009] [6b: 0.5136] [7b: 0.1245] [8b: 0.0305] 
+    ResNet-18 layer_09 | Param: layer2.1.conv2.weight | Params: 147456 | Shannon Entropy: 6.7104
+      Quantization Noise L2^2: [2b: 296.8495] [3b: 84.6338] [4b: 15.6137] [5b: 3.4047] [6b: 0.7965] [7b: 0.1926] [8b: 0.0475] 
+    ResNet-18 layer_10 | Param: layer3.0.conv1.weight | Params: 294912 | Shannon Entropy: 6.8144
+      Quantization Noise L2^2: [2b: 318.9283] [3b: 74.5589] [4b: 13.6882] [5b: 2.9846] [6b: 0.6974] [7b: 0.1690] [8b: 0.0417] 
+    ResNet-18 layer_11 | Param: layer3.0.conv2.weight | Params: 589824 | Shannon Entropy: 6.8049
+      Quantization Noise L2^2: [2b: 576.6750] [3b: 131.2691] [4b: 24.1304] [5b: 5.2396] [6b: 1.2296] [7b: 0.2981] [8b: 0.0732] 
+    ResNet-18 layer_12 | Param: layer3.1.conv1.weight | Params: 589824 | Shannon Entropy: 6.7913
+      Quantization Noise L2^2: [2b: 570.1484] [3b: 131.2467] [4b: 24.0815] [5b: 5.2613] [6b: 1.2279] [7b: 0.2972] [8b: 0.0733] 
+    ResNet-18 layer_13 | Param: layer3.1.conv2.weight | Params: 589824 | Shannon Entropy: 6.9034
+      Quantization Noise L2^2: [2b: 539.4155] [3b: 108.4489] [4b: 19.8821] [5b: 4.3394] [6b: 1.0149] [7b: 0.2462] [8b: 0.0605] 
+    ResNet-18 layer_14 | Param: layer4.0.conv1.weight | Params: 1179648 | Shannon Entropy: 6.7480
+      Quantization Noise L2^2: [2b: 584.6032] [3b: 150.5181] [4b: 27.6891] [5b: 6.0337] [6b: 1.4117] [7b: 0.3420] [8b: 0.0840] 
+    ResNet-18 layer_15 | Param: layer4.0.conv2.weight | Params: 2359296 | Shannon Entropy: 6.6802
+      Quantization Noise L2^2: [2b: 1082.2224] [3b: 287.7397] [4b: 52.9006] [5b: 11.5297] [6b: 2.6985] [7b: 0.6536] [8b: 0.1607] 
+    ResNet-18 layer_16 | Param: layer4.1.conv1.weight | Params: 2359296 | Shannon Entropy: 6.7103
+      Quantization Noise L2^2: [2b: 1062.7858] [3b: 289.6888] [4b: 53.3477] [5b: 11.6295] [6b: 2.7230] [7b: 0.6593] [8b: 0.1622] 
+    ResNet-18 layer_17 | Param: layer4.1.conv2.weight | Params: 2359296 | Shannon Entropy: 6.7330
+      Quantization Noise L2^2: [2b: 1007.8414] [3b: 241.1142] [4b: 44.3340] [5b: 9.6489] [6b: 2.2614] [7b: 0.5468] [8b: 0.1346] 
+    ResNet-18 layer_18 | Param: fc.weight | Params: 5120 | Shannon Entropy: 7.2175
+      Quantization Noise L2^2: [2b: 55.7296] [3b: 8.8882] [4b: 1.6595] [5b: 0.3615] [6b: 0.0850] [7b: 0.0204] [8b: 0.0050] 
+  Client 1 Local Update Completed | Local Train Loss: 0.0115 | Local Test Acc: 67.11%
+
+  >>> [Validation Phase] Analyzing Client 1 Post-Update Weights | Model saved to ./saved_models/20260316_132010/client_1_round_50_20260316_132010.pth <<<
+    ResNet-18 layer_01 | Param: conv1.weight | Params: 1728 | Shannon Entropy: 7.1335
+      Quantization Noise L2^2: [2b: 50.5144] [3b: 7.3916] [4b: 1.3640] [5b: 0.2860] [6b: 0.0703] [7b: 0.0166] [8b: 0.0041] 
+    ResNet-18 layer_02 | Param: layer1.0.conv1.weight | Params: 36864 | Shannon Entropy: 6.9283
+      Quantization Noise L2^2: [2b: 138.0845] [3b: 28.8933] [4b: 5.2978] [5b: 1.1522] [6b: 0.2737] [7b: 0.0657] [8b: 0.0162] 
+    ResNet-18 layer_03 | Param: layer1.0.conv2.weight | Params: 36864 | Shannon Entropy: 7.0319
+      Quantization Noise L2^2: [2b: 133.3717] [3b: 24.2274] [4b: 4.4727] [5b: 0.9654] [6b: 0.2312] [7b: 0.0552] [8b: 0.0137] 
+    ResNet-18 layer_04 | Param: layer1.1.conv1.weight | Params: 36864 | Shannon Entropy: 6.9663
+      Quantization Noise L2^2: [2b: 130.5450] [3b: 24.1878] [4b: 4.4138] [5b: 0.9610] [6b: 0.2248] [7b: 0.0548] [8b: 0.0134] 
+    ResNet-18 layer_05 | Param: layer1.1.conv2.weight | Params: 36864 | Shannon Entropy: 7.0588
+      Quantization Noise L2^2: [2b: 128.7554] [3b: 22.1066] [4b: 4.0120] [5b: 0.8779] [6b: 0.2073] [7b: 0.0497] [8b: 0.0122] 
+    ResNet-18 layer_06 | Param: layer2.0.conv1.weight | Params: 73728 | Shannon Entropy: 6.7244
+      Quantization Noise L2^2: [2b: 154.8398] [3b: 39.8293] [4b: 7.3079] [5b: 1.5952] [6b: 0.3758] [7b: 0.0909] [8b: 0.0223] 
+    ResNet-18 layer_07 | Param: layer2.0.conv2.weight | Params: 147456 | Shannon Entropy: 6.9288
+      Quantization Noise L2^2: [2b: 275.4585] [3b: 54.5684] [4b: 10.0342] [5b: 2.1889] [6b: 0.5119] [7b: 0.1239] [8b: 0.0305] 
+    ResNet-18 layer_08 | Param: layer2.1.conv1.weight | Params: 147456 | Shannon Entropy: 6.9431
+      Quantization Noise L2^2: [2b: 277.6143] [3b: 55.1209] [4b: 10.1241] [5b: 2.1983] [6b: 0.5153] [7b: 0.1248] [8b: 0.0308] 
+    ResNet-18 layer_09 | Param: layer2.1.conv2.weight | Params: 147456 | Shannon Entropy: 6.7227
+      Quantization Noise L2^2: [2b: 295.9217] [3b: 82.4663] [4b: 15.2018] [5b: 3.3157] [6b: 0.7771] [7b: 0.1881] [8b: 0.0462] 
+    ResNet-18 layer_10 | Param: layer3.0.conv1.weight | Params: 294912 | Shannon Entropy: 6.8204
+      Quantization Noise L2^2: [2b: 317.8297] [3b: 73.6794] [4b: 13.5639] [5b: 2.9516] [6b: 0.6924] [7b: 0.1675] [8b: 0.0413] 
+    ResNet-18 layer_11 | Param: layer3.0.conv2.weight | Params: 589824 | Shannon Entropy: 6.7896
+      Quantization Noise L2^2: [2b: 578.4302] [3b: 134.7636] [4b: 24.7775] [5b: 5.3931] [6b: 1.2625] [7b: 0.3053] [8b: 0.0753] 
+    ResNet-18 layer_12 | Param: layer3.1.conv1.weight | Params: 589824 | Shannon Entropy: 6.8140
+      Quantization Noise L2^2: [2b: 567.6198] [3b: 128.6743] [4b: 23.6134] [5b: 5.1428] [6b: 1.2051] [7b: 0.2916] [8b: 0.0718] 
+    ResNet-18 layer_13 | Param: layer3.1.conv2.weight | Params: 589824 | Shannon Entropy: 6.8945
+      Quantization Noise L2^2: [2b: 539.3981] [3b: 108.7554] [4b: 19.9482] [5b: 4.3560] [6b: 1.0170] [7b: 0.2471] [8b: 0.0606] 
+    ResNet-18 layer_14 | Param: layer4.0.conv1.weight | Params: 1179648 | Shannon Entropy: 6.7458
+      Quantization Noise L2^2: [2b: 581.8630] [3b: 146.1634] [4b: 26.8630] [5b: 5.8579] [6b: 1.3716] [7b: 0.3320] [8b: 0.0816] 
+    ResNet-18 layer_15 | Param: layer4.0.conv2.weight | Params: 2359296 | Shannon Entropy: 6.6843
+      Quantization Noise L2^2: [2b: 1082.1365] [3b: 289.0355] [4b: 53.1692] [5b: 11.5761] [6b: 2.7116] [7b: 0.6562] [8b: 0.1615] 
+    ResNet-18 layer_16 | Param: layer4.1.conv1.weight | Params: 2359296 | Shannon Entropy: 6.7066
+      Quantization Noise L2^2: [2b: 1061.6384] [3b: 287.6912] [4b: 52.9610] [5b: 11.5420] [6b: 2.7039] [7b: 0.6545] [8b: 0.1611] 
+    ResNet-18 layer_17 | Param: layer4.1.conv2.weight | Params: 2359296 | Shannon Entropy: 6.7355
+      Quantization Noise L2^2: [2b: 1006.9678] [3b: 239.8417] [4b: 44.0991] [5b: 9.6000] [6b: 2.2476] [7b: 0.5439] [8b: 0.1339] 
+    ResNet-18 layer_18 | Param: fc.weight | Params: 5120 | Shannon Entropy: 7.1628
+      Quantization Noise L2^2: [2b: 56.6742] [3b: 9.8525] [4b: 1.8087] [5b: 0.3965] [6b: 0.0925] [7b: 0.0229] [8b: 0.0054] 
+  Client 8 Local Update Completed | Local Train Loss: 0.0091 | Local Test Acc: 62.21%
+
+  >>> [Validation Phase] Analyzing Client 8 Post-Update Weights | Model saved to ./saved_models/20260316_132010/client_8_round_50_20260316_132010.pth <<<
+    ResNet-18 layer_01 | Param: conv1.weight | Params: 1728 | Shannon Entropy: 7.1596
+      Quantization Noise L2^2: [2b: 49.7261] [3b: 7.0230] [4b: 1.3083] [5b: 0.2772] [6b: 0.0653] [7b: 0.0161] [8b: 0.0038] 
+    ResNet-18 layer_02 | Param: layer1.0.conv1.weight | Params: 36864 | Shannon Entropy: 6.9277
+      Quantization Noise L2^2: [2b: 137.5950] [3b: 28.4455] [4b: 5.2064] [5b: 1.1328] [6b: 0.2685] [7b: 0.0640] [8b: 0.0160] 
+    ResNet-18 layer_03 | Param: layer1.0.conv2.weight | Params: 36864 | Shannon Entropy: 7.0357
+      Quantization Noise L2^2: [2b: 132.6968] [3b: 23.8557] [4b: 4.4002] [5b: 0.9523] [6b: 0.2265] [7b: 0.0544] [8b: 0.0133] 
+    ResNet-18 layer_04 | Param: layer1.1.conv1.weight | Params: 36864 | Shannon Entropy: 6.9706
+      Quantization Noise L2^2: [2b: 130.1313] [3b: 23.9557] [4b: 4.3720] [5b: 0.9585] [6b: 0.2227] [7b: 0.0539] [8b: 0.0133] 
+    ResNet-18 layer_05 | Param: layer1.1.conv2.weight | Params: 36864 | Shannon Entropy: 7.0568
+      Quantization Noise L2^2: [2b: 129.7540] [3b: 22.6347] [4b: 4.1015] [5b: 0.8979] [6b: 0.2112] [7b: 0.0510] [8b: 0.0126] 
+    ResNet-18 layer_06 | Param: layer2.0.conv1.weight | Params: 73728 | Shannon Entropy: 6.7484
+      Quantization Noise L2^2: [2b: 154.3798] [3b: 38.9619] [4b: 7.1374] [5b: 1.5542] [6b: 0.3669] [7b: 0.0883] [8b: 0.0218] 
+    ResNet-18 layer_07 | Param: layer2.0.conv2.weight | Params: 147456 | Shannon Entropy: 6.9144
+      Quantization Noise L2^2: [2b: 277.2582] [3b: 56.1888] [4b: 10.3198] [5b: 2.2497] [6b: 0.5255] [7b: 0.1275] [8b: 0.0313] 
+    ResNet-18 layer_08 | Param: layer2.1.conv1.weight | Params: 147456 | Shannon Entropy: 6.9458
+      Quantization Noise L2^2: [2b: 275.6198] [3b: 53.6545] [4b: 9.8472] [5b: 2.1433] [6b: 0.5012] [7b: 0.1218] [8b: 0.0298] 
+    ResNet-18 layer_09 | Param: layer2.1.conv2.weight | Params: 147456 | Shannon Entropy: 6.7322
+      Quantization Noise L2^2: [2b: 295.5580] [3b: 81.8929] [4b: 15.1323] [5b: 3.2912] [6b: 0.7706] [7b: 0.1858] [8b: 0.0458] 
+    ResNet-18 layer_10 | Param: layer3.0.conv1.weight | Params: 294912 | Shannon Entropy: 6.8139
+      Quantization Noise L2^2: [2b: 318.5577] [3b: 75.3627] [4b: 13.8429] [5b: 3.0212] [6b: 0.7056] [7b: 0.1715] [8b: 0.0420] 
+    ResNet-18 layer_11 | Param: layer3.0.conv2.weight | Params: 589824 | Shannon Entropy: 6.7835
+      Quantization Noise L2^2: [2b: 579.1685] [3b: 136.4190] [4b: 25.0916] [5b: 5.4505] [6b: 1.2783] [7b: 0.3095] [8b: 0.0761] 
+    ResNet-18 layer_12 | Param: layer3.1.conv1.weight | Params: 589824 | Shannon Entropy: 6.8093
+      Quantization Noise L2^2: [2b: 566.2015] [3b: 127.1822] [4b: 23.3516] [5b: 5.0893] [6b: 1.1918] [7b: 0.2882] [8b: 0.0708] 
+    ResNet-18 layer_13 | Param: layer3.1.conv2.weight | Params: 589824 | Shannon Entropy: 6.8889
+      Quantization Noise L2^2: [2b: 541.7930] [3b: 111.1502] [4b: 20.3804] [5b: 4.4470] [6b: 1.0406] [7b: 0.2519] [8b: 0.0619] 
+    ResNet-18 layer_14 | Param: layer4.0.conv1.weight | Params: 1179648 | Shannon Entropy: 6.7364
+      Quantization Noise L2^2: [2b: 582.4798] [3b: 148.2444] [4b: 27.2731] [5b: 5.9413] [6b: 1.3921] [7b: 0.3365] [8b: 0.0828] 
+    ResNet-18 layer_15 | Param: layer4.0.conv2.weight | Params: 2359296 | Shannon Entropy: 6.6855
+      Quantization Noise L2^2: [2b: 1081.0586] [3b: 287.1710] [4b: 52.8195] [5b: 11.5008] [6b: 2.6944] [7b: 0.6518] [8b: 0.1603] 
+    ResNet-18 layer_16 | Param: layer4.1.conv1.weight | Params: 2359296 | Shannon Entropy: 6.7070
+      Quantization Noise L2^2: [2b: 1062.4077] [3b: 290.3352] [4b: 53.4671] [5b: 11.6478] [6b: 2.7305] [7b: 0.6607] [8b: 0.1625] 
+    ResNet-18 layer_17 | Param: layer4.1.conv2.weight | Params: 2359296 | Shannon Entropy: 6.7344
+      Quantization Noise L2^2: [2b: 1007.5359] [3b: 240.8125] [4b: 44.2849] [5b: 9.6357] [6b: 2.2587] [7b: 0.5463] [8b: 0.1344] 
+    ResNet-18 layer_18 | Param: fc.weight | Params: 5120 | Shannon Entropy: 7.2097
+      Quantization Noise L2^2: [2b: 54.7382] [3b: 8.6583] [4b: 1.5907] [5b: 0.3497] [6b: 0.0812] [7b: 0.0203] [8b: 0.0048] 
+  Client 3 Local Update Completed | Local Train Loss: 0.0123 | Local Test Acc: 58.73%
+
+  >>> [Validation Phase] Analyzing Client 3 Post-Update Weights | Model saved to ./saved_models/20260316_132010/client_3_round_50_20260316_132010.pth <<<
+    ResNet-18 layer_01 | Param: conv1.weight | Params: 1728 | Shannon Entropy: 7.1682
+      Quantization Noise L2^2: [2b: 49.3278] [3b: 6.8612] [4b: 1.2479] [5b: 0.2733] [6b: 0.0637] [7b: 0.0154] [8b: 0.0036] 
+    ResNet-18 layer_02 | Param: layer1.0.conv1.weight | Params: 36864 | Shannon Entropy: 6.9211
+      Quantization Noise L2^2: [2b: 138.3793] [3b: 29.2060] [4b: 5.3464] [5b: 1.1600] [6b: 0.2769] [7b: 0.0660] [8b: 0.0164] 
+    ResNet-18 layer_03 | Param: layer1.0.conv2.weight | Params: 36864 | Shannon Entropy: 7.0306
+      Quantization Noise L2^2: [2b: 133.7516] [3b: 24.4448] [4b: 4.4988] [5b: 0.9725] [6b: 0.2302] [7b: 0.0560] [8b: 0.0138] 
+    ResNet-18 layer_04 | Param: layer1.1.conv1.weight | Params: 36864 | Shannon Entropy: 6.9683
+      Quantization Noise L2^2: [2b: 130.6301] [3b: 24.1862] [4b: 4.4236] [5b: 0.9621] [6b: 0.2254] [7b: 0.0544] [8b: 0.0134] 
+    ResNet-18 layer_05 | Param: layer1.1.conv2.weight | Params: 36864 | Shannon Entropy: 7.0682
+      Quantization Noise L2^2: [2b: 128.5357] [3b: 21.9981] [4b: 3.9785] [5b: 0.8705] [6b: 0.2061] [7b: 0.0495] [8b: 0.0122] 
+    ResNet-18 layer_06 | Param: layer2.0.conv1.weight | Params: 73728 | Shannon Entropy: 6.7379
+      Quantization Noise L2^2: [2b: 154.7084] [3b: 39.1413] [4b: 7.1899] [5b: 1.5634] [6b: 0.3685] [7b: 0.0891] [8b: 0.0220] 
+    ResNet-18 layer_07 | Param: layer2.0.conv2.weight | Params: 147456 | Shannon Entropy: 6.9260
+      Quantization Noise L2^2: [2b: 276.9096] [3b: 55.5783] [4b: 10.2124] [5b: 2.2197] [6b: 0.5218] [7b: 0.1259] [8b: 0.0311] 
+    ResNet-18 layer_08 | Param: layer2.1.conv1.weight | Params: 147456 | Shannon Entropy: 6.9369
+      Quantization Noise L2^2: [2b: 277.5757] [3b: 54.8420] [4b: 10.0846] [5b: 2.1917] [6b: 0.5125] [7b: 0.1244] [8b: 0.0305] 
+    ResNet-18 layer_09 | Param: layer2.1.conv2.weight | Params: 147456 | Shannon Entropy: 6.7307
+      Quantization Noise L2^2: [2b: 296.2585] [3b: 82.3696] [4b: 15.1957] [5b: 3.3136] [6b: 0.7728] [7b: 0.1873] [8b: 0.0461] 
+    ResNet-18 layer_10 | Param: layer3.0.conv1.weight | Params: 294912 | Shannon Entropy: 6.8189
+      Quantization Noise L2^2: [2b: 319.2121] [3b: 75.0448] [4b: 13.7599] [5b: 3.0067] [6b: 0.7046] [7b: 0.1705] [8b: 0.0420] 
+    ResNet-18 layer_11 | Param: layer3.0.conv2.weight | Params: 589824 | Shannon Entropy: 6.7878
+      Quantization Noise L2^2: [2b: 579.1021] [3b: 134.5460] [4b: 24.7324] [5b: 5.3749] [6b: 1.2611] [7b: 0.3052] [8b: 0.0750] 
+    ResNet-18 layer_12 | Param: layer3.1.conv1.weight | Params: 589824 | Shannon Entropy: 6.7900
+      Quantization Noise L2^2: [2b: 569.2268] [3b: 129.9181] [4b: 23.8249] [5b: 5.1988] [6b: 1.2151] [7b: 0.2946] [8b: 0.0724] 
+    ResNet-18 layer_13 | Param: layer3.1.conv2.weight | Params: 589824 | Shannon Entropy: 6.9013
+      Quantization Noise L2^2: [2b: 537.8884] [3b: 106.9353] [4b: 19.6503] [5b: 4.2805] [6b: 1.0009] [7b: 0.2433] [8b: 0.0597] 
+    ResNet-18 layer_14 | Param: layer4.0.conv1.weight | Params: 1179648 | Shannon Entropy: 6.7378
+      Quantization Noise L2^2: [2b: 581.7036] [3b: 144.4824] [4b: 26.5643] [5b: 5.7845] [6b: 1.3552] [7b: 0.3283] [8b: 0.0808] 
+    ResNet-18 layer_15 | Param: layer4.0.conv2.weight | Params: 2359296 | Shannon Entropy: 6.6815
+      Quantization Noise L2^2: [2b: 1081.3639] [3b: 285.5693] [4b: 52.5341] [5b: 11.4390] [6b: 2.6797] [7b: 0.6482] [8b: 0.1594] 
+    ResNet-18 layer_16 | Param: layer4.1.conv1.weight | Params: 2359296 | Shannon Entropy: 6.6988
+      Quantization Noise L2^2: [2b: 1062.0444] [3b: 287.5540] [4b: 52.9207] [5b: 11.5349] [6b: 2.7033] [7b: 0.6542] [8b: 0.1609] 
+    ResNet-18 layer_17 | Param: layer4.1.conv2.weight | Params: 2359296 | Shannon Entropy: 6.7405
+      Quantization Noise L2^2: [2b: 1006.3382] [3b: 238.6741] [4b: 43.8875] [5b: 9.5525] [6b: 2.2386] [7b: 0.5411] [8b: 0.1333] 
+    ResNet-18 layer_18 | Param: fc.weight | Params: 5120 | Shannon Entropy: 7.2289
+      Quantization Noise L2^2: [2b: 55.1300] [3b: 8.6099] [4b: 1.6036] [5b: 0.3564] [6b: 0.0814] [7b: 0.0196] [8b: 0.0049] 
+  Client 2 Local Update Completed | Local Train Loss: 0.0557 | Local Test Acc: 49.30%
+
+  >>> [Validation Phase] Analyzing Client 2 Post-Update Weights | Model saved to ./saved_models/20260316_132010/client_2_round_50_20260316_132010.pth <<<
+    ResNet-18 layer_01 | Param: conv1.weight | Params: 1728 | Shannon Entropy: 7.1700
+      Quantization Noise L2^2: [2b: 49.9558] [3b: 7.0635] [4b: 1.2658] [5b: 0.2680] [6b: 0.0655] [7b: 0.0160] [8b: 0.0039] 
+    ResNet-18 layer_02 | Param: layer1.0.conv1.weight | Params: 36864 | Shannon Entropy: 6.9280
+      Quantization Noise L2^2: [2b: 138.4574] [3b: 28.9138] [4b: 5.2777] [5b: 1.1499] [6b: 0.2731] [7b: 0.0652] [8b: 0.0161] 
+    ResNet-18 layer_03 | Param: layer1.0.conv2.weight | Params: 36864 | Shannon Entropy: 7.0198
+      Quantization Noise L2^2: [2b: 133.8197] [3b: 24.2496] [4b: 4.4873] [5b: 0.9674] [6b: 0.2278] [7b: 0.0555] [8b: 0.0136] 
+    ResNet-18 layer_04 | Param: layer1.1.conv1.weight | Params: 36864 | Shannon Entropy: 6.9756
+      Quantization Noise L2^2: [2b: 132.4745] [3b: 25.2129] [4b: 4.6273] [5b: 1.0024] [6b: 0.2367] [7b: 0.0574] [8b: 0.0140] 
+    ResNet-18 layer_05 | Param: layer1.1.conv2.weight | Params: 36864 | Shannon Entropy: 7.0446
+      Quantization Noise L2^2: [2b: 132.6576] [3b: 23.8699] [4b: 4.3133] [5b: 0.9517] [6b: 0.2216] [7b: 0.0544] [8b: 0.0133] 
+    ResNet-18 layer_06 | Param: layer2.0.conv1.weight | Params: 73728 | Shannon Entropy: 6.7834
+      Quantization Noise L2^2: [2b: 155.1638] [3b: 38.3455] [4b: 7.0205] [5b: 1.5406] [6b: 0.3582] [7b: 0.0872] [8b: 0.0214] 
+    ResNet-18 layer_07 | Param: layer2.0.conv2.weight | Params: 147456 | Shannon Entropy: 6.9320
+      Quantization Noise L2^2: [2b: 278.0824] [3b: 55.4439] [4b: 10.1942] [5b: 2.2208] [6b: 0.5188] [7b: 0.1257] [8b: 0.0308] 
+    ResNet-18 layer_08 | Param: layer2.1.conv1.weight | Params: 147456 | Shannon Entropy: 6.9476
+      Quantization Noise L2^2: [2b: 279.6096] [3b: 55.4208] [4b: 10.1699] [5b: 2.2159] [6b: 0.5201] [7b: 0.1253] [8b: 0.0310] 
+    ResNet-18 layer_09 | Param: layer2.1.conv2.weight | Params: 147456 | Shannon Entropy: 6.7169
+      Quantization Noise L2^2: [2b: 298.2202] [3b: 82.1343] [4b: 15.1421] [5b: 3.2890] [6b: 0.7755] [7b: 0.1870] [8b: 0.0462] 
+    ResNet-18 layer_10 | Param: layer3.0.conv1.weight | Params: 294912 | Shannon Entropy: 6.8085
+      Quantization Noise L2^2: [2b: 324.8798] [3b: 78.7192] [4b: 14.4142] [5b: 3.1475] [6b: 0.7377] [7b: 0.1788] [8b: 0.0441] 
+    ResNet-18 layer_11 | Param: layer3.0.conv2.weight | Params: 589824 | Shannon Entropy: 6.7539
+      Quantization Noise L2^2: [2b: 587.9595] [3b: 142.1181] [4b: 26.1404] [5b: 5.6646] [6b: 1.3309] [7b: 0.3219] [8b: 0.0793] 
+    ResNet-18 layer_12 | Param: layer3.1.conv1.weight | Params: 589824 | Shannon Entropy: 6.8118
+      Quantization Noise L2^2: [2b: 572.4151] [3b: 128.6967] [4b: 23.5777] [5b: 5.1344] [6b: 1.2036] [7b: 0.2916] [8b: 0.0716] 
+    ResNet-18 layer_13 | Param: layer3.1.conv2.weight | Params: 589824 | Shannon Entropy: 6.8659
+      Quantization Noise L2^2: [2b: 548.5228] [3b: 113.9705] [4b: 20.8991] [5b: 4.5561] [6b: 1.0672] [7b: 0.2584] [8b: 0.0637] 
+    ResNet-18 layer_14 | Param: layer4.0.conv1.weight | Params: 1179648 | Shannon Entropy: 6.7891
+      Quantization Noise L2^2: [2b: 585.2761] [3b: 143.6841] [4b: 26.3843] [5b: 5.7534] [6b: 1.3451] [7b: 0.3257] [8b: 0.0803] 
+    ResNet-18 layer_15 | Param: layer4.0.conv2.weight | Params: 2359296 | Shannon Entropy: 6.7070
+      Quantization Noise L2^2: [2b: 1083.8092] [3b: 283.2682] [4b: 52.1003] [5b: 11.3436] [6b: 2.6567] [7b: 0.6437] [8b: 0.1583] 
+    ResNet-18 layer_16 | Param: layer4.1.conv1.weight | Params: 2359296 | Shannon Entropy: 6.6861
+      Quantization Noise L2^2: [2b: 1067.4342] [3b: 297.0340] [4b: 54.7278] [5b: 11.9309] [6b: 2.7920] [7b: 0.6760] [8b: 0.1664] 
+    ResNet-18 layer_17 | Param: layer4.1.conv2.weight | Params: 2359296 | Shannon Entropy: 6.7329
+      Quantization Noise L2^2: [2b: 1008.8724] [3b: 242.2610] [4b: 44.5608] [5b: 9.6974] [6b: 2.2719] [7b: 0.5500] [8b: 0.1353] 
+    ResNet-18 layer_18 | Param: fc.weight | Params: 5120 | Shannon Entropy: 7.1321
+      Quantization Noise L2^2: [2b: 57.3935] [3b: 10.4983] [4b: 1.9146] [5b: 0.4230] [6b: 0.0988] [7b: 0.0234] [8b: 0.0059] 
+Global Round 50 Aggregation Completed | Global Test Loss: 0.9327 | Global Test Acc: 76.37%
+
+[Global Round 51]
+  Client 2 Local Update Completed | Local Train Loss: 0.0079 | Local Test Acc: 60.26%
+  Client 0 Local Update Completed | Local Train Loss: 0.0252 | Local Test Acc: 66.33%
+  Client 8 Local Update Completed | Local Train Loss: 0.0056 | Local Test Acc: 65.04%
+  Client 3 Local Update Completed | Local Train Loss: 0.0094 | Local Test Acc: 60.23%
+  Client 7 Local Update Completed | Local Train Loss: 0.0047 | Local Test Acc: 64.65%
+Global Round 51 Aggregation Completed | Global Test Loss: 0.9407 | Global Test Acc: 76.56%
+
+[Global Round 52]
+  Client 0 Local Update Completed | Local Train Loss: 0.0095 | Local Test Acc: 67.28%
+  Client 4 Local Update Completed | Local Train Loss: 0.0639 | Local Test Acc: 62.69%
+  Client 5 Local Update Completed | Local Train Loss: 0.0140 | Local Test Acc: 62.63%
+  Client 6 Local Update Completed | Local Train Loss: 0.0399 | Local Test Acc: 62.28%
+  Client 1 Local Update Completed | Local Train Loss: 0.0063 | Local Test Acc: 69.38%
+Global Round 52 Aggregation Completed | Global Test Loss: 1.0571 | Global Test Acc: 74.70%
+
+[Global Round 53]
+  Client 0 Local Update Completed | Local Train Loss: 0.0075 | Local Test Acc: 67.35%
+  Client 6 Local Update Completed | Local Train Loss: 0.0117 | Local Test Acc: 65.07%
+  Client 7 Local Update Completed | Local Train Loss: 0.0081 | Local Test Acc: 65.74%
+  Client 2 Local Update Completed | Local Train Loss: 0.0110 | Local Test Acc: 57.37%
+  Client 8 Local Update Completed | Local Train Loss: 0.0222 | Local Test Acc: 57.73%
+Global Round 53 Aggregation Completed | Global Test Loss: 1.0423 | Global Test Acc: 74.67%
+
+[Global Round 54]
+  Client 7 Local Update Completed | Local Train Loss: 0.0041 | Local Test Acc: 65.25%
+  Client 4 Local Update Completed | Local Train Loss: 0.0080 | Local Test Acc: 70.21%
+  Client 2 Local Update Completed | Local Train Loss: 0.0144 | Local Test Acc: 55.99%
+  Client 0 Local Update Completed | Local Train Loss: 0.0127 | Local Test Acc: 65.87%
+  Client 1 Local Update Completed | Local Train Loss: 0.0061 | Local Test Acc: 70.23%
+Global Round 54 Aggregation Completed | Global Test Loss: 1.0120 | Global Test Acc: 75.66%
+
+[Global Round 55]
+  Client 4 Local Update Completed | Local Train Loss: 0.0037 | Local Test Acc: 69.45%
+  Client 8 Local Update Completed | Local Train Loss: 0.0088 | Local Test Acc: 61.81%
+  Client 3 Local Update Completed | Local Train Loss: 0.0139 | Local Test Acc: 59.74%
+  Client 5 Local Update Completed | Local Train Loss: 0.0280 | Local Test Acc: 62.63%
+  Client 0 Local Update Completed | Local Train Loss: 0.0079 | Local Test Acc: 65.67%
+Global Round 55 Aggregation Completed | Global Test Loss: 1.0011 | Global Test Acc: 76.02%

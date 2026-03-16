@@ -1,0 +1,25 @@
+--- Experiment Initialized | Target Device: mps ---
+--- Run Timestamp: 20260313_233026 ---
+--- Log File: fedavg_noniid_quantization_3_20260313_233026.log ---
+--- Checkpoint Directory: ./saved_models/20260313_233026 ---
+
+[Global Round 1]
+  Client 5 Local Update Completed | Local Train Loss: 1.6413 | Local Test Acc: 41.26%
+  Client 7 Local Update Completed | Local Train Loss: 1.9218 | Local Test Acc: 18.00%
+  Client 6 Local Update Completed | Local Train Loss: 0.9419 | Local Test Acc: 35.03%
+  Client 3 Local Update Completed | Local Train Loss: 1.4450 | Local Test Acc: 26.49%
+  Client 4 Local Update Completed | Local Train Loss: 1.4159 | Local Test Acc: 28.88%
+Global Round 1 Aggregation Completed | Global Test Loss: 2.9385 | Global Test Acc: 14.21%
+
+[Global Round 2]
+  Client 2 Local Update Completed | Local Train Loss: 1.3492 | Local Test Acc: 41.35%
+  Client 1 Local Update Completed | Local Train Loss: 1.2533 | Local Test Acc: 34.21%
+  Client 8 Local Update Completed | Local Train Loss: 1.4119 | Local Test Acc: 30.14%
+  Client 5 Local Update Completed | Local Train Loss: 1.3570 | Local Test Acc: 38.58%
+  Client 9 Local Update Completed | Local Train Loss: 1.2317 | Local Test Acc: 39.33%
+Global Round 2 Aggregation Completed | Global Test Loss: 1.8053 | Global Test Acc: 37.27%
+
+[Global Round 3]
+  Client 3 Local Update Completed | Local Train Loss: 1.1271 | Local Test Acc: 40.25%
+  Client 1 Local Update Completed | Local Train Loss: 0.9703 | Local Test Acc: 47.82%
+  Client 5 Local Update Completed | Local Train Loss: 1.0590 | Local Test Acc: 48.02%
