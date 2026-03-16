@@ -532,26 +532,6 @@ def format_layer_metrics(selected_options):
     return "\n".join(formatted)
 
 
-def format_gdc_metrics(selected_options, gamma_map):
-    formatted = []
-    for option in selected_options:
-        param_name = option["param_name"]
-        gdc_stats = gamma_map.get(param_name, None)
-        if gdc_stats is None:
-            continue
-        formatted.append(
-            "{}({}): gamma={:.6f} var={:.6e} norm_sq={:.6e} omega={:.6e}".format(
-                option["layer_id"],
-                param_name,
-                gdc_stats["gamma"],
-                gdc_stats["variance"],
-                gdc_stats["norm_sq"],
-                gdc_stats["omega"],
-            )
-        )
-    return "\n".join(formatted)
-
-
 def load_datasets(data_root):
     transform = transforms.Compose(
         [
@@ -682,9 +662,6 @@ def main():
                 args.upload_rate_mbps, upload_time_seconds
             ))
             logger.info("    Layer Metrics:\n{}".format(format_layer_metrics(selected_options)))
-            if args.enable_gdc:
-                logger.info("    LGDC Metrics:\n{}".format(format_gdc_metrics(selected_options, gamma_map)))
-
         aggregated_weights = aggregate_state_dicts(quantized_local_states)
         global_weights = aggregated_weights
         global_model.load_state_dict(global_weights)
